@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 1040" role="img" aria-labelledby="title desc">
+  <title id="title">チェンライと北タイ周辺28地域の案内図</title>
+  <desc id="desc">地域の位置関係を簡略化したクリック可能な案内図です。</desc>
+  <defs>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef1df"/><stop offset="1" stop-color="#d6e2c6"/></linearGradient>
+    <linearGradient id="outside" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f6ead2"/><stop offset="1" stop-color="#ead5ae"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#173f3a" flood-opacity=".14"/></filter>
+    <style>
+      .bg{fill:#faf7ee}.land{fill:url(#land);stroke:#315d54;stroke-width:3}.contour{fill:none;stroke:#8aaa83;stroke-width:2;opacity:.35}.river{fill:none;stroke:#4f91b4;stroke-width:10;stroke-linecap:round;opacity:.8}.route{fill:none;stroke:#829b7f;stroke-width:2;stroke-dasharray:6 7}.node circle{fill:#fff;stroke:#1d5148;stroke-width:3}.node .no{fill:#1d5148;font:800 11px Arial;text-anchor:middle;dominant-baseline:central}.node .name{fill:#142f2b;font:800 15px 'Yu Gothic',sans-serif}.node .sub{fill:#34514b;font:700 10px Arial}.node:hover circle,.node:focus circle,.node:target circle{fill:#f0b94d;stroke:#9b351f;stroke-width:7}.node:hover .name,.node:focus .name,.node:target .name{fill:#9b351f}.node:target .name{font-size:18px}.outsideBox{fill:url(#outside);stroke:#a66d27;stroke-width:2}.outsideNode rect{fill:#fffaf0;stroke:#b67a2c;stroke-width:2}.outsideNode .no{fill:#8b561b;font:800 11px Arial;text-anchor:middle}.outsideNode .name{fill:#402b18;font:800 14px 'Yu Gothic',sans-serif}.outsideNode:hover rect,.outsideNode:focus rect{fill:#ffd985;stroke-width:4}.sectionTitle{fill:#153c36;font:800 26px 'Yu Gothic',sans-serif}.caption{fill:#36554f;font:700 13px 'Yu Gothic',sans-serif}.small{fill:#76542b;font:700 12px 'Yu Gothic',sans-serif}.badge{fill:#173f3a}.badgeText{fill:#fff;font:800 12px 'Yu Gothic',sans-serif;text-anchor:middle}.compass{fill:none;stroke:#173f3a;stroke-width:2}.mountain{fill:#7b9a71;opacity:.25}.link{cursor:pointer;outline:none}
+    </style>
+    <style>
+      .node.selected circle{fill:#f0b94d;stroke:#9b351f;stroke-width:7}.node.selected .name{fill:#9b351f;font-size:18px}
+      .outsideNode.selected rect{fill:#ffd985;stroke:#9b351f;stroke-width:5}.outsideNode.selected .name{fill:#9b351f;font-size:17px}
+    </style>
+  </defs>
+  <text class="sectionTitle" x="52" y="64">チェンライ県内 18地域</text>
+  <text class="caption" x="52" y="91">地域名を押すと詳しい情報とGoogleマップを表示します</text>
+  <g filter="url(#shadow)"><path class="land" d="M82 177 Q156 103 258 132 Q349 74 452 133 Q552 89 654 150 Q730 218 709 312 Q762 393 714 473 Q741 566 675 640 Q687 742 600 795 Q515 871 414 826 Q311 858 239 794 Q133 769 140 670 Q70 610 108 516 Q60 432 100 355 Q51 262 82 177Z"/></g>
+  <path class="mountain" d="M112 290 205 148 270 256 358 111 430 247 512 128 626 285Z"/>
+  <path class="contour" d="M105 314 Q260 238 399 281 T696 285"/><path class="contour" d="M93 355 Q260 284 412 326 T718 340"/><path class="contour" d="M111 647 Q256 571 399 612 T680 603"/><path class="contour" d="M145 705 Q289 638 423 680 T645 674"/>
+  <path class="river" d="M596 165 C561 260 606 334 538 397 C465 464 514 555 431 618 C376 660 392 746 335 815"/>
+  <path class="route" d="M300 410 315 270 330 155"/><path class="route" d="M315 270 205 185"/><path class="route" d="M315 270 435 290 500 205 615 315"/><path class="route" d="M300 410 430 420 500 500 530 620 470 720"/><path class="route" d="M430 420 475 365 435 290"/><path class="route" d="M500 500 600 465 635 555"/><path class="route" d="M300 410 310 505 350 600 470 720"/><path class="route" d="M310 505 230 625 200 765"/>
+  <g transform="translate(642 120)"><circle class="compass" r="34"/><path class="compass" d="M0-26 8 0 0 26-8 0Z"/><text class="caption" x="0" y="-43" text-anchor="middle">北</text></g>
+
+  <!--県内：おおよその位置関係を示すノード-->
+  <a class="node link" href="index.html#area-02" target="_top" transform="translate(330 155)"><circle r="19"/><text class="no">02</text><text class="name" x="27" y="-4">メーサイ</text><text class="sub" x="27" y="12">最北端・国境</text></a>
+  <a class="node link" href="index.html#area-06" target="_top" transform="translate(205 185)"><circle r="19"/><text class="no">06</text><text class="name" x="27" y="-4">メーファールアン</text><text class="sub" x="27" y="12">ドイトゥン</text></a>
+  <a class="node link" href="index.html#area-03" target="_top" transform="translate(500 205)"><circle r="19"/><text class="no">03</text><text class="name" x="27" y="-4">チェンセーン</text><text class="sub" x="27" y="12">古都・メコン川</text></a>
+  <a class="node link" href="index.html#area-05" target="_top" transform="translate(315 270)"><circle r="19"/><text class="no">05</text><text class="name" x="27" y="-4">メーチャン</text><text class="sub" x="27" y="12">茶畑</text></a>
+  <a class="node link" href="index.html#area-18" target="_top" transform="translate(435 290)"><circle r="19"/><text class="no">18</text><text class="name" x="27" y="-4">ドイルアン</text><text class="sub" x="27" y="12">森林・山麓</text></a>
+  <a class="node link" href="index.html#area-14" target="_top" transform="translate(475 365)"><circle r="19"/><text class="no">14</text><text class="name" x="27" y="-4">ウィアンチェンルン</text><text class="sub" x="27" y="12">農村</text></a>
+  <a class="node link" href="index.html#area-04" target="_top" transform="translate(615 315)"><circle r="19"/><text class="no">04</text><text class="name" x="27" y="-4">チェンコング</text><text class="sub" x="27" y="12">ラオス国境</text></a>
+  <a id="region-01" class="node link" href="index.html#area-01" target="_top" transform="translate(300 410)"><circle r="23"/><text class="no">01</text><text class="name" x="32" y="-5">ムアン・チェンライ</text><text class="sub" x="32" y="13">県の中心</text></a>
+  <a class="node link" href="index.html#area-13" target="_top" transform="translate(430 420)"><circle r="19"/><text class="no">13</text><text class="name" x="27" y="-4">ウィアンチャイ</text><text class="sub" x="27" y="12">田園・湖</text></a>
+  <a class="node link" href="index.html#area-15" target="_top" transform="translate(600 465)"><circle r="19"/><text class="no">15</text><text class="name" x="27" y="-4">クンターン</text><text class="sub" x="27" y="12">山地</text></a>
+  <a class="node link" href="index.html#area-12" target="_top" transform="translate(310 505)"><circle r="19"/><text class="no">12</text><text class="name" x="27" y="-4">メーラオ</text><text class="sub" x="27" y="12">市街南部</text></a>
+  <a class="node link" href="index.html#area-16" target="_top" transform="translate(500 500)"><circle r="19"/><text class="no">16</text><text class="name" x="27" y="-4">パヤーメンラーイ</text><text class="sub" x="27" y="12">東部</text></a>
+  <a class="node link" href="index.html#area-17" target="_top" transform="translate(635 555)"><circle r="19"/><text class="no">17</text><text class="name" x="27" y="-4">ウィアンゲン</text><text class="sub" x="27" y="12">国境の山</text></a>
+  <a class="node link" href="index.html#area-10" target="_top" transform="translate(350 600)"><circle r="19"/><text class="no">10</text><text class="name" x="27" y="-4">パーン</text><text class="sub" x="27" y="12">田園</text></a>
+  <a class="node link" href="index.html#area-09" target="_top" transform="translate(530 620)"><circle r="19"/><text class="no">09</text><text class="name" x="27" y="-4">トゥン</text><text class="sub" x="27" y="12">東部の山</text></a>
+  <a class="node link" href="index.html#area-11" target="_top" transform="translate(470 720)"><circle r="19"/><text class="no">11</text><text class="name" x="27" y="-4">パーデッド</text><text class="sub" x="27" y="12">農村景観</text></a>
+  <a class="node link" href="index.html#area-07" target="_top" transform="translate(230 625)"><circle r="19"/><text class="no">07</text><text class="name" x="27" y="-4">メースアイ</text><text class="sub" x="27" y="12">コーヒー・温泉</text></a>
+  <a class="node link" href="index.html#area-08" target="_top" transform="translate(200 765)"><circle r="19"/><text class="no">08</text><text class="name" x="27" y="-4">ウィアンパパオ</text><text class="sub" x="27" y="12">温泉</text></a>
+
+  <!--県外の周辺地域-->
+  <g transform="translate(790 110)"><rect class="outsideBox" width="400" height="770" rx="22"/><text class="sectionTitle" x="30" y="48">周辺地域 10地域</text><text class="small" x="30" y="73">019以降はチェンライ県外です</text>
+    <g transform="translate(26 98)">
+      <a class="outsideNode link" href="index.html#area-19" target="_top"><rect width="348" height="52" rx="9"/><text class="no" x="27" y="31">19</text><text class="name" x="54" y="32">パヤオ・ムアン</text></a>
+      <a class="outsideNode link" href="index.html#area-20" target="_top" transform="translate(0 62)"><rect width="348" height="52" rx="9"/><text class="no" x="27" y="31">20</text><text class="name" x="54" y="32">チェンマイ・ファン</text></a>
+      <a class="outsideNode link" href="index.html#area-21" target="_top" transform="translate(0 124)"><rect width="348" height="52" rx="9"/><text class="no" x="27" y="31">21</text><text class="name" x="54" y="32">チェンマイ市内</text></a>
+      <a class="outsideNode link" href="index.html#area-22" target="_top" transform="translate(0 186)"><rect width="348" height="52" rx="9"/><text class="no" x="27" y="31">22</text><text class="name" x="54" y="32">ランパーン</text></a>
+      <a class="outsideNode link" href="index.html#area-23" target="_top" transform="translate(0 248)"><rect width="348" height="52" rx="9"/><text class="no" x="27" y="31">23</text><text class="name" x="54" y="32">ランプーン</text></a>
+      <a class="outsideNode link" href="index.html#area-24" target="_top" transform="translate(0 310)"><rect width="348" height="52" rx="9"/><text class="no" x="27" y="31">24</text><text class="name" x="54" y="32">ナーン市内</text></a>
+      <a class="outsideNode link" href="index.html#area-25" target="_top" transform="translate(0 372)"><rect width="348" height="52" rx="9"/><text class="no" x="27" y="31">25</text><text class="name" x="54" y="32">ナーン・プア</text></a>
+      <a class="outsideNode link" href="index.html#area-26" target="_top" transform="translate(0 434)"><rect width="348" height="52" rx="9"/><text class="no" x="27" y="31">26</text><text class="name" x="54" y="32">プレー</text></a>
+      <a class="outsideNode link" href="index.html#area-27" target="_top" transform="translate(0 496)"><rect width="348" height="52" rx="9"/><text class="no" x="27" y="31">27</text><text class="name" x="54" y="32">パーイ</text></a>
+      <a class="outsideNode link" href="index.html#area-28" target="_top" transform="translate(0 558)"><rect width="348" height="52" rx="9"/><text class="no" x="27" y="31">28</text><text class="name" x="54" y="32">スコータイ</text></a>
+    </g>
+  </g>
+  <g transform="translate(65 920)"><rect class="badge" width="188" height="36" rx="18"/><text class="badgeText" x="94" y="23">クリックして地域を選択</text><text class="caption" x="210" y="24">※ 位置関係を分かりやすくするため簡略化した案内図です</text></g>
+  <script><![CDATA[
+    (function(){
+      var match=location.hash.match(/^#area-(\d{2})$/);
+      if(!match)return;
+      var expected='index.html#area-'+match[1];
+      var links=document.querySelectorAll('.link');
+      for(var i=0;i<links.length;i++){
+        if(links[i].getAttribute('href')===expected){links[i].classList.add('selected');break;}
+      }
+    }());
+  ]]></script>
+</svg>

@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'..');
+const source=path.join(root,'tsv-knowledge','003.チェンライ名産.tsv');
+const output=path.join(root,'site','003-chiangrai-specialties','specialties-data.js');
+const [header,...lines]=fs.readFileSync(source,'utf8').replace(/^\uFEFF/,'').trim().split(/\r?\n/);
+const fields=header.split('\t');
+const rows=lines.map(line=>{const values=line.split('\t');return Object.fromEntries(fields.map((field,index)=>[field,values[index]??'']))});
+fs.mkdirSync(path.dirname(output),{recursive:true});
+fs.writeFileSync(output,`// Generated from 003.チェンライ名産.tsv — do not edit by hand.\nwindow.specialties=${JSON.stringify(rows,null,2)};\n`,'utf8');
+console.log(`Wrote ${rows.length} specialties`);

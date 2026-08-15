@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>100の出来事でたどるタイの歴史</title>
+  <meta name="description" content="スコータイから現代まで、タイの歴史と文化を100の出来事から学ぶ読み物。">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <button id="menu-button" class="menu-button" type="button" aria-expanded="false" aria-controls="sidebar"><span></span><span></span><b>目次</b></button>
+  <aside id="sidebar" class="sidebar">
+    <a class="brand" href="./index.html"><b>002</b><span>タイの歴史<br>100の出来事</span></a>
+    <div class="side-step"><span>1</span><p>時代を選ぶ</p></div>
+    <nav id="era-menu" class="era-menu" aria-label="時代区分"></nav>
+    <div id="lesson-panel" class="lesson-panel" hidden>
+      <button id="era-back" type="button">← 時代一覧へ戻る</button>
+      <p id="selected-era"></p>
+      <div id="lesson-menu" class="lesson-menu" aria-label="選択した時代の記事一覧"></div>
+    </div>
+  </aside>
+
+  <main>
+    <section id="overview" class="overview">
+      <div class="title-block">
+        <p class="label">全100話</p>
+        <h1>タイの歴史</h1>
+      </div>
+      <header class="entrance-head"><h2>9つの入口</h2></header>
+      <div id="era-cards" class="era-cards"></div>
+    </section>
+
+    <article id="era-view" class="era-view" hidden aria-live="polite">
+      <button id="era-close" class="era-close" type="button">9つの入口へ戻る ×</button>
+      <header class="era-hero"><p>タイの歴史・時代別講座</p><h1 id="era-title"></h1><div><span id="era-count"></span><b id="era-range"></b></div></header>
+      <nav id="era-jump" class="era-jump" aria-label="この時代の目次"></nav>
+      <div id="era-entries" class="era-entries"></div>
+      <nav class="era-pager" aria-label="前後の時代"><button id="prev-era" type="button">← 前の時代</button><button id="next-era" type="button">次の時代 →</button></nav>
+    </article>
+    <footer><span>JACR タイの歴史</span><span>全100話</span></footer>
+  </main>
+  <script src="./history-data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

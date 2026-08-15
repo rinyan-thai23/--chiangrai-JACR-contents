@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>タイ産アルコール図鑑</title>
+  <meta name="description" content="タイ国内で生産されるビール、ワイン、蒸留酒、地域酒を紹介するビジュアル図鑑。">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <button id="menu-button" class="menu-button" type="button" aria-controls="sidebar" aria-expanded="false">銘柄一覧</button>
+  <aside id="sidebar" class="sidebar">
+    <a class="brand" href="./index.html"><span>004</span><b>タイ産<br>アルコール図鑑</b></a>
+    <p class="side-note">タイ国内生産のみ</p>
+    <div id="filters" class="filters" aria-label="酒類で絞り込む"></div>
+    <nav id="item-menu" class="item-menu" aria-label="銘柄一覧"></nav>
+  </aside>
+
+  <main>
+    <article id="item-view" class="item-view" aria-live="polite">
+      <header class="hero">
+        <div class="hero-copy">
+          <p id="record-kind" class="record-kind"></p>
+          <p id="item-number" class="item-number"></p>
+          <h1 id="item-title"></h1>
+          <p id="item-thai" class="thai-name" lang="th"></p>
+          <div class="hero-tags"><span id="type-tag"></span><span id="origin-tag"></span></div>
+        </div>
+        <div class="hero-symbol" aria-hidden="true"><span id="hero-emoji"></span><i></i></div>
+      </header>
+
+      <section class="summary"><span>どんなお酒？</span><p id="item-summary"></p></section>
+
+      <section class="facts" aria-label="銘柄情報">
+        <div><span>分類</span><b id="item-class"></b></div>
+        <div><span>産地</span><b id="item-origin"></b></div>
+        <div><span>主原料</span><b id="item-ingredient"></b></div>
+        <div><span>度数</span><b id="item-abv"></b></div>
+        <div><span>製造者・ブランド</span><b id="item-maker"></b></div>
+        <div><span>流通</span><b id="item-rarity"></b></div>
+      </section>
+
+      <section class="details">
+        <div><span>確認メモ</span><p id="item-note"></p></div>
+        <div class="parent-box"><span>ブランド構造</span><p id="item-parent"></p></div>
+      </section>
+
+      <nav class="actions" aria-label="外部確認と前後移動">
+        <a id="source-link" target="_blank" rel="noopener">根拠資料を見る ↗</a>
+        <a id="image-link" class="image-link" target="_blank" rel="noopener">タイ語で画像を確認 ↗</a>
+        <button id="prev-item" type="button">← 前へ</button>
+        <button id="next-item" type="button">次へ →</button>
+      </nav>
+    </article>
+  </main>
+  <script src="./alcohol-data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>チェンライ地域案内マップ</title>
+  <meta name="description" content="チェンライと北タイ周辺28地域を、地図と旅のテーマから学ぶビジュアルガイド。">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <button class="menu-button" type="button" aria-controls="sidebar" aria-expanded="false"><span></span><span></span><b>目次</b></button>
+  <aside id="sidebar" class="sidebar">
+    <a class="side-brand" href="./index.html"><b>001</b><span>チェンライ<br>地域案内</span></a>
+    <nav aria-label="ページ内目次">
+      <p>ページ案内</p>
+      <a class="active" href="#svg-guide"><i>01</i>28地域の案内図</a>
+      <a href="#regions"><i>02</i>28地域から選ぶ</a>
+      <a href="#map"><i>03</i>Googleマップ</a>
+    </nav>
+    <div class="region-nav-wrap"><p>地域一覧</p><div id="region-nav" class="region-nav" aria-label="地域を選択"></div></div>
+  </aside>
+
+  <main>
+    <section id="svg-guide" class="svg-guide panel">
+      <div class="svg-guide-head"><h1>28地域を一枚で見る</h1><p>地域のおおよその位置関係をまとめた案内図です。地域名を押すと、詳しい情報とGoogleマップを表示します。</p></div>
+      <div class="svg-guide-frame"><object data="./chiangrai-guide.svg" type="image/svg+xml" aria-label="チェンライと周辺28地域のクリック可能な案内図"></object></div>
+      <p class="svg-guide-note">この案内図は位置関係を分かりやすく整理したもので、正確な行政境界や距離を示すものではありません。</p>
+    </section>
+
+    <section id="regions" class="regions panel regions-first">
+      <div class="regions-head"><div><p class="simple-label">チェンライと北タイの地域案内</p><h2>28地域から選ぶ</h2><p>地域名を押すと、見どころ、距離、交通手段、特産品、詳しい地域情報と地図を表示します。</p></div></div>
+      <div class="filters" role="group" aria-label="地域の絞り込み"><button class="active" data-filter="all">すべて表示</button><button data-filter="city">市街地・文化</button><button data-filter="mountain">山・高原</button><button data-filter="river">川・国境</button><button data-filter="slow">温泉・田園</button></div>
+      <div id="region-grid" class="region-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="map" class="map-section panel">
+      <div class="map-head"><div><h2>案内地図</h2><p>拡大・縮小して、市街地と山岳部、メコン川までの距離を確認できます。</p></div></div>
+      <div class="map-frame"><iframe id="google-map" title="チェンライ県のGoogleマップ" src="https://www.google.com/maps?q=Chiang+Rai+Province,+Thailand&z=8&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><div id="map-tag" class="map-tag">チェンライ県<br><b>広域地図</b></div></div>
+    </section>
+
+    <section id="area-view" class="area-view panel" hidden aria-live="polite">
+      <button id="area-close" class="area-close" type="button">全地域へ戻る ×</button>
+      <div class="area-number" id="area-number">01</div>
+      <div class="area-copy"><p class="kicker" id="area-type">中心部・近郊</p><h2 id="area-title">ムアン・チェンライ</h2><p class="area-en" id="area-en">Mueang Chiang Rai / อ.เมืองเชียงราย</p><p id="area-description"></p><div class="area-points" id="area-points"></div><a id="area-google" class="area-google" href="#" target="_blank" rel="noopener">Googleマップで詳しく見る ↗</a></div>
+      <div class="area-compass"><span>北</span><i></i><b>地域の<br>位置</b></div>
+      <article id="area-article" class="area-article"><p class="article-loading">地域情報を読み込んでいます…</p></article>
+    </section>
+    <footer><span>チェンライ地域案内</span><span>全28地域</span></footer>
+  </main>
+  <script src="./regions-data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
