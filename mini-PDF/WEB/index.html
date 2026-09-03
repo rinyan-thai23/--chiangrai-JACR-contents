@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>タイ・チェンライ旅＆生活ガイド 50選 | JACR Chiang Rai Web Portal</title>
+  <meta name="description" content="チェンライ観光・ランナー文化・タイ語・タイ生活の知恵を網羅した全50テーマの1ページ完結Webガイドポータル。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f766e;
+      --primary-light: #14b8a6;
+      --accent-gold: #d97706;
+      --bg-main: #f8fafc;
+      --bg-card: #ffffff;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --shadow-sm: 0 2px 4px rgba(0,0,0,0.04);
+      --shadow-md: 0 8px 20px rgba(0,0,0,0.06);
+      --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .portal-header {
+      background: linear-gradient(135deg, #0f172a 0%, #115e59 100%);
+      color: #fff;
+      padding: 60px 0;
+      border-bottom: 4px solid var(--accent-gold);
+      text-align: center;
+    }
+    .badge-tag {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.15);
+      color: #fed7aa;
+      padding: 4px 16px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      margin-bottom: 16px;
+    }
+    .portal-title {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 2.4rem;
+      margin-bottom: 12px;
+    }
+    .portal-desc {
+      font-size: 1.05rem;
+      color: #e2e8f0;
+      max-width: 760px;
+      margin: 0 auto 30px;
+    }
+    .portal-stats {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .stat-pill {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      padding: 8px 20px;
+      border-radius: var(--radius-md);
+      font-size: 0.9rem;
+      color: #fef08a;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .portal-main {
+      padding: 50px 20px 80px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+    .portal-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+    }
+    .portal-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-light);
+    }
+    .card-top {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .card-id {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--primary);
+      background: #ccfbf1;
+      padding: 4px 10px;
+      border-radius: 8px;
+    }
+    .card-title {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.15rem;
+      color: #0f172a;
+      line-height: 1.4;
+    }
+    .card-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 6px;
+      flex-grow: 1;
+    }
+    .card-footer {
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px solid #f1f5f9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--primary);
+      font-weight: 600;
+    }
+    .portal-footer {
+      background: #0f172a;
+      color: #94a3b8;
+      padding: 40px 0;
+      text-align: center;
+      font-size: 0.88rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="portal-header">
+    <div class="container">
+      <div class="badge-tag">JACR Chiang Rai Contents</div>
+      <h1 class="portal-title">タイ・チェンライ旅＆生活ガイド 50選</h1>
+      <p class="portal-desc">
+        観光名所、ランナー伝統文化、タイ語フレーズ、山岳民族、美食、生活安全情報まで。<br>
+        全50テーマの1ページ完結Webサイト成果物ポータル。
+      </p>
+      <div class="portal-stats">
+        <div class="stat-pill">📚 全50テーマ 完備</div>
+        <div class="stat-pill">🔍 一次情報ファクトチェック済</div>
+        <div class="stat-pill">🖨️ A4印刷・PDF出力対応</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="portal-main container">
+    <div class="grid-container" id="portalGrid"></div>
+  </main>
+
+  <footer class="portal-footer">
+    <div class="container">
+      <p>© 2026 JACR Chiang Rai Contents. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const items = [
+      { id: "001", title: "チェンライ市内の主要寺院 拝観ガイド", desc: "ワット・プラケオ、青・白の寺等の拝観時間・入場料・マナー。" },
+      { id: "002", title: "ナイトバザール＆ウォーキングストリート攻略マップ", desc: "ナイトバザールや土日マーケットの出店ジャンル・屋台・お土産。" },
+      { id: "003", title: "メーサイ＆ゴールデン・トライアングル国境日帰りルート", desc: "国境の町メーサイと黄金の三角地帯へのアクセス・見どころ。" },
+      { id: "004", title: "ドイチャン＆ドイメーサロン「最高峰コーヒー＆高山茶」ガイド", desc: "チェンライの二大名産地で巡る絶景農園・カフェ・テイスティング。" },
+      { id: "005", title: "チェンライ県内の天然温泉利用ガイド", desc: "ポンプラバートやフワイサック等、足湯・個室風呂・温泉卵体験。" },
+      { id: "006", title: "市内の医療機関・日本語対応・緊急受診ガイド", desc: "総合病院、私立病院、薬局、緊急時の受診手順と保険対応。" },
+      { id: "007", title: "ドイメーサロン（美斯樂）の歴史と山岳民族文化早見表", desc: "元国民党軍義勇軍の歴史、アカ族・リス族等の伝統衣装と文化。" },
+      { id: "008", title: "ローカルバス＆ソンテウ路線・停留所・運賃相場表", desc: "バスターミナル発着のローカル交通路線・乗り方・運賃目安。" },
+      { id: "009", title: "チェンライ時計塔（ライトアップショー）＆ビュースポット", desc: "黄金の時計塔の光と音のショー時間、おすすめ鑑賞カフェ。" },
+      { id: "010", title: "ローカル市場（シリームアン・中央市場）買い物食材ガイド", desc: "伝統市場で買える新鮮な野菜・果物・ハーブ・惣菜の見分け方。" },
+      { id: "011", title: "王室プロジェクト（ドイトゥン・庭園）完全ガイド", desc: "ロイヤルヴィラ、メーファールアン庭園、ツリートップウォーク。" },
+      { id: "012", title: "個性派カフェ＆リバーサイドカフェ厳選ガイド", desc: "コック川沿いの優雅なカフェや異世界空間カフェの紹介。" },
+      { id: "013", title: "ローカル名物麺（カオソーイ・ナムギョウ）名店比較表", desc: "チェンライを代表する郷土麺の有名店・味の特徴・トッピング。" },
+      { id: "014", title: "メーサイのタチレク国境市場＆イミグレ通過手順", desc: "ミャンマー国境通過の流れ、タチレク市場の品揃え・注意点。" },
+      { id: "015", title: "古都チェンセーンの歴史遺跡群サイクリングマップ", desc: "巨大仏塔ワット・チェディルアンやチーク林寺院を巡る自転車旅。" },
+      { id: "016", title: "チェンライのスーパー（Big C, Tops, Makro）調達ガイド", desc: "日本食材コーナー、タイ調味料、日用品の購入先まとめ。" },
+      { id: "017", title: "歴史「キング・マンライ像と古都ヒランナコーン」解説", desc: "1262年のチェンライ建国とメンラーイ王の足跡・聖地巡礼。" },
+      { id: "018", title: "メーファールアン庭園＆ドイトゥン・ロイヤルヴィラ見どころ", desc: "年中満開の花壇、スイス風木造建築、キャノピーウォーク。" },
+      { id: "019", title: "ゴルフ場・スポーツ施設・リフレッシュスポット一覧", desc: "サンティブリ等名門ゴルフコース、川沿いサイクリング、運動施設。" },
+      { id: "020", title: "北タイ語（カムムアン）チェンライ方言 日常フレーズ", desc: "「サワッディー・チャオ」「ラム・テート」など現地で喜ばれる挨拶。" },
+      { id: "021", title: "北部タイ（ランナー）伝統料理100選・味と名前の解説", desc: "サイウア、ナムプリック、ゲーンハンレー等代表郷土料理図鑑。" },
+      { id: "022", title: "北部タイの伝統行事・祭り 年間カレンダー", desc: "イーペン（コムローイ）、水掛け祭り、ポイサンロンの開催時期。" },
+      { id: "023", title: "北タイ方言 基本表現＆標準タイ語対比一覧表", desc: "日常単語（美味しい、話す、見る等）の方言と標準語の比較。" },
+      { id: "024", title: "ランナー王朝の歴史と主要古都（チェンマイ・ナーン等）沿革表", desc: "北タイ8県の古都の成り立ちと歴史的仏教寺院の変遷。" },
+      { id: "025", title: "木造寺院建築・ランナー様式仏像の見分け方ガイド", desc: "低重層屋根、ガラエ（破風飾り）、蓮華座仏像の鑑賞ポイント。" },
+      { id: "026", title: "伝統布（テキスタイル）・山岳民族の刺繍・織物図鑑", desc: "ティンチョック織り、藍染めモーホーム、アカ族・モン族の刺繍。" },
+      { id: "027", title: "北タイ伝統ハーブとカントーク料理の健康効果", desc: "レモングラス、ガランガル、ウコン等の薬効と伝統食の栄養。" },
+      { id: "028", title: "北タイ周遊長距離バス早見表（Green Bus路線図）", desc: "チェンマイ・パヤオ・ナーン・メーホンソーンへの路線・運賃。" },
+      { id: "029", title: "「カントーク夕食会」の伝統舞踊・マナー・メニュー解説", desc: "爪の踊り（フォンレップ）、刀踊り、手食マナーと料理構成。" },
+      { id: "030", title: "ドイ・インタノン＆北タイの国立公園・自然ハイキング", desc: "タイ最高峰（2565m）、雲霧林木道、大瀑布トレッキング。" },
+      { id: "031", title: "伝統工芸「セラドン焼＆漆器・傘（ボープサン）」ガイド", desc: "翡翠色に輝く青磁陶器、竹細工、伝統和紙傘工房の見どころ。" },
+      { id: "032", title: "北タイ特有のお守り（プラクルアン）と名僧由緒解説", desc: "クルーバー・シーウィチャイ師等の尊者像と護符文化。" },
+      { id: "033", title: "北タイの農業・旬の果物 収穫カレンダー", desc: "ライチ、ロンガン、イチゴ、マンゴー等の旬の時期と産地。" },
+      { id: "034", title: "山岳地帯のコミュニティベースド・ツーリズム（CBT）体験", desc: "村泊まり、お茶摘み、民族文化を直接学ぶサステナブルツアー。" },
+      { id: "035", title: "ランナーの伝統音楽・楽器（スン、サロー）と踊り解説", desc: "撥弦楽器スン、擦弦楽器サローの音色と優美な宮廷舞踊。" },
+      { id: "036", title: "タイの生まれ曜日別「守護仏・ラッキーカラー」早見表", desc: "日〜土（水曜昼夜）の8区分守護仏と開運カラー・ご利益。" },
+      { id: "037", title: "タイの「お酒が買えない日（禁酒日）＆年間祝日」カレンダー", desc: "仏教聖日（ワン・プラ）、選挙日、販売時間制限（11-14時/17-24時）。" },
+      { id: "038", title: "タイの長期滞在（リタイアメントビザ・90日レポート）早見表", desc: "50歳以上ノンイミグラントOビザ、更新要件、住所報告手順。" },
+      { id: "039", title: "タイ宝くじ「下2桁当選頻度」ランキング＆数字文化", desc: "毎月1日・16日抽選のロッタリー文化と縁起の良い数字。" },
+      { id: "040", title: "タイの「数字にまつわる吉凶文化（9と8の秘密）」解説", desc: "発展を意味する「9（カーオ）」や中華系に好まれる「8」の信仰。" },
+      { id: "041", title: "タイ全土・最高格付け「1級王室寺院」全23寺一覧マップ", desc: "ワット・ポー、ワット・アルン等最高格式寺院の完全網羅。" },
+      { id: "042", title: "辛さレベル別「タイ料理100選」単語分解＆注文ガイド", desc: "料理名の構造分解と「辛さ控えめ」「唐辛子抜き」の注文術。" },
+      { id: "043", title: "タイの「伝統ハーブ・スパイス20選」効能・使われ方", desc: "ホーリーバジル、コブミカン、クラチャイ等の薬効と代表料理。" },
+      { id: "044", title: "屋台・市場でそのまま指せる「タイ語注文フレーズ50選」", desc: "「持ち帰り」「お会計」「これください」等実戦フレーズ集。" },
+      { id: "045", title: "タイの「伝統スイーツ・タイ菓子30選」甘さ＆由来図鑑", desc: "フォントーン、トーンヨート等アユタヤ期からの吉祥菓子図鑑。" },
+      { id: "046", title: "タイの「ジェー（菜食主義）週間」ルールと黄色い旗解説", desc: "秋のキンジェー戒律、5大刺激野菜の禁止、植物性代替料理。" },
+      { id: "047", title: "タイ語の「親族の呼び方（父方・母方の区別）」呼称表", desc: "プー（父方祖父）vs ター（母方祖父）等、厳格な親族呼称体系。" },
+      { id: "048", title: "タイの「幸運を呼ぶ伝統猫（シャム等）」種類・伝承図鑑", desc: "古文書『タムラー・メーオ』に記されたウィチェンマート、コラート等。" },
+      { id: "049", title: "タイ古式マッサージ「セルフツボ押し（セン）」健康シート", desc: "伝統医学のエネルギーラインと自分でできる仙人体操ルーシーダットン。" },
+      { id: "050", title: "タイ生活の「緊急時連絡先（警察・大使館等）」ハンドブック", desc: "1155（観光警察）、1669（救急）、日本大使館等の緊急ダイヤル一覧。" }
+    ];
+
+    const grid = document.getElementById('portalGrid');
+    items.forEach(item => {
+      const card = document.createElement('a');
+      card.href = `${item.id}/index.html`;
+      card.className = 'portal-card';
+      card.innerHTML = `
+        <div class="card-top">
+          <span class="card-id">No.${item.id}</span>
+          <h2 class="card-title">${item.title}</h2>
+        </div>
+        <p class="card-desc">${item.desc}</p>
+        <div class="card-footer">
+          <span>ガイドを開く →</span>
+          <span>A4印刷対応</span>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+  </script>
+</body>
+</html>

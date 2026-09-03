@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>チェンライ市内の主要寺院 拝観ガイド | Chiang Rai Temple Guide</title>
+  <meta name="description" content="チェンライ市内の主要寺院（ワット・プラケオ、白の寺、青の寺など）の見どころ、拝観時間、入場料、参拝マナーをまとめた1ページ完結トラベルガイド。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="badge-tag">No. 001 / タイ・チェンライ旅ガイド</div>
+      <h1 class="main-title">チェンライ市内の主要寺院<span class="sub-title">拝観ガイド ＆ 周遊マップ</span></h1>
+      <p class="lead-text">
+        エメラルド仏発祥の由緒ある古刹から、現代アートが融合した純白・サファイアブルーの幻想寺院まで。<br>
+        旅行者が知っておくべき拝観時間、入場料、見どころ、厳格なドレスコードを1ページに凝縮しました。
+      </p>
+      
+      <div class="quick-stats">
+        <div class="stat-card">
+          <span class="stat-num">7</span>
+          <span class="stat-label">厳選主要寺院</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">5</span>
+          <span class="stat-label">拝観料無料スポット</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">1〜2日</span>
+          <span class="stat-label">おすすめ周遊日数</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content container">
+
+    <!-- イラスト画像ギャラリーセクション -->
+    <section class="section infographic-section">
+      <div class="section-header">
+        <span class="section-subtitle">VISUAL GUIDE</span>
+        <h2 class="section-title">インフォグラフィック・イラストガイド</h2>
+        <p class="section-desc">クリックすると拡大して詳細を確認・印刷できます。</p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- 画像A: A4縦型 -->
+        <div class="image-card" onclick="openLightbox('../../img/001-a.jpg', '【A4縦型】チェンライ主要寺院 拝観ガイド')">
+          <div class="image-wrapper">
+            <img src="../../img/001-a.jpg" alt="チェンライ主要寺院 拝観ガイド A4縦型" loading="lazy">
+            <div class="zoom-badge">🔍 タップで拡大</div>
+          </div>
+          <div class="card-caption">
+            <span class="badge">A4 縦型</span>
+            <h3>主要寺院 拝観ガイド（情報凝縮ポスター）</h3>
+            <p>各寺院の象徴建築、仏像、拝観時間とマナーを手書きイラストで直感的に解説。</p>
+          </div>
+        </div>
+
+        <!-- 画像B: A4横型 -->
+        <div class="image-card" onclick="openLightbox('../../img/001-b.jpg', '【A4横型】チェンライ主要寺院 周遊ルートマップ')">
+          <div class="image-wrapper">
+            <img src="../../img/001-b.jpg" alt="チェンライ主要寺院 周遊ルートマップ A4横型" loading="lazy">
+            <div class="zoom-badge">🔍 タップで拡大</div>
+          </div>
+          <div class="card-caption">
+            <span class="badge">A4 横型</span>
+            <h3>市内〜近郊 周遊ルートマップ（見開きデザイン）</h3>
+            <p>市内中心部から郊外の白の寺・観音寺までの位置関係とおすすめ周遊コースを俯瞰。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 寺院一覧・詳細セクション -->
+    <section class="section temples-section">
+      <div class="section-header">
+        <span class="section-subtitle">TEMPLE LIST & DETAILS</span>
+        <h2 class="section-title">主要寺院 7選 拝観データ一覧</h2>
+        
+        <!-- フィルターコントロール -->
+        <div class="filter-bar">
+          <span class="filter-label">絞り込み:</span>
+          <button class="filter-btn active" onclick="filterTemples('all')">すべて表示 (7)</button>
+          <button class="filter-btn" onclick="filterTemples('free')">拝観料 無料 (5)</button>
+          <button class="filter-btn" onclick="filterTemples('paid')">有料・ランドマーク (2)</button>
+        </div>
+      </div>
+
+      <div class="temples-grid" id="templesContainer">
+
+        <!-- 1. ワット・プラケオ -->
+        <article class="temple-card" data-fee="free">
+          <div class="temple-header">
+            <div class="temple-num">01</div>
+            <div>
+              <h3 class="temple-name">ワット・プラケオ</h3>
+              <p class="temple-thai">วัดพระแก้ว (Wat Phra Kaew)</p>
+            </div>
+            <span class="fee-badge free">拝観無料</span>
+          </div>
+          <div class="temple-body">
+            <p class="temple-desc">
+              1434年に落雷で割れた仏塔からエメラルド仏が発見された由緒ある王室寺院。カナダ産最高級翡翠で造られた「プラ・ヨーク（翡翠仏）」や、14世紀の青銅本尊「プラチャオ・ラーントーン」、貴重なランナー仏教美術を展示する2階建て木造博物館「ホーンルアン・セーンケーオ」を併設。
+            </p>
+            <div class="meta-row">
+              <div class="meta-item">
+                <span class="meta-icon">⏰</span>
+                <div>
+                  <strong>拝観時間</strong>
+                  <p>境内・本堂: 07:00–18:00<br>博物館: 09:00–17:00</p>
+                </div>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">🎫</span>
+                <div>
+                  <strong>入場料</strong>
+                  <p>無料</p>
+                </div>
+              </div>
+            </div>
+            <div class="manner-box">
+              <span class="manner-title">⚠️ 参拝マナー・注意点</span>
+              <p>肩や膝を露出した服装は不可。本堂および翡翠仏堂内は土足禁止（脱帽・脱靴）。博物館内での指示に従いフラッシュ撮影は控えること。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. ワット・ロンクン -->
+        <article class="temple-card" data-fee="paid">
+          <div class="temple-header">
+            <div class="temple-num">02</div>
+            <div>
+              <h3 class="temple-name">ワット・ロンクン（白の寺）</h3>
+              <p class="temple-thai">วัดร่องขุ่น (Wat Rong Khun / White Temple)</p>
+            </div>
+            <span class="fee-badge paid">外国人 200B</span>
+          </div>
+          <div class="temple-body">
+            <p class="temple-desc">
+              国民的芸術家チャルムチャイ氏が手がける現代仏教建築の傑作。純白の漆喰と無数の鏡モザイクで仏陀の純潔と智慧を表現。「輪廻の橋」、映画キャラや現代社会を描いた本堂壁画、黄金の化粧室、タム・シン（芸術洞窟）など見どころ多数。
+            </p>
+            <div class="meta-row">
+              <div class="meta-item">
+                <span class="meta-icon">⏰</span>
+                <div>
+                  <strong>拝観時間</strong>
+                  <p>毎日 08:00–17:00</p>
+                </div>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">🎫</span>
+                <div>
+                  <strong>入場料</strong>
+                  <p>外国人: 200バーツ（タム・シン含む）<br>タイ人: 無料</p>
+                </div>
+              </div>
+            </div>
+            <div class="manner-box">
+              <span class="manner-title">⚠️ 参拝マナー・注意点</span>
+              <p><strong>本堂内部の写真・動画撮影は厳禁</strong>。輪廻の橋は一方通行（逆走・後戻り禁止）。ドレスコードが極めて厳格（ノースリーブ・短パン不可）。ドローン飛行やペット同伴禁止。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. ワット・ロン・スアテン -->
+        <article class="temple-card" data-fee="free">
+          <div class="temple-header">
+            <div class="temple-num">03</div>
+            <div>
+              <h3 class="temple-name">ワット・ロン・スアテン（青の寺）</h3>
+              <p class="temple-thai">วัดร่องเสือเต้น (Blue Temple)</p>
+            </div>
+            <span class="fee-badge free">拝観無料</span>
+          </div>
+          <div class="temple-body">
+            <p class="temple-desc">
+              チャルムチャイ氏の弟子スラ・ノック氏が設計したサファイアブルーと黄金の現代ランナー様式寺院。本堂内には高さ6.5mの純白巨大本尊が鎮座し、極彩色の青い宇宙的壁画と調和。躍動感あふれる巨大ナーガ（蛇神）彫刻や夜間ライトアップも必見。
+            </p>
+            <div class="meta-row">
+              <div class="meta-item">
+                <span class="meta-icon">⏰</span>
+                <div>
+                  <strong>拝観時間</strong>
+                  <p>毎日 07:00–20:00（夜間ライトアップあり）</p>
+                </div>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">🎫</span>
+                <div>
+                  <strong>入場料</strong>
+                  <p>無料</p>
+                </div>
+              </div>
+            </div>
+            <div class="manner-box">
+              <span class="manner-title">⚠️ 参拝マナー・注意点</span>
+              <p>本堂内は土足禁止。礼拝者の前を遮らないよう撮影マナーを守ること。肌の露出を控えた服装で参拝すること。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. ワット・フワイ・プラーカン -->
+        <article class="temple-card" data-fee="paid">
+          <div class="temple-header">
+            <div class="temple-num">04</div>
+            <div>
+              <h3 class="temple-name">ワット・フワイ・プラーカン（観音寺）</h3>
+              <p class="temple-thai">วัดห้วยปลากั้ง (Wat Huay Pla Kang)</p>
+            </div>
+            <span class="fee-badge free">境内無料 (EV:40B)</span>
+          </div>
+          <div class="temple-body">
+            <p class="temple-desc">
+              山頂にそびえる高さ約69m（ビル25階相当）の東南アジア最大級白亜の観音菩薩像がシンボル。エレベーターで像の胎内最上階へ登り展望と白漆喰彫刻を鑑賞可能。中国とランナー様式が融合した九重の塔（ポップチョーク塔）や壮麗な白亜大本堂も併設。
+            </p>
+            <div class="meta-row">
+              <div class="meta-item">
+                <span class="meta-icon">⏰</span>
+                <div>
+                  <strong>拝観時間</strong>
+                  <p>境内: 07:00–21:00<br>観音像EV: 07:00–18:00</p>
+                </div>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">🎫</span>
+                <div>
+                  <strong>入場料</strong>
+                  <p>境内: 無料<br>観音像エレベーター: 外国人40B / タイ人20B</p>
+                </div>
+              </div>
+            </div>
+            <div class="manner-box">
+              <span class="manner-title">⚠️ 参拝マナー・注意点</span>
+              <p>各礼拝堂・仏塔内は土足禁止。袖ありトップス・膝下ボトムスを着用。エレベーター利用料は現金払い。ドローン飛行禁止。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. ワット・プラシン -->
+        <article class="temple-card" data-fee="free">
+          <div class="temple-header">
+            <div class="temple-num">05</div>
+            <div>
+              <h3 class="temple-name">ワット・プラシン</h3>
+              <p class="temple-thai">วัดพระสิงห์ (Wat Phra Sing)</p>
+            </div>
+            <span class="fee-badge free">拝観無料</span>
+          </div>
+          <div class="temple-body">
+            <p class="temple-desc">
+              1385年創建のチェンライ最古級の王室寺院。ランナー王国最高峰の神聖仏「プラ・プッタシヒン（複製像）」を本尊とし、優美なランナー・チェンセーン様式の木造低屋根建築、巨匠タワン・ダッチャニー師が手がけた四大元素の木彫り扉、金色の八角形仏塔を有する。
+            </p>
+            <div class="meta-row">
+              <div class="meta-item">
+                <span class="meta-icon">⏰</span>
+                <div>
+                  <strong>拝観時間</strong>
+                  <p>毎日 07:00–18:30</p>
+                </div>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">🎫</span>
+                <div>
+                  <strong>入場料</strong>
+                  <p>無料</p>
+                </div>
+              </div>
+            </div>
+            <div class="manner-box">
+              <span class="manner-title">⚠️ 参拝マナー・注意点</span>
+              <p>本堂内は土足禁止。僧侶の修行・市民の礼拝を妨げないよう静粛を保つこと。露出度の高い服装は避けること。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. ワット・プラタート・ドーイチョームトーン -->
+        <article class="temple-card" data-fee="free">
+          <div class="temple-header">
+            <div class="temple-num">06</div>
+            <div>
+              <h3 class="temple-name">ワット・プラタート・ドーイチョームトーン</h3>
+              <p class="temple-thai">วัดพระธาตุดอยจอมทอง</p>
+            </div>
+            <span class="fee-badge free">拝観無料</span>
+          </div>
+          <div class="temple-body">
+            <p class="temple-desc">
+              1262年にメンラーイ王がこの丘からコック川を眺め、チェンライ建国を決意した歴史発祥の聖地。仏舎利を納める八角形基壇の黄金仏塔（1483年伝）と、須弥山思想に基づき108本の石柱が同心円状に並ぶチェンライ最大のパワースポット「市柱群（サオ・サドゥームアン）」が隣接。
+            </p>
+            <div class="meta-row">
+              <div class="meta-item">
+                <span class="meta-icon">⏰</span>
+                <div>
+                  <strong>拝観時間</strong>
+                  <p>毎日 07:00–17:00</p>
+                </div>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">🎫</span>
+                <div>
+                  <strong>入場料</strong>
+                  <p>無料</p>
+                </div>
+              </div>
+            </div>
+            <div class="manner-box">
+              <span class="manner-title">⚠️ 参拝マナー・注意点</span>
+              <p>市柱群・仏塔エリア周辺では靴を脱ぎ敬意を払って参拝すること。大声での会話や不敬なポーズでの写真撮影は禁止。露出控えめの服装。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7. ワット・クラーンウィアン -->
+        <article class="temple-card" data-fee="free">
+          <div class="temple-header">
+            <div class="temple-num">07</div>
+            <div>
+              <h3 class="temple-name">ワット・クラーンウィアン</h3>
+              <p class="temple-thai">วัดกลางเวียง (Wat Klang Wiang)</p>
+            </div>
+            <span class="fee-badge free">拝観無料</span>
+          </div>
+          <div class="temple-body">
+            <p class="temple-desc">
+              1432年創建、古代チェンライ城郭都市の地理的中心（街のへそ）に位置する古刹。1903年に発見された元祖市柱を祀る鮮やかな朱色と金の尖塔モンドップ（仏堂）や、精緻なランナー神話彫刻が壁面を埋め尽くす豪華絢爛な赤と金の本堂、3層木造鐘楼が見どころ。
+            </p>
+            <div class="meta-row">
+              <div class="meta-item">
+                <span class="meta-icon">⏰</span>
+                <div>
+                  <strong>拝観時間</strong>
+                  <p>毎日 08:00–20:00</p>
+                </div>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">🎫</span>
+                <div>
+                  <strong>入場料</strong>
+                  <p>無料</p>
+                </div>
+              </div>
+            </div>
+            <div class="manner-box">
+              <span class="manner-title">⚠️ 参拝マナー・注意点</span>
+              <p>本堂内は土足禁止。地元住民の日常的な礼拝所のため静粛を保つこと。肩や太ももを覆う服装で参拝すること。</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 参拝マナー＆必須知識セクション -->
+    <section class="section etiquette-section">
+      <div class="section-header">
+        <span class="section-subtitle">TEMPLE ETIQUETTE</span>
+        <h2 class="section-title">タイの寺院参拝マナー＆心得</h2>
+      </div>
+
+      <div class="etiquette-grid">
+        <div class="etiquette-card">
+          <div class="etiquette-icon">👕</div>
+          <h4>ドレスコード厳守</h4>
+          <p>肩が出る服（タンクトップ、キャミソール等）や膝が見えるショートパンツ、ミニスカートは厳禁。薄手の羽織ものやサロン（腰巻き布）の持参が推奨されます。</p>
+        </div>
+        <div class="etiquette-card">
+          <div class="etiquette-icon">👟</div>
+          <h4>脱帽・脱靴のルール</h4>
+          <p>本堂や礼拝堂の建物内に入る際は、必ず帽子と靴を脱ぎます。脱ぎ履きしやすいスリッポンやサンダルでの観光が便利です。</p>
+        </div>
+        <div class="etiquette-card">
+          <div class="etiquette-icon">🧘</div>
+          <h4>仏像への座り方</h4>
+          <p>仏像の前で座る際、足の裏を仏像や僧侶に向けることは重大な不敬とされます。正座、または足を横に崩して座る（正座崩し）ようにしましょう。</p>
+        </div>
+        <div class="etiquette-card">
+          <div class="etiquette-icon">📷</div>
+          <h4>写真撮影の注意事項</h4>
+          <p>白の寺（ワット・ロンクン）の本堂内部など、撮影禁止箇所では厳守してください。また、礼拝している地元の方の正面を遮る撮影は控えましょう。</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ライトボックスモーダル -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <div class="lightbox-content">
+      <button class="lightbox-close" onclick="closeLightbox(event)">✕ 閉じる</button>
+      <img id="lightboxImg" src="" alt="拡大画像">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© 2026 JACR Chiang Rai Contents. All Rights Reserved.</p>
+      <p class="footer-note">※拝観時間や入場料は現地の宗教行事等により予告なく変更される場合があります。</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
