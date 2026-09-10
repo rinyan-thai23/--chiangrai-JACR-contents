@@ -2,7 +2,7 @@
 // articles/*.md から配信用セットを生成する。
 //   - html/YYYY_MM_DD.html … GitHub Pages・SNS投稿用。カード型・トグル展開、高齢者/スマホ向けに出典を簡略化。
 //   - blog/YYYY_MM_DD.md   … ブログ投稿用。article調査フォルダのmdをそのまま結合し、冒頭に目次を付けるだけの1ファイル。
-//   - newsletter/*.md      … メール・FB・LINE配信用。記事ごとの紹介文＋html/へのアンカー付きURL。
+//   - newsletter/YYYY_MM_DD.md … メール・FB・LINE配信用。号ごとに1ファイル（記事ごとに分けない）。各記事の紹介文＋html/へのアンカー付きURLを連結。
 // NEWS-north-thailand-media フォルダの外を一切参照しない自己完結スクリプト。
 //
 // 使い方:
@@ -246,7 +246,7 @@ ${cards}
 `;
 }
 
-function renderIntroMd(article, slug, batchSlug) {
+function renderIntroBlock(article, slug, batchSlug) {
   const url = `${PAGES_BASE}/${batchSlug}.html#${slug}`;
   const tagsLine = article.tags.map((t) => `#${t}`).join(" ");
   return `# ${article.title}
@@ -258,10 +258,14 @@ ${tagsLine}
 続きを読む:
 ${url}
 
----
 - 取材日: ${article.reportedDate}
-- 最終更新: ${article.updatedDate}
-`;
+- 最終更新: ${article.updatedDate}`;
+}
+
+// ニュースレター用: 号（配信回）ごとに1ファイル。articles/index.mdが全履歴を持っているのと同じ考え方で、
+// 記事ごとにファイルを分けない（2026-09-10改訂）。中身は各記事の紹介文（タイトル・リード・タグ・号ページへのリンク）を連結。
+function renderNewsletterMarkdown(items, batchSlug) {
+  return items.map(({ article, slug }) => renderIntroBlock(article, slug, batchSlug)).join("\n\n---\n\n") + "\n";
 }
 
 // ブログ投稿用: article調査フォルダのmdをそのまま結合し、冒頭に目次だけ付けたシンプルな1ファイル。
@@ -322,13 +326,10 @@ function main() {
   const blogMd = renderBlogMarkdown(items, batchDate);
   writeFileSync(join(BLOG_DIR, `${batchSlug}.md`), blogMd);
 
-  for (const { slug, article } of items) {
-    const introMd = renderIntroMd(article, slug, batchSlug);
-    writeFileSync(join(NEWSLETTER_DIR, `${slug}.md`), introMd);
-  }
+  const newsletterMd = renderNewsletterMarkdown(items, batchSlug);
+  writeFileSync(join(NEWSLETTER_DIR, `${batchSlug}.md`), newsletterMd);
 
-  console.log(`generated: html/${batchSlug}.html (SNS/GitHub Pages用), blog/${batchSlug}.md (ブログ投稿用, ${items.length}件まとめ)`);
-  for (const { slug } of items) console.log(`generated: newsletter/${slug}.md`);
+  console.log(`generated: html/${batchSlug}.html (SNS/GitHub Pages用), blog/${batchSlug}.md (ブログ投稿用), newsletter/${batchSlug}.md (${items.length}件まとめ)`);
 }
 
 main();
