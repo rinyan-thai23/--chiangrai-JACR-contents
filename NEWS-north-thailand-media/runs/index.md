@@ -4,6 +4,7 @@
 
 | 実行日 | 実施内容 | 本数 | ファイル |
 |---|---|---|---|
+| 2026-09-10 | ニュースレターをさらに簡略化（挨拶＋ざっくり目次＋URL1本のみに） | - | [2026-09-10-newsletter-simplify-further.md](./2026-09-10-newsletter-simplify-further.md) |
 | 2026-09-10 | ニュースレター用出力を記事ごとのファイルから号ごと1ファイルへ統合 | - | [2026-09-10-newsletter-single-file.md](./2026-09-10-newsletter-single-file.md) |
 | 2026-09-10 | ブログ用出力をカード型HTMLから、目次付き・記事そのまま結合の1ファイルmdへ変更 | - | [2026-09-10-blog-format-simplified.md](./2026-09-10-blog-format-simplified.md) |
 | 2026-09-10 | 既存3記事の本文をテンポ・リズム重視に改稿（事実は不変） | - | [2026-09-10-prose-rhythm.md](./2026-09-10-prose-rhythm.md) |

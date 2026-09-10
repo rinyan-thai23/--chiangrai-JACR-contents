@@ -2,7 +2,7 @@
 // articles/*.md から配信用セットを生成する。
 //   - html/YYYY_MM_DD.html … GitHub Pages・SNS投稿用。カード型・トグル展開、高齢者/スマホ向けに出典を簡略化。
 //   - blog/YYYY_MM_DD.md   … ブログ投稿用。article調査フォルダのmdをそのまま結合し、冒頭に目次を付けるだけの1ファイル。
-//   - newsletter/YYYY_MM_DD.md … メール・FB・LINE配信用。号ごとに1ファイル（記事ごとに分けない）。各記事の紹介文＋html/へのアンカー付きURLを連結。
+//   - newsletter/YYYY_MM_DD.md … メール・FB・LINE配信用。号ごとに1ファイル。挨拶＋タイトルだけのざっくり目次＋号ページのURL1本のみ。
 // NEWS-north-thailand-media フォルダの外を一切参照しない自己完結スクリプト。
 //
 // 使い方:
@@ -246,26 +246,21 @@ ${cards}
 `;
 }
 
-function renderIntroBlock(article, slug, batchSlug) {
-  const url = `${PAGES_BASE}/${batchSlug}.html#${slug}`;
-  const tagsLine = article.tags.map((t) => `#${t}`).join(" ");
-  return `# ${article.title}
+// ニュースレター用: 号（配信回）ごとに1ファイル。挨拶＋ざっくりした目次（タイトルのみ）＋号ページへのURL1本だけ
+// （2026-09-10改訂。記事ごとのリード・タグ・個別アンカー・日付は不要とのことで省いた）。
+function renderNewsletterMarkdown(items, batchDate, batchSlug) {
+  const issueSlashDate = batchDate.replace(/-/g, "/");
+  const toc = items.map(({ article }) => `- ${article.title}`).join("\n");
+  const url = `${PAGES_BASE}/${batchSlug}.html`;
 
-${article.lead}
+  return `皆さま、こんにちは。${issueSlashDate}のチェンライ・北タイ週刊ローカルニュースをお届けします。
 
-${tagsLine}
+今週の目次
+${toc}
 
-続きを読む:
+続きはこちら:
 ${url}
-
-- 取材日: ${article.reportedDate}
-- 最終更新: ${article.updatedDate}`;
-}
-
-// ニュースレター用: 号（配信回）ごとに1ファイル。articles/index.mdが全履歴を持っているのと同じ考え方で、
-// 記事ごとにファイルを分けない（2026-09-10改訂）。中身は各記事の紹介文（タイトル・リード・タグ・号ページへのリンク）を連結。
-function renderNewsletterMarkdown(items, batchSlug) {
-  return items.map(({ article, slug }) => renderIntroBlock(article, slug, batchSlug)).join("\n\n---\n\n") + "\n";
+`;
 }
 
 // ブログ投稿用: article調査フォルダのmdをそのまま結合し、冒頭に目次だけ付けたシンプルな1ファイル。
@@ -326,7 +321,7 @@ function main() {
   const blogMd = renderBlogMarkdown(items, batchDate);
   writeFileSync(join(BLOG_DIR, `${batchSlug}.md`), blogMd);
 
-  const newsletterMd = renderNewsletterMarkdown(items, batchSlug);
+  const newsletterMd = renderNewsletterMarkdown(items, batchDate, batchSlug);
   writeFileSync(join(NEWSLETTER_DIR, `${batchSlug}.md`), newsletterMd);
 
   console.log(`generated: html/${batchSlug}.html (SNS/GitHub Pages用), blog/${batchSlug}.md (ブログ投稿用), newsletter/${batchSlug}.md (${items.length}件まとめ)`);
