@@ -4,6 +4,7 @@
 
 | 実行日 | 実施内容 | 本数 | ファイル |
 |---|---|---|---|
+| 2026-09-10 | 配信HTMLの出典欄を簡略化（英語・タイ語見出しと注記を省略、高齢者・スマホ向け） | - | [2026-09-10-simplify-sources-for-elderly.md](./2026-09-10-simplify-sources-for-elderly.md) |
 | 2026-09-10 | 続きを読むボタン化・マストヘッド装飾SVGアニメーションの追加（スマホ対応） | - | [2026-09-10-button-and-masthead-animation.md](./2026-09-10-button-and-masthead-animation.md) |
 | 2026-09-10 | 配信HTMLをカード型・ライトモードへデザイン変更、main直コミット運用へ復帰 | - | [2026-09-10-card-design-light-mode.md](./2026-09-10-card-design-light-mode.md) |
 | 2026-09-10 | 配信HTMLを記事ごとから号ごとの1ファイル・トグル展開形式に変更 | - | [2026-09-10-digest-format.md](./2026-09-10-digest-format.md) |

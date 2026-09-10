@@ -103,6 +103,30 @@ function renderBlocks(content, opts) {
     .join("\n");
 }
 
+// 出典セクション専用のレンダラー。高齢者・スマホ閲覧を想定するHTML出力では、
+// ①各出典の英語・タイ語見出し引用（「...」の部分）と、②末尾の注記（取材手法の免責文）を省く。
+// articles/の元原稿・newsletterでは従来通り残すため、ここだけで完結させる。
+function renderSourceBlocks(content, opts) {
+  const blocks = content.trim().split(/\n\s*\n/).filter(Boolean);
+  return blocks
+    .map((block) => {
+      const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
+      const isList = lines.length > 0 && lines.every((l) => l.startsWith("- "));
+      if (isList) {
+        const items = lines
+          .map((l) => l.slice(2).replace(/「[^」]*」/g, "").trim())
+          .map((l) => `<li>${inline(l, opts)}</li>`)
+          .join("\n");
+        return `<ul>\n${items}\n</ul>`;
+      }
+      const isNote = lines[0]?.startsWith("**注記**");
+      if (isNote) return "";
+      return `<p>${inline(lines.join(" "), opts)}</p>`;
+    })
+    .filter(Boolean)
+    .join("\n");
+}
+
 function parseArticle(raw) {
   const lines = raw.split("\n");
   const title = lines[0].replace(/^#\s*/, "").trim();
@@ -146,7 +170,10 @@ function renderCard(article, slug) {
     .map((sec) => {
       const isSources = sec.heading === "出典";
       const cls = isSources ? ' class="sources"' : "";
-      return `<section${cls}>\n<h3>${escapeHtml(sec.heading)}</h3>\n${renderBlocks(sec.content, { linkToAnchor: true })}\n</section>`;
+      const body = isSources
+        ? renderSourceBlocks(sec.content, { linkToAnchor: true })
+        : renderBlocks(sec.content, { linkToAnchor: true });
+      return `<section${cls}>\n<h3>${escapeHtml(sec.heading)}</h3>\n${body}\n</section>`;
     })
     .join("\n");
 
