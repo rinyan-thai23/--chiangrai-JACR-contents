@@ -9,4 +9,4 @@ https://rinyan-thai23.github.io/--chiangrai-JACR-contents/NEWS-north-thailand-me
 
 ---
 - 取材日: 2026-09-09
-- 最終更新: 2026-09-09
+- 最終更新: 2026-09-10
