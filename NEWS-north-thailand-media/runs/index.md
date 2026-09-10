@@ -4,6 +4,7 @@
 
 | 実行日 | 実施内容 | 本数 | ファイル |
 |---|---|---|---|
+| 2026-09-10 | 続きを読むボタン化・マストヘッド装飾SVGアニメーションの追加（スマホ対応） | - | [2026-09-10-button-and-masthead-animation.md](./2026-09-10-button-and-masthead-animation.md) |
 | 2026-09-10 | 配信HTMLをカード型・ライトモードへデザイン変更、main直コミット運用へ復帰 | - | [2026-09-10-card-design-light-mode.md](./2026-09-10-card-design-light-mode.md) |
 | 2026-09-10 | 配信HTMLを記事ごとから号ごとの1ファイル・トグル展開形式に変更 | - | [2026-09-10-digest-format.md](./2026-09-10-digest-format.md) |
 | 2026-09-10 | 配信用3点セット（HTML・ニュースレターMD・ブログMD）の追加、既存3記事へ適用 | - | [2026-09-10-delivery-format.md](./2026-09-10-delivery-format.md) |

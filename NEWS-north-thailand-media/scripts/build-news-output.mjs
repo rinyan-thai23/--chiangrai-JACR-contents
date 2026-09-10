@@ -24,6 +24,21 @@ const SITE_TITLE = "チェンライ・北タイローカル情報";
 const SITE_SUBTITLE = "チェンライ・北タイの地域密着ニュース ｜ Powered by チェンライ日本人会";
 const SITE_KICKER = "北タイ地域メディア";
 
+// マストヘッド下に毎回表示する装飾SVG。山・川の線画が読み込み時に一筆書きで描かれ、
+// 拠点（チェンライ・メーサイ・メーファールアン等をイメージした点）が現地確認中のように明滅・接続する。
+// 純粋に雰囲気づくりのための演出で、実データとは連動しない（CSSアニメーションのみ、JS不要）。
+const SITE_MASTHEAD_SVG = `<svg class="masthead-art" viewBox="0 0 600 150" role="img" aria-label="北タイの山・川と取材拠点をイメージした装飾アニメーション">
+<path class="art-ridge" d="M0,112 L55,64 L95,92 L145,46 L195,88 L255,58 L315,96 L375,52 L435,90 L495,48 L555,82 L600,64" />
+<path class="art-river" d="M0,128 C80,118 120,138 200,124 C280,110 320,132 400,120 C480,110 520,130 600,118" />
+<g class="art-node" style="--d:0s"><circle class="art-ring" cx="95" cy="92" r="5" /><circle class="art-dot" cx="95" cy="92" r="3.5" /></g>
+<g class="art-node" style="--d:.5s"><circle class="art-ring" cx="255" cy="58" r="5" /><circle class="art-dot" cx="255" cy="58" r="3.5" /></g>
+<g class="art-node" style="--d:1s"><circle class="art-ring" cx="375" cy="52" r="5" /><circle class="art-dot" cx="375" cy="52" r="3.5" /></g>
+<g class="art-node" style="--d:1.5s"><circle class="art-ring" cx="495" cy="48" r="5" /><circle class="art-dot" cx="495" cy="48" r="3.5" /></g>
+<path class="art-link" d="M95,92 L255,58" />
+<path class="art-link" d="M255,58 L375,52" />
+<path class="art-link" d="M375,52 L495,48" />
+</svg>`;
+
 // カテゴリ（記事の最後のタグ）ごとの配色。ライトモード・高コントラストを優先する。
 const CATEGORY_PALETTE = [
   { bg: "#fbe7e2", text: "#a8391e", border: "#c1432e" }, // 赤系（防災など）
@@ -143,7 +158,10 @@ function renderCard(article, slug) {
 </div>
 <h2>${escapeHtml(article.title)}</h2>
 <p class="lead">${inline(article.lead, { linkToAnchor: true })}</p>
-<p class="read-more"><span class="closed-label">続きを読む →</span><span class="open-label">閉じる ↑</span></p>
+<span class="read-more-btn">
+<span class="btn-label"><span class="label-closed">続きを読む</span><span class="label-open">閉じる</span></span>
+<span class="btn-arrow" aria-hidden="true">↓</span>
+</span>
 </summary>
 <div class="card-body">
 <div class="tags">${allTags}</div>
@@ -174,6 +192,7 @@ function renderDigestHtml(items, batchDate) {
 </div>
 <h1>${escapeHtml(SITE_TITLE)}</h1>
 <p class="subtitle">${escapeHtml(SITE_SUBTITLE)}</p>
+${SITE_MASTHEAD_SVG}
 </header>
 <main>
 <p class="section-label">今号の${items.length}本</p>

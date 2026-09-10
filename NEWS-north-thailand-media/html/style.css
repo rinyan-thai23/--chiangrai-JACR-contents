@@ -57,6 +57,70 @@ a{color:var(--accent)}
   color:var(--muted);
 }
 
+/* マストヘッド装飾SVG（毎回表示・演出専用。実データとは連動しない） */
+.masthead-art{
+  display:block;
+  width:100%;
+  height:auto;
+  margin-top:18px;
+}
+.art-ridge,.art-river{
+  fill:none;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.art-ridge{
+  stroke:var(--accent);
+  stroke-width:2.5;
+  opacity:.55;
+  stroke-dasharray:900;
+  stroke-dashoffset:900;
+  animation:art-draw 2.4s ease-out forwards;
+}
+.art-river{
+  stroke:#2b6cae;
+  stroke-width:2;
+  opacity:.4;
+  stroke-dasharray:700;
+  stroke-dashoffset:700;
+  animation:art-draw 2.4s .3s ease-out forwards;
+}
+.art-link{
+  fill:none;
+  stroke:var(--accent);
+  stroke-width:1.4;
+  stroke-dasharray:3 6;
+  opacity:0;
+  animation:art-link-in .6s 2s ease-out forwards, art-flow 1.8s linear infinite;
+}
+.art-dot{fill:var(--accent)}
+.art-ring{
+  fill:none;
+  stroke:var(--accent);
+  stroke-width:1.4;
+  opacity:0;
+  transform-box:fill-box;
+  transform-origin:center;
+  animation:art-ping 2.4s ease-out infinite;
+  animation-delay:calc(2.3s + var(--d, 0s));
+}
+.art-node .art-dot{opacity:0;animation:art-dot-in .01s 2.2s forwards}
+@keyframes art-draw{to{stroke-dashoffset:0}}
+@keyframes art-link-in{to{opacity:.5}}
+@keyframes art-flow{to{stroke-dashoffset:-18}}
+@keyframes art-dot-in{to{opacity:1}}
+@keyframes art-ping{
+  0%{opacity:.55;transform:scale(1)}
+  100%{opacity:0;transform:scale(2.6)}
+}
+@media(prefers-reduced-motion:reduce){
+  .art-ridge,.art-river,.art-link,.art-ring,.art-node .art-dot{animation:none}
+  .art-ridge,.art-river{stroke-dashoffset:0}
+  .art-link{opacity:.5}
+  .art-node .art-dot{opacity:1}
+  .art-ring{opacity:0}
+}
+
 main{
   max-width:720px;
   margin:0 auto;
@@ -115,15 +179,46 @@ main{
   font-size:16px;
   color:#333f45;
 }
-.read-more{
-  margin:0;
+.read-more-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:2px;
+  padding:9px 16px;
+  border-radius:999px;
+  border:1.5px solid var(--card-border,var(--accent));
+  background:var(--card);
+  background:color-mix(in srgb,var(--card-border,var(--accent)) 8%,var(--card));
+  color:var(--card-border,var(--accent));
   font-size:14px;
   font-weight:700;
-  color:var(--accent);
+  transition:background .18s ease,transform .12s ease;
 }
-.card[open] .read-more .closed-label,
-.read-more .open-label{display:none}
-.card[open] .read-more .open-label{display:inline}
+/* タップ操作前提。hoverは無い端末でも:active・[open]の切り替えだけで完結する。 */
+.card summary:active .read-more-btn,
+.card summary:hover .read-more-btn{
+  background:color-mix(in srgb,var(--card-border,var(--accent)) 20%,var(--card));
+}
+.card summary:active .read-more-btn{transform:scale(.97)}
+.btn-label{display:grid}
+.btn-label>span{
+  grid-area:1/1;
+  opacity:1;
+  transition:opacity .2s ease;
+}
+.btn-label .label-open{opacity:0}
+.card[open] .btn-label .label-closed{opacity:0}
+.card[open] .btn-label .label-open{opacity:1}
+.btn-arrow{
+  display:inline-block;
+  transform:rotate(0deg) translateY(0);
+  transition:transform .25s ease;
+}
+.card summary:hover .btn-arrow,
+.card summary:active .btn-arrow{transform:rotate(0deg) translateY(3px)}
+.card[open] .btn-arrow{transform:rotate(180deg) translateY(0)}
+.card[open] summary:hover .btn-arrow,
+.card[open] summary:active .btn-arrow{transform:rotate(180deg) translateY(-3px)}
 
 .card-body{
   padding:0 22px 24px;
