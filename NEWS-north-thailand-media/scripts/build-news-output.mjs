@@ -1,5 +1,8 @@
 #!/usr/bin/env node
-// articles/*.md から配信用セット（号ごとのカード型まとめHTML・ニュースレター紹介文MD・ブログ用HTML）を生成する。
+// articles/*.md から配信用セットを生成する。
+//   - html/YYYY_MM_DD.html … GitHub Pages・SNS投稿用。カード型・トグル展開、高齢者/スマホ向けに出典を簡略化。
+//   - blog/YYYY_MM_DD.md   … ブログ投稿用。article調査フォルダのmdをそのまま結合し、冒頭に目次を付けるだけの1ファイル。
+//   - newsletter/*.md      … メール・FB・LINE配信用。記事ごとの紹介文＋html/へのアンカー付きURL。
 // NEWS-north-thailand-media フォルダの外を一切参照しない自己完結スクリプト。
 //
 // 使い方:
@@ -68,6 +71,14 @@ function paletteFor(category) {
 function formatJaDate(isoDate) {
   const [y, m, d] = isoDate.split("-").map(Number);
   return `${y}年${m}月${d}日`;
+}
+
+// 目次の見出しリンク用。GitHub等のMarkdown見出しアンカー生成に近い簡易スラグ化（完全一致は保証しない）。
+function slugifyHeading(text) {
+  return text
+    .replace(/[「」『』（）()【】\[\]:：!！?？、。・"'’]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
 }
 
 function escapeHtml(s) {
@@ -253,6 +264,27 @@ ${url}
 `;
 }
 
+// ブログ投稿用: article調査フォルダのmdをそのまま結合し、冒頭に目次だけ付けたシンプルな1ファイル。
+// HTMLのカード・トグルは使わない。GitHub Pages（html/）とは別物、そちらは変更しない。
+function renderBlogMarkdown(items, batchDate) {
+  const issueSlashDate = batchDate.replace(/-/g, "/");
+  const toc = items
+    .map(({ article }) => `- [${article.title}](#${slugifyHeading(article.title)})`)
+    .join("\n");
+  const body = items.map(({ rawContent }) => rawContent.trim()).join("\n\n---\n\n");
+
+  return `# チェンライ/北タイ 週間ローカルニュース ${issueSlashDate}
+
+## 目次
+
+${toc}
+
+---
+
+${body}
+`;
+}
+
 function parseArgs(argv) {
   let date = null;
   const slugs = [];
@@ -281,20 +313,21 @@ function main() {
   const items = files.map((file) => {
     const slug = file.replace(/\.md$/, "");
     const raw = readFileSync(join(ARTICLES_DIR, file), "utf8");
-    return { slug, article: parseArticle(raw) };
+    return { slug, rawContent: raw, article: parseArticle(raw) };
   });
 
   const digestHtml = renderDigestHtml(items, batchDate);
   writeFileSync(join(HTML_DIR, `${batchSlug}.html`), digestHtml);
-  // ブログに投稿するものもまったく同じまとめHTML。ファイルを分けているのは配信先ごとに個別調整できるようにするため。
-  writeFileSync(join(BLOG_DIR, `${batchSlug}.html`), digestHtml);
+
+  const blogMd = renderBlogMarkdown(items, batchDate);
+  writeFileSync(join(BLOG_DIR, `${batchSlug}.md`), blogMd);
 
   for (const { slug, article } of items) {
     const introMd = renderIntroMd(article, slug, batchSlug);
     writeFileSync(join(NEWSLETTER_DIR, `${slug}.md`), introMd);
   }
 
-  console.log(`generated: html/${batchSlug}.html, blog/${batchSlug}.html (${items.length}件まとめ)`);
+  console.log(`generated: html/${batchSlug}.html (SNS/GitHub Pages用), blog/${batchSlug}.md (ブログ投稿用, ${items.length}件まとめ)`);
   for (const { slug } of items) console.log(`generated: newsletter/${slug}.md`);
 }
 
