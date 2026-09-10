@@ -5,7 +5,7 @@
 #チェンライ #メーサイ #防災
 
 続きを読む:
-https://rinyan-thai23.github.io/--chiangrai-JACR-contents/NEWS-north-thailand-media/html/2026-09-09-mae-sai-flood-alert.html
+https://rinyan-thai23.github.io/--chiangrai-JACR-contents/NEWS-north-thailand-media/html/2026_09_10.html#2026-09-09-mae-sai-flood-alert
 
 ---
 - 取材日: 2026-09-09

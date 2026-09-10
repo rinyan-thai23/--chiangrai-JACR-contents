@@ -30,17 +30,18 @@
 2. **裏取り**: 同じ事実について**最低2系統以上の情報源（できればタイ語ソース＋英語ソース）で数値・地名・日付が一致するか確認**する。一次情報源（公的機関・現地紙）と食い違う場合は一次情報源を優先し、食い違い自体を記事に注記する。
 3. **執筆**: 「出力フォーマットのルール」に従って日本語記事を作成する。
 4. **保存・記録**: 記事本体を `articles/YYYY-MM-DD-スラッグ.md` として保存し `articles/index.md` に追記。取材メモ・出典・裏取り状況は `runs/YYYY-MM-DD.md` に記録する。
-5. **配信用3点セット生成**: `node scripts/build-news-output.mjs` を実行し、`articles/`配下の各記事から次の3ファイルを自動生成する（2026-09-10追加、詳細は[配信先](#配信先)を参照）。
-   - `html/YYYY-MM-DD-スラッグ.html` … GitHub Pagesで公開する記事本体ページ
-   - `newsletter/YYYY-MM-DD-スラッグ.md` … メール・FB・LINE等の既存ニュースレター登録メンバーに送る、URL付きの紹介文
-   - `blog/YYYY-MM-DD-スラッグ.md` … ブログ転載専用（内容は`newsletter/`と同一）
-   - 記事本文（`articles/`）を修正した場合は、配信前に必ずこのスクリプトを再実行して3ファイルを最新化すること。
+5. **配信用セット生成**: `node scripts/build-news-output.mjs` を実行し、`articles/`配下の記事から次を自動生成する（2026-09-10追加、まとめHTML化は同日改訂、詳細は[配信先](#配信先)を参照）。
+   - `html/YYYY_MM_DD.html` … その号（配信回）の全記事を1ページにまとめたGitHub Pages公開用HTML。記事ごとにトグル（`<details>`）で折りたたまれており、タイトル行をクリックすると本文が開く。
+   - `blog/YYYY_MM_DD.html` … ブログ転載専用（内容は`html/`と完全に同一）。
+   - `newsletter/YYYY-MM-DD-スラッグ.md` … 記事ごとに1本、メール・FB・LINE等の既存ニュースレター登録メンバーに送る、URL付きの紹介文（リンク先は`html/YYYY_MM_DD.html`内の該当記事のアンカー）。
+   - デフォルトでは`articles/`配下の記事を実行日付ですべてまとめる。特定の記事だけをその号に含めたい場合は `node scripts/build-news-output.mjs --date=YYYY-MM-DD スラッグ1 スラッグ2 ...` のように号の日付とスラッグを明示して実行する。
+   - 記事本文（`articles/`）を修正した場合は、配信前に必ずこのスクリプトを再実行して最新化すること。
 
 ## 配信先
 
-- **GitHub Pages（記事ページ本体）**: `html/`配下のHTMLファイルが実際に配信する記事ページ。URLは `https://rinyan-thai23.github.io/--chiangrai-JACR-contents/NEWS-north-thailand-media/html/YYYY-MM-DD-スラッグ.html` の形式（長さは気にしない）。既存のメール・FB・LINEニュースレターへは、このURLを`newsletter/`のテキストと合わせて送る。
-- **ニュースレター（メール／FB／LINE）**: `newsletter/YYYY-MM-DD-スラッグ.md` を紹介文としてそのまま使う。タイトル・リード・エリアタグ・上記GitHub PagesのURLをまとめた短文。
-- **ブログ転載**: `blog/YYYY-MM-DD-スラッグ.md` を使う。内容は`newsletter/`と同一（ファイルを分けているのは配信先ごとに個別修正できるようにするため）。
+- **GitHub Pages（号ページ本体）**: `html/`配下のHTMLファイルが実際に配信するページ。その号の記事をすべて1ページにまとめ、記事ごとにトグル展開する構成。URLは `https://rinyan-thai23.github.io/--chiangrai-JACR-contents/NEWS-north-thailand-media/html/YYYY_MM_DD.html` の形式（長さは気にしない）。既存のメール・FB・LINEニュースレターへは、このURL（記事ごとのアンカー付き）を`newsletter/`のテキストと合わせて送る。
+- **ニュースレター（メール／FB／LINE）**: `newsletter/YYYY-MM-DD-スラッグ.md` を記事ごとの紹介文としてそのまま使う。タイトル・リード・エリアタグ・上記GitHub Pages号ページへのアンカー付きURLをまとめた短文。
+- **ブログ転載**: `blog/YYYY_MM_DD.html` を使う。内容は`html/`と完全に同一（ファイルを分けているのは配信先ごとに個別調整できるようにするため）。
 - **GitHub（本流・一次情報としての記事）**: `articles/`配下のMarkdownを一次データとして保持する。記事の完成条件は「GitHub上でそのまま読める状態でarticles/に保存されていること」に加え、上記の配信用3点セットが生成済みであること。
 - **WordPress（転載先）**: 別途運営しているWordPressサイトにも同じ記事を転載する。投稿の自動化フローは本リポジトリの外（別システム）に既に構築済みのため、**本部署のタスクとしては上記3点セットを生成するところまでとし、WordPressへの反映・自動投稿の仕組み自体はこのリポジトリでは扱わない**（将来、連携が必要になった場合はその時点で本README・runs/に追記する）。
 

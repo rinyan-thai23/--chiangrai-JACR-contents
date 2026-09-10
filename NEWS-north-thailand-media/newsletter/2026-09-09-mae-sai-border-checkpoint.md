@@ -5,7 +5,7 @@
 #チェンライ #メーサイ #国境 #渡航情報
 
 続きを読む:
-https://rinyan-thai23.github.io/--chiangrai-JACR-contents/NEWS-north-thailand-media/html/2026-09-09-mae-sai-border-checkpoint.html
+https://rinyan-thai23.github.io/--chiangrai-JACR-contents/NEWS-north-thailand-media/html/2026_09_10.html#2026-09-09-mae-sai-border-checkpoint
 
 ---
 - 取材日: 2026-09-09

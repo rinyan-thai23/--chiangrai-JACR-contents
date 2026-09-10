@@ -5,7 +5,7 @@
 #チェンライ #メーファールアン #アカ族 #文化観光
 
 続きを読む:
-https://rinyan-thai23.github.io/--chiangrai-JACR-contents/NEWS-north-thailand-media/html/2026-09-09-akha-swing-festival.html
+https://rinyan-thai23.github.io/--chiangrai-JACR-contents/NEWS-north-thailand-media/html/2026_09_10.html#2026-09-09-akha-swing-festival
 
 ---
 - 取材日: 2026-09-09
