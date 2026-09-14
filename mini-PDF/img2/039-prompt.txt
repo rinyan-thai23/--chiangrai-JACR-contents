@@ -1,0 +1,69 @@
+Create one Japanese A4 PORTRAIT illustrated information sheet, series badge 039. Hand-drawn ink and delicate watercolor, same charming Chiang Rai travel notebook series. Pure opaque white background, crisp BLACK Japanese text, thin hand drawn panel outlines, small sage/orange/blue accents. Dense useful layout with title, probability explainer, seven illustrated number cards, culture strip and small caution footer. No source credits, research report or TSV wording. No realistic lottery tickets or scannable barcodes. No rankings, historical winning counts or claims of increased chances. All seven number interpretations explicitly framed as variable folklore, not universal facts. Readable horizontal Japanese writing, generous outer margins, no cropped text.
+
+Exact text:
+TITLE: タイ宝くじと数字の文化
+SUBTITLE: 下２桁のしくみ・７つの縁起解釈を知る
+TOP PANEL:
+下２桁は「00〜99」の100通り
+公平に抽選される場合、特定の２桁が出る理論確率は
+１／100 ＝ １％
+過去によく出た数字も、次回の当たりやすさは変わりません。
+
+Seven cards in balanced two-column layout, final card can span width. Each card bold oversized number, small tasteful drawing that illustrates the belief, black readable body:
+98　発展と豊かさ
+９の「前進」と８の「富」を重ね、
+発展を願う読み方があります。
+Illustration: small ascending path and rice basket, not piles of lottery winnings.
+
+85　夢と精霊
+蛇の夢や神木の伝承などに、
+数字を結びつける解釈の一例。
+Illustration: small gentle naga serpent and leafy tree, no instructions to damage tree.
+
+79　寺院と功徳
+寺院や僧侶ゆかりの数字に、
+敬意や長寿への願いを託す解釈。
+Illustration: Thai pagoda and lotus.
+
+92　良縁と加護
+９と２の組合せに、
+加護や人との縁を願う読み方。
+Illustration: two small birds and lotus.
+
+46　商いと魅力
+４を知恵、６を魅力に結びつけ、
+商売や対人関係を願う数秘解釈。
+Illustration: charming market stall.
+
+14　知性と挑戦
+１を指導力、４を知性と読み、
+新しい挑戦に意味を重ねる解釈。
+Illustration: open notebook and sunrise.
+
+65　知恵と福徳
+６を豊かさ、５を知恵に結びつけ、
+福徳への願いを表す数秘解釈。
+Illustration: alms bowl, book and lotus.
+
+Small clear label above cards:
+数字の意味は、地域・占術・語り手によって異なります。
+ここでは縁起解釈の例を紹介します。
+
+Bottom two panels:
+数字を探す文化
+「レック・デット」は、話題の幸運の数字。
+夢・記念日・車の番号などをきっかけに、
+身近な数字へ意味を見いだす人もいます。
+信仰や暮らしの文化として眺めてみましょう。
+
+統計を読む３つの確認
+① いつからいつまでの集計？
+② 抽選は全部で何回？
+③ 同じ賞の数字を数えている？
+出現頻度＝出た回数÷集計した抽選回数
+この割合は、次回の当選確率ではありません。
+
+Small footer only:
+※縁起・夢占いは文化的な解釈で、当選を保証しません。数字の並びは順位・購入推奨ではありません。
+
+Maintain beautiful colorful hand-drawn illustrations around 25% of page, dense information 75%, white background no beige wash. Do not add unverified frequencies or historical period to title.

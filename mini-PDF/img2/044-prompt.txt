@@ -1,0 +1,90 @@
+Create ONE high resolution A4 PORTRAIT Japanese/Thai pointing phrase sheet, series badge 044. Charming hand-drawn ink and delicate watercolor illustrations matching Chiang Rai guides 001/002. Opaque pure WHITE background, clear BLACK Japanese and Thai text, sage orange blue highlights, thin hand-drawn card borders. Dense yet very readable for print, Thai phrases large enough to point at. Layout 2 columns x 6 rows, twelve cards with tiny relevant watercolor icons, no sources/report/TSV/QR credits. Horizontal writing. Accurate Thai vowel/tone placement. Do not append polite particles in every card; explain once in a top strip.
+
+Title: 屋台・市場の指さしタイ語
+Subtitle: 注文からお会計まで｜すぐ使える12フレーズ
+Top strip:
+丁寧に話すときは語尾をプラス
+男性：ครับ（クラップ）
+女性：文末は ค่ะ（カー）／質問は คะ（カ）
+カードは語尾を省略しています。タイ文字を指して使えます。
+
+01 これをください
+เอาอันนี้
+アオ・アンニー
+メニューや料理を指さして注文。
+Illustration: pointing hand and menu with dish.
+
+02 ここで食べます
+ทานที่นี่
+ターン・ティーニー
+店内で食べたいときに。
+Illustration: person seated at street food table.
+
+03 持ち帰りでお願いします
+เอากลับบ้าน
+アオ・グラップバーン
+テイクアウトしたいときに。
+Illustration: takeaway food bag and container.
+
+04 お会計をお願いします
+เช็คบิลด้วย
+チェックビン・ドゥアイ
+食べ終わったら店員さんへ。
+Illustration: receipt and coins.
+
+05 辛さを伝える
+ไม่เผ็ด　マイ・ペッ
+辛くしないでください
+เผ็ดน้อย　ペッ・ノーイ
+辛さ控えめで
+Illustration: small chili and mild bowl; don't imply absolute guarantee.
+
+06 パクチーを入れないで
+ไม่ใส่ผักชี
+マイ・サイ・パクチー
+料理を注文するときに伝える。
+Illustration: coriander sprig with small no symbol.
+
+07 おすすめは何ですか？
+มีอะไรแนะนำ
+ミー・アライ・ネナム
+名物や看板料理を聞きたいとき。
+Illustration: smiling vendor pointing at plate.
+
+08 水を１本ください
+ขอน้ำเปล่าหนึ่งขวด
+コー・ナムプラーオ・ヌン・クアット
+ボトル入りの水を注文。
+Illustration: one sealed water bottle.
+
+09 スプーンとフォークをください
+ขอช้อนส้อมด้วย
+コー・チョーン・ソーム・ドゥアイ
+食器が見当たらないときに。
+Illustration: spoon and fork.
+
+10 いくらですか？
+เท่าไหร่
+タオライ
+値段が分からなければ注文前に確認。
+Illustration: price tag and calculator.
+
+11 とてもおいしいです！
+อร่อยมาก
+アローイ・マーク
+食事中や食後に、笑顔でひと言。
+Illustration: smiling diner and bowl.
+
+12 トイレはどこですか？
+ห้องน้ำอยู่ที่ไหน
+ホンナーム・ユー・ティーナイ
+場所が分からないときに。
+Illustration: restroom sign with direction arrow.
+
+Bottom compact illustrated tip strip:
+伝わりやすくするコツ
+料理を指す → 数を指で示す → 値段を確認する
+Small footer:
+※カタカナは発音の目安です。「辛くしないで」でも辛みが残る場合があります。アレルギーは苦手食材と区別して明確に伝えてください。
+
+Use all twelve cards exactly once, Japanese headings and Thai text black. Tiny watercolor temple and market banner at top but prioritize clear text. White margins no cropping.

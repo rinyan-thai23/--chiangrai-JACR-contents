@@ -1,0 +1,90 @@
+Create ONE high-resolution A4 PORTRAIT Japanese illustrated Thai food travel sheet, badge 042. Same hand-drawn ink and watercolor Chiang Rai guide series as 001/002. Pure opaque WHITE background no beige texture, crisp BLACK readable Japanese and accurate Thai script, delicate hand-ink dividers, orange sage blue highlights. Dense useful layout, ten small mouthwatering watercolor dish illustrations paired with ten text cards in 2 columns x 5 rows, bottom ordering phrase strip. Food accurately depicted. No source/report/TSV credits or QR. Horizontal text, all copy fits without cropping. 70% text 30% illustration.
+
+Title: タイ料理 辛さと注文ガイド
+Subtitle: 代表10品｜名前を分解して、好みを伝えよう
+Top note: 辛さは店・作り方で変わります。下の表示は目安です。
+Legend: ○ 比較的マイルド　△ 辛さを確認　▲ 強い辛さに注意
+
+01 ○ カオマンガイ
+ข้าวมันไก่
+カオ＝ご飯／マン＝脂／ガイ＝鶏
+鶏のうまみで炊いたご飯と茹で鶏。
+注文：タレを別添えに
+Illustration: sliced boiled chicken over rice, cucumber, separate sauce dish.
+
+02 △ トムカーガイ
+ต้มข่าไก่
+トム＝煮る／カー＝南姜／ガイ＝鶏
+ココナッツミルクのスープ。唐辛子入りも。
+注文：唐辛子を入れないで
+Illustration: creamy white chicken soup with mushrooms and galangal.
+
+03 ○ パッタイ・クン
+ผัดไทยกุ้ง
+パット＝炒める／タイ＝タイ／クン＝海老
+甘酸っぱい炒め麺。粉唐辛子は好みで。
+注文：粉唐辛子を入れないで
+Illustration: rice noodles, shrimp, bean sprouts, lime, peanuts at side.
+
+04 △ グリーンカレー・ガイ
+แกงเขียวหวานไก่
+ゲーン＝カレー／キョウ＝緑／ガイ＝鶏
+青唐辛子ペーストのカレー。甘い香りでも辛い。
+注文：辛さ控えめにできる？
+Illustration: green coconut curry chicken Thai eggplants.
+
+05 △ ヤム・ウンセン
+ยำวุ้นเส้น
+ヤム＝酸辛い和え物／ウンセン＝春雨
+春雨をライム・魚醤などで和えた料理。
+注文：唐辛子を入れないで
+Illustration: glass noodles shrimp mince tomatoes and herbs.
+
+06 ▲ ガパオ・ムーサップ
+ผัดกะเพราหมูสับ
+パット＝炒める／ガパオ＝ホーリーバジル
+ムー＝豚／サップ＝刻む
+豚ひき肉の香り高い炒め物。
+注文：辛さ控えめに
+Illustration: minced pork basil stir fry with rice.
+
+07 ▲ トムヤムクン
+ต้มยำกุ้ง
+トム＝煮る／ヤム＝酸辛い調味／クン＝海老
+ハーブが香る酸っぱく辛いスープ。
+注文：辛さ控えめに
+Illustration: reddish shrimp soup with lemongrass and lime leaf.
+
+08 ▲ ソムタム・タイ
+ส้มตำไทย
+ソム＝酸っぱい／タム＝叩く／タイ＝タイ風
+青パパイヤを叩き和えるサラダ。
+注文：唐辛子を入れないで
+Illustration: green papaya salad tomato lime peanuts.
+
+09 ▲ クアクリン・ムー
+คั่วกลิ้งหมู
+クア＝乾煎り／クリン＝転がす／ムー＝豚
+南タイの香辛料が効いたドライカレー。
+注意：作り置きは辛さ調整が難しい
+Illustration: dry yellow-orange crumbled pork curry, fresh vegetables.
+
+10 ▲ ゲーン・タイプラー
+แกงไตปลา
+ゲーン＝カレー／タイプラー＝発酵魚内臓調味料
+濃い魚の風味と強い辛さの南タイ料理。
+注意：ペースト自体に辛みがあります
+Illustration: dark brown southern Thai curry with vegetables and fish.
+
+Bottom useful full-width phrase panel:
+指さして使える 注文フレーズ
+เผ็ดน้อย　ペッ・ノーイ＝辛さ控えめに
+ไม่ใส่พริก　マイ・サイ・プリック＝唐辛子を入れないで
+แยกน้ำจิ้ม　イェーク・ナムチム＝タレを別添えに
+ไม่ใส่ผักชี　マイ・サイ・パクチー＝パクチーを入れないで
+ไม่ใส่พริกป่น　マイ・サイ・プリックポン＝粉唐辛子を入れないで
+
+Small footer only:
+※「辛さ控えめ」でも辛い場合があります。アレルギーは別途明確に伝え、調味料や調理器具の共用も確認してください。
+
+All 10 distinct dishes, no omissions, no ranking implying universal spiciness. Avoid tiny typography, maintain readable Japanese, correct Thai glyphs. White margins and white food-card backgrounds.

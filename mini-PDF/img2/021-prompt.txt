@@ -1,0 +1,74 @@
+Create ONE finished Japanese illustrated printable Chiang Rai food guide issue 021. A4 PORTRAIT 210:297 high resolution. PURE opaque WHITE page and all text areas. No transparency dark backgrounds gray wash paper grain or texture. Consistent hand-drawn ink and delicate watercolor travel journal style, friendly handwritten headings with crisp readable body Japanese and exact Thai text. Eight cards 2 columns x 4 rows, 65% useful text 35% appetizing dish sketches. Compact title and ingredients strip, small footer. Coral ochre green blue accents, white safe margins. No source/report/TSV attribution. Do not claim 100 dishes: exactly eight. No medical benefits, absolute recipe rules or fixed universal spice scores. All exact text:
+Title "北タイ・ランナー料理 味わい図鑑"
+Subtitle "名前の意味と、香りで覚える8つの定番"
+Badge "021"
+Intro "もち米、発酵大豆、土地のハーブ。料理の背景を知ると、食べる楽しみが広がる。"
+
+01 カオソーイ
+ข้าวซอย
+名前：「ソーイ」は細切り・刻む。
+味：カレースープのコクとスパイス。店によって濃厚さが異なる。
+具材例：鶏・牛、茹で卵麺、揚げ麺。
+楽しみ方：高菜漬け、紫玉ねぎ、ライムを少しずつ添える。
+Illustration: golden curry egg noodle soup chicken with crispy noodles, lime and pickled greens.
+
+02 ゲーン・ハンレー
+แกงฮังเล
+名前：ビルマ語に由来するとされる。
+味：タマリンドの酸味、甘み、生姜と香辛料が重なる豚肉の煮込み。
+具材例：豚バラ、ニンニク、生姜。
+楽しみ方：もち米と合わせて、濃厚な煮汁を味わう。
+Illustration: brown red pork belly curry chunks with whole garlic and ginger strands, woven sticky rice basket.
+
+03 サイウア
+ไส้อั่ว
+名前：「サイ」は腸、「ウア」は詰める。
+味：焼いた肉の香ばしさと鮮やかなハーブ香。辛さは店による。
+具材例：豚肉、レモングラス、コブミカン葉、ウコン、唐辛子。
+楽しみ方：切り分けて、もち米や野菜と。
+Illustration: coiled grilled sausage with cut slices showing herbs, lemongrass and makrut lime leaves.
+
+04 ナムプリック・ヌム
+น้ำพริกหนุ่ม
+名前：若い青唐辛子のディップ。
+味：焼き青唐辛子と香味野菜の香ばしさ、すっきりした辛味。
+具材例：青唐辛子、ニンニク、エシャロット。
+楽しみ方：豚皮揚げや蒸し野菜につける。
+Illustration: green chunky chili dip with steamed vegetables and crispy pork rinds.
+
+05 ナムプリック・オーン
+น้ำพริกอ่อง
+名前：「オーン」は炒め煮の調理法に関わる言葉。
+味：トマトの甘酸っぱさと豚肉の旨味。比較的穏やかな味のものも。
+具材例：トマト、豚ひき肉、発酵大豆、香味野菜。
+楽しみ方：きゅうりやキャベツと一緒に。
+Illustration: red tomato minced pork dip, cucumber slices cabbage and tomato.
+
+06 ゲーン・ケー
+แกงแค
+名前：「ゲーン」は汁物の料理名。
+味：多彩な野菜とハーブ、肉の旨味を楽しむ北部のスープ。
+具材例：鶏肉、葉野菜、ナス、キノコ、香辛料。季節や家庭で変わる。
+楽しみ方：その日の野菜や肉を尋ねてみよう。
+Illustration: broth bowl with leafy greens small eggplants mushrooms and cooked chicken, no medicinal claims.
+
+07 ラープ・クア
+ลาบคั่ว
+名前：「クア」は炒る・炒める。
+味：北部の香辛料と揚げニンニクの香りを生かした、火を通したラープ。
+具材例：豚・牛の刻み肉、内臓、プリック・ラープ、ハーブ。
+楽しみ方：肉の種類と辛さを確認して注文。
+Illustration: cooked minced meat with garlic chips herbs and spices, fully cooked no raw meat.
+
+08 カノムジーン・ナムギョウ
+ขนมจีนน้ำเงี้ยว
+名前：「カノムジーン」は米麺。シャンの食文化と結びつく料理。
+味：トマトの酸味と豚骨、発酵大豆のコク。
+具材例：米麺、豚肉、血豆腐、キワタの乾燥花。
+楽しみ方：もやしや漬物と食感を比べる。
+Illustration: red tomato pork broth rice noodles, ribs and dark cooked blood curd cubes, dried kapok flowers.
+
+Bottom strip heading "香りのキーワード"
+"トゥアナオ＝発酵大豆　マクウェン＝北部の香辛料　カオニャオ＝もち米"
+Tiny footer ONLY "具材・辛さ・調理法は店や家庭によって異なります。食べられない食材は注文時に確認してください。"
+All eight dishes Japanese clear Thai correct, white print-ready hand-drawn image no extra text.

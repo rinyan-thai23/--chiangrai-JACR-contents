@@ -1,0 +1,65 @@
+Create ONE finished Japanese illustrated Chiang Rai travel guide issue 011, A4 PORTRAIT ratio 210:297 high resolution. Clean hand-drawn ink and watercolor series, pure OPAQUE WHITE page and text areas, crisp black readable Japanese, no transparency, dark backgrounds, gray washes, paper grain or noise. Warm coral mustard leaf green accents. Five illustrated information cards: first full width then 2x2, header and small ticket summary, lower souvenir/visit checklist. Text 65% illustrations 35%, print-safe margins. Friendly handlettered headings, precise text, modest decorative flowers and mountain foliage. No source credits, TSV or research report labels. No invented facts, logos or schedules. Use all exact Japanese text below, price/time information explicitly estimates, not live confirmations.
+
+Title "ドイトゥン 王室プロジェクトガイド"
+Subtitle "ロイヤルヴィラ・花の庭園・森をめぐる旅"
+Badge "011"
+Intro "森林再生と地域の自立を支えた取り組みを、景色と暮らしから知る。"
+Ticket strip heading "チケットの目安"
+"単館 90B／共通セット券 220B"
+"対象施設・割引条件・当日の営業は購入前に確認。"
+
+01 ドイトゥン・ロイヤルヴィラ
+Doi Tung Royal Villa
+営業時間の目安 08:00〜17:00
+単館 90B
+故シーナカリン王太后の活動拠点。スイスの山荘とランナー様式が融合した木造建築。
+見どころ：気品ある生活空間と執務室、天井の星座の木彫り。
+廃材を活用した建築から、ものを大切にする姿勢を感じよう。
+館内の服装・撮影・入場方法は現地の案内に従う。
+Illustration: low elegant wood Swiss-Lanna chalet royal villa on hillside with flower foreground, small constellation wood carving detail. No portraits or grand European palace.
+
+02 メーファールアン庭園
+Mae Fah Luang Garden
+営業時間の目安 08:00〜17:00
+単館 90B
+谷間に広がる花の庭園。土地の再生と地域の仕事づくりを象徴する場所。
+見どころ：季節の花、高山植物、子どもたちのブロンズ像「コンティニュイティ」。
+ひと休み：Café DoiTungでアラビカコーヒーを。
+花壇に入らず、園路から撮影しよう。
+Illustration: colorful landscaped flowerbeds with footpath, small bronze sculpture of children helping each other climb, coffee cup.
+
+03 インスピレーション・ホール
+Hall of Inspiration
+営業時間の目安 08:00〜17:00
+単館 90B
+マヒドン王家の生涯と、人道支援・地域の自立支援を学ぶ展示館。
+見どころ：写真、歴史資料、映像を通して知るドイトゥンの変化。
+ケシ栽培に頼る生活から、新たな生業と森林再生へ。
+庭園やヴィラと合わせて訪れると理解が深まる。
+Illustration: modest museum facade and small exhibit panels with botanical and forest icons, no fabricated readable historic documents.
+
+04 メーファールアン・樹木園
+Doi Chang Moob Arboretum
+営業時間の目安 08:00〜17:00
+単館 90B／標高約1,500m
+国境の尾根沿いに広がる高山植物園。松林の自然歩道で山の空気を楽しむ。
+見どころ：シャクナゲ、野生ラン、ヒマラヤザクラ。
+天候に恵まれれば、周辺から山並みや雲海を望める。
+展望地点の立入条件は現地で確認。
+Illustration: pines and flowering rhododendrons, layered mountains and cloud sea, safe footpath.
+
+05 ドイトゥン・ツリートップウォーク
+Doi Tung Tree Top Walk
+営業時間の目安 08:30〜16:30
+体験料金の目安 150B／回
+別途、庭園入場券が必要。
+森の高い位置に架かる吊り橋を、ガイドと歩く体験。
+目安：全長約300m／地上約10〜40m
+参加条件の目安：12歳以上・身長120cm以上。
+営業・参加条件を事前確認。安全装備を着け、係員の指示に従おう。
+Illustration: narrow suspended canopy footbridge with mesh side rails, a few adults visibly in safety harnesses attached to overhead safety cable, local guide in front, trees, no unprotected visitors.
+
+Bottom band heading "旅の楽しみ＆持ちもの"
+Small separate icons text "コーヒー" "マカダミアのお菓子" "手織り布・陶器" "歩きやすい靴" "山の冷えに羽織りもの"
+Tiny footer ONLY "B＝タイバーツ。料金・営業時間・公開状況は変更される場合があります。訪問前に最新情報をご確認ください。"
+All five facilities, no clipped text, WHITE background, hand-drawn travel illustration, legible Japanese.

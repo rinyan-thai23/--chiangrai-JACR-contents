@@ -1,0 +1,61 @@
+Create ONE finished Japanese illustrated travel guide issue 007, A4 PORTRAIT 210:297 high resolution. Match hand-drawn ink and watercolor Chiang Rai travel guide series. Opaque pure WHITE background and text areas, crisp black legible Japanese text, no transparency, gray wash, noise, grain or dark backgrounds. 8mm print-safe margin. Friendly handlettered headings, organized information-rich 6-card layout, 2 columns x 3 rows, compact header and bottom etiquette checklist. Warm coral, mustard, leaf green and blue accents sparingly. About 65% text, 35% small watercolor illustrations. Respectful contemporary cultural guide: dignified adults, no exoticized caricatures, no stereotypes of facial features, no primitive imagery. Traditional dress illustrations explicitly examples, not uniforms of everyone. No claims all people dress traditionally today. No source, TSV, research report attribution. Copy supplied text accurately.
+
+Title "ドイメーサロン 歴史と文化ガイド"
+Subtitle "茶の里と、チェンライの多彩な山岳民族文化"
+Badge "007"
+Intro "衣装・手仕事・祭りを知って、暮らしに敬意を払う旅へ。"
+Small note "衣装や信仰は地域・支族・世代によって異なります。"
+
+01 ドイメーサロン・雲南系華人
+Doi Mae Salong / サンティキリ
+歴史：国共内戦後に雲南から移動した旧国民党系部隊が1961年に定住。
+茶と暮らし：高山烏龍茶や梅の栽培、観光へと発展。中国語や漢字文化が息づく。
+訪ねる：泰北義民文史館、茶館、段希文将軍墓所。
+味わう：烏龍茶、雲南麺、豚角煮包子。
+マナー：史跡は静かに見学。試飲では丁寧に対話を。
+Illustration: terraced tea fields, small tea house, pot and buns, no soldiers or weapons.
+
+02 アカ族
+Akha
+背景：雲南などから移住し、タイ北部に暮らす。口伝の生活規範「アカ・ザーン」を継承。
+衣装の例：藍染め布、銀貨・貝殻・ビーズを飾る立体的な頭飾り、脚絆の刺繍。
+文化：豊穣を祈るブランコ祭り。村の境界には神聖な精霊門。
+訪問の心得：精霊門には触れない。敷居を踏まず、撮影は許可を得る。
+Illustration: dignified adult woman in indigo traditional clothing with silver coins and shell headdress, modest decorative textile sample, small wooden swing without riders.
+
+03 リス族
+Lisu
+背景：雲南のサルウィン川流域にルーツを持ち、タイ北部へ移住。
+衣装の例：青・紫・桃色の長衣、細い布テープの装飾、虹色の腰飾り、銀の胸飾り。
+文化：旧正月の祝い「ギンウォ」。楽器に合わせて輪になって踊る。
+訪問の心得：守護霊の祠へ無断で入らない。踊りの輪を横切らない。
+Illustration: dignified adult in turquoise purple tunic with colorful narrow fabric bands and fringe, tiny dance-circle silhouettes.
+
+04 ヤオ族／ミエン
+Yao / Iu Mien
+背景：中国南部にルーツを持ち、漢字の儀礼文書や家系図を継承。
+衣装の例：黒や濃紺の上着に真紅の毛糸襟、緻密な刺繍ズボン、黒いターバン。
+文化：道教に由来する祭祀、男子の成年儀礼「度戒」、旧正月。
+訪問の心得：祭壇・神画・儀礼具には触れない。手刺繍の仕事を尊重しよう。
+Illustration: dignified adult woman with black wrapped turban, thick bright red yarn collar on dark coat, geometric embroidered trousers and small embroidery detail. No invented sacred paintings.
+
+05 ラフ族
+Lahu
+背景：雲南などを経て南下。黒ラフ・赤ラフなどの支族がある。
+衣装の例：黒地の服に赤い布や銀の飾り。色や形は支族によって異なる。
+文化：瓢箪笛の音色、新年の踊りや長老への手洗い儀礼。信仰も集落ごとに多様。
+訪問の心得：祈祷所へ無断で入らない。各集落の宗教規範を尊重する。
+Illustration: dignified adult in black and red traditional clothing with small silver round ornaments, separate bamboo gourd reed musical instrument.
+
+06 モン族
+Hmong
+背景：中国からタイ北部などへ移住。白モン、青・緑モンなどの支族がある。
+衣装の例：ヘンプ布のろうけつ染め、藍色のプリーツスカート、銀の首飾り。
+文化：正月の布ボール投げ、笙の仲間「ケーン」の演奏。
+訪問の心得：敷居を踏まない。儀礼を妨げず、フラッシュ撮影を控える。
+Illustration: dignified adult woman in indigo batik pleated skirt with silver necklaces, batik textile swatch and small cloth ball. Do not mix Akha headdress into Hmong clothing.
+
+Bottom header "集落訪問の共通マナー"
+Small icons and labels "人物撮影は事前に許可" "祭具・門に触れない" "暮らしの場では静かに" "手仕事に敬意を"
+Tiny footer ONLY "祭礼日程や訪問条件は集落によって異なります。現地の案内と住民の意向を尊重してください。"
+All six entries must fit, no extra invented statements or dates, readable Japanese on pure white, no attribution.

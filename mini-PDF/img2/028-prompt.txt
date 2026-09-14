@@ -1,0 +1,78 @@
+Create ONE Japanese illustrated printable travel guide issue 028. A4 PORTRAIT 210:297 high resolution, PURE opaque WHITE background and text areas, black highly legible Japanese, hand-drawn ink brush headings and delicate watercolor bus/landmark sketches. Same Chiang Rai series, dense text 65% art35%. Eight numbered cards 2 columns x4 rows, plus compact terminal guidance and booking checklist. Do not draw geographic route map, no inaccurate route lines. No definitive current fares, daily frequencies, departure times or terminal assignments. No source/report/TSV attribution. Do not promise international border crossing. Exact text:
+
+Title: チェンライ発 北タイ周遊バス手帖
+Subtitle: 行き先で選ぶ8ルート・乗車前の確認ポイント
+Badge: 028
+Intro: 所要時間は計画用の目安。運行日・乗車場所・料金は予約時に確認しよう。
+Top strip: 第1BT＝市内中心部　／　第2BT＝市街地南側
+Small text: 行き先だけで判断せず、切符に記載されたターミナルと乗り場を確認。
+
+01 チェンマイ
+Chiang Mai
+時間の目安：約3時間半〜4時間
+探し方：Greenbusの出発日・乗降地点を検索。
+確認すること：第1・第2BTのどちらから乗る便か、チェンマイの到着ターミナル。
+旅の組み方：到着後の市内移動も含めて余裕を。
+Art: green intercity bus beside Chiang Mai brick gate, no logos needed.
+
+02 パヤオ
+Phayao
+時間の目安：約1時間半〜2時間
+探し方：幹線バスと普通路線の運行状況を窓口で確認。
+確認すること：パヤオで降車できる便か、乗り場と帰りの最終便。
+旅の組み方：途中停車の多さで所要時間が変わる。
+Art: lakeside Phayao waterfront and small bus.
+
+03 ナーン
+Nan
+時間の目安：直行なら約5〜5時間半
+探し方：直行便の運行日を確認。見つからなければ乗継も相談。
+確認すること：運行会社・出発地・直行か乗継か。
+旅の組み方：山道を含む長距離移動。乗継待ち時間は別に見込む。
+Art: winding mountain road and northern Nan temple vignette.
+
+04 プレー
+Phrae
+時間の目安：約4時間前後
+探し方：Greenbusなどの予約窓口で行き先を検索。
+確認すること：降車地点がプレーのどこか、途中下車扱いか。
+旅の組み方：到着後の宿までの移動方法も確認。
+Art: historic teak mansion and small luggage.
+
+05 ラムパーン
+Lampang
+時間の目安：約3時間半〜4時間
+探し方：南下する路線のラムパーン停車便を確認。
+確認すること：発着ターミナル、車両クラス、荷物の条件。
+旅の組み方：乗車前に到着地の名前を切符と照合。
+Art: traditional horse carriage landmark and distant intercity bus.
+
+06 メーサイ
+Mae Sai
+時間の目安：約1〜1時間半
+探し方：普通バス・ミニバンの当日の案内を確認。
+確認すること：終点がバスターミナルか市街地か、その先の移動。
+旅の組み方：国境の街への国内移動。越境条件は別途確認。
+Art: small passenger minivan and northern town market, no crossing promise.
+
+07 チェンコーン
+Chiang Khong
+時間の目安：約2〜2時間半
+探し方：市内のバス窓口で運行便と降車地を確認。
+確認すること：市街地・バスターミナル・国境方面を区別。
+旅の組み方：国境へ向かう場合は、別の移動と手続きの時間を確保。
+Art: Mekong riverbank town with small local bus, no international route arrow.
+
+08 パーイ／メーホンソーン
+Pai / Mae Hong Son
+旅程の目安：乗継を含めて一日単位で計画
+探し方：チェンマイ経由の乗継を検討。 onward services Prempracha is text only below:
+チェンマイから先はPremprachaの便を確認。
+確認すること：パーイとメーホンソーンは別の行き先。各区間の時間と乗り場を確認。
+旅の組み方：山道と接続待ちを考え、無理な同日乗継を避ける。
+Art: minivan green mountain curves with lake temple, no combined total time.
+
+Bottom heading: 切符を買う前に
+Text: 日付・行き先 → 発着ターミナル → 時刻・空席・運賃 → 荷物・乗継
+Tiny footer only: 所要時間は目安です。運行・料金・乗り場は変更されます。出発前に運行会社または窓口で最新情報を確認してください。
+IMPORTANT card08 render only Japanese and proper operator name, DO NOT render the English instruction sentence 'onward services...' as text. All eight panels. White hand-drawn print-ready page.

@@ -1,0 +1,64 @@
+Use case: infographic-diagram
+Create ONE finished high-resolution Japanese travel guide image, A4 PORTRAIT aspect ratio 210:297, ideally 2480 x 3508 pixels. Flat printable artwork, no mockup, no photographic desk. Title "チェンライ 主要寺院 拝観ガイド", subtitle "7つの寺院をめぐる、旅の持ち歩きノート", small issue badge "001".
+Style: charming hand-drawn travel journal, fine dark ink outlines, delicate watercolor and colored-pencil fills, very pale warm ivory almost white paper, restrained mustard yellow, terracotta, sapphire blue and leafy green. Temple sketches accurate to each described landmark. Friendly editorial illustration, dense useful content, immaculate legible Japanese typesetting with handwritten feel for headings, clean printed Japanese for body. No malformed Japanese or invented text. Maximize reading quality and information density. 8mm safe outer margins. Artwork fills page.
+Layout: compact title 8% of page, seven organized illustrated cards in a two-column layout with the final long-name card spanning full width as necessary; lower full-width shared etiquette strip. Every card has number, Japanese title, smaller English name, a distinctive modest-sized temple sketch, 2 concise fact lines, bold opening times / fees and a small caution line. Balance illustrations ~30% and text ~70%. No map or route arrows. Include all seven cards; do not omit text. Long Japanese titles may wrap neatly. The visuals must be HAND DRAWN rather than corporate boxes: thin organic dividers, small hand-highlighted labels, clock / coin / camera / shoe icons. Tiny flower and travel stamp accents only if space permits.
+Exact content (render the following Japanese correctly; line wrapping flexible):
+01 ワット・プラケオ
+Wat Phra Kaew
+1434年、エメラルド仏が発見された王室寺院。
+翡翠仏とランナー仏教美術の木造博物館が見どころ。
+境内 07:00–18:00
+博物館 09:00–17:00
+入場無料
+本堂・翡翠仏堂では脱帽・脱靴。
+Illustration: traditional Lanna red and gold layered roof temple, small green jade Buddha inset.
+02 ワット・ロンクン［白の寺］
+Wat Rong Khun
+純白の建築と鏡モザイクが輝く、現代仏教芸術。
+輪廻の橋・本堂壁画・黄金の化粧室にも注目。
+08:00–17:00
+外国人 200バーツ（芸術洞窟を含む）
+本堂内は写真・動画禁止。橋は一方通行。
+Illustration: finely ornate white temple and curved white bridge, tiny gold restroom inset.
+03 ワット・ロン・スアテン［青の寺］
+Wat Rong Suea Ten
+サファイアブルーと金が彩る本堂に、6.5mの白い本尊。
+巨大ナーガの彫刻と夜間ライトアップも見どころ。
+07:00–20:00 ／ 入場無料
+本堂では脱靴。礼拝者を遮らずに撮影。
+Illustration: sapphire and gold ornate facade with white seated Buddha and blue naga.
+04 ワット・フワイ・プラーカン
+Wat Huay Pla Kang
+約69mの白い観音像と九重の塔が目印。
+像内のエレベーターで展望と白漆喰彫刻を楽しむ。
+境内 07:00–21:00 ／ 入場無料
+エレベーター 07:00–18:00
+外国人 40バーツ（現金）
+礼拝堂・仏塔内では脱靴。ドローン禁止。
+Illustration: large white seated Guanyin with nine-tier Chinese-style pagoda.
+05 ワット・プラシン
+Wat Phra Sing
+1385年創建。優美なランナー様式の王室寺院。
+四大元素を表す木彫り扉と金色の仏塔に注目。
+07:00–18:30 ／ 入場無料
+本堂では脱靴。静かに礼拝を見守ろう。
+Illustration: low layered wooden Lanna roof and golden stupa, carved wood detail.
+06 ワット・クラーンウィアン
+Wat Klang Wiang
+1432年創建。古都の中心「街のへそ」に建つ寺。
+市柱を祀る朱色と金の仏堂、精緻な彫刻が見どころ。
+08:00–20:00 ／ 入場無料
+地元の礼拝所。静粛に、本堂では脱靴。
+Illustration: red and gold ornate temple and small pointed shrine.
+07 ワット・プラタート・ドーイチョームトーン
+Wat Phra That Doi Chom Thong
+1262年、メンラーイ王がチェンライ築城を構想した丘。
+仏舎利を納める黄金の仏塔と、隣接する108本の市柱群。
+07:00–17:00 ／ 入場無料
+仏塔・市柱群では現地の脱靴案内に従い、敬意を払おう。
+Illustration: gold octagonal stupa on leafy hill with a cluster of stone city pillars.
+Bottom strip heading "参拝前のチェック"
+"肩・膝を覆う服装" "堂内は脱靴・脱帽" "礼拝者を優先" "撮影は現地表示を確認" "小額の現金を用意"
+Use small hand-drawn modest clothing, shoes, camera and coin icons.
+Small footer exactly: "出典：001 リサーチデータレポート・TSV ｜ 時間・料金は元資料に基づきます。訪問前に最新情報をご確認ください。"
+This is a redesign of a vintage hand-drawn illustrated guide, with much more organized complete information and correct Japanese. Do not invent extra factual text. Prioritize all supplied text, clear reading order and unclipped content.

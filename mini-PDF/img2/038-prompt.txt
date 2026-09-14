@@ -1,0 +1,89 @@
+Create ONE Japanese illustrated travel reference sheet, infographic-diagram, A4 PORTRAIT high resolution. Series badge 038. Match earlier Chiang Rai travel series: charming hand-drawn black ink, small watercolor illustrations, clear thick black Japanese headings, crisp readable black Japanese body text, thin hand-ink panel rules, orange and sage highlights. Pure opaque WHITE background, no beige paper or texture or dark panels. Dense information beautifully organized into six panels in 2 columns x 3 rows, first panel slightly larger as needed. Small drawings of older adult traveler, passport, calendar, bankbook, house, airplane, document folders; drawings 20% of area, text 80%. No sources/credits/TSV/research text, no QR. Horizontal Japanese writing. Exact text below, don't invent legal claims or extra text.
+
+Title: タイ長期滞在 手続き早見表
+Subtitle: リタイアメント・90日届出・再入国｜チェンライ滞在メモ
+Top emphasis ribbon: 「滞在期限の延長」と「住所の届出」は別の手続き
+
+Panel 01:
+01 年次の滞在延長
+TM.7｜Non-O・リタイアメント
+対象：原則50歳以上
+準備：期限の約１か月前から管轄入管へ相談
+資金要件の代表例
+● タイの預金80万THB以上
+申請前２か月・許可後３か月維持。
+その後も40万THBを下回らないこと。
+次回申請前の残高条件にも注意。
+● または月収6.5万THB以上の証明
+組合せ方式などの条件は入管で確認。
+主な書類：旅券・写真・銀行証明・通帳・住所資料
+滞在許可の期限を必ず確認！
+
+Panel 02:
+02 90日レポート
+TM.47｜住所の届出
+タイに連続90日滞在する場合に必要
+窓口：期限15日前〜７日後
+オンライン：期限前に余裕をもって申請
+受付条件・初回の扱いは公式画面で確認。
+主な書類：旅券情報・住所・前回の受領票
+手数料：無料
+出国後は再入国日から数え直し。
+承認済みの受領票と次回日付を保存。
+この届出で滞在期限は延びません。
+
+Panel 03:
+03 宿泊先の届出
+TM.30｜家主・ホテル等の届出
+原則、外国人の到着から24時間以内
+家主・住居の占有者・ホテル管理者等が提出。
+宿泊者も届出済みか確認して控えを保管。
+主な情報：旅券・入国情報・宿泊先の住所
+家主側の身分・住居資料等も必要。
+窓口または公式オンライン
+再宿泊時などの例外・再届出は管轄へ確認。
+
+Panel 04:
+04 出国前の再入国許可
+TM.8｜リエントリーパーミット
+必要な人は、出国審査の前に取得
+シングル：1,000THB
+マルチプル：3,800THB
+主な書類：旅券・申請書・写真・写し
+年次延長中に無許可で出国すると、
+元の滞在許可を失うため要注意。
+再入国許可で滞在期限は延びません。
+窓口・空港での取扱いは事前に確認。
+
+Panel 05:
+05 LTRという別の選択肢
+BOI｜長期居住者ビザ
+最長10年：まず５年＋要件再確認後５年
+対象区分ごとに所得・資産等の審査あり。
+50歳以上だけで取得できる制度ではありません。
+医療保険等の要件・代替条件も確認。
+国内発給手数料：50,000THB
+国外発給は金額が異なる場合あり。
+連続滞在の届出は１年ごと（TM.95）。
+複数回入国可。TM.30は別途必要。
+
+Panel 06:
+06 国内でNon-Oへ切替
+TM.86／TM.87
+観光ビザ等：TM.86
+査証免除等：TM.87
+滞在期限に十分な残り日数が必要。
+15日ぎりぎりを避け、早めに管轄へ相談。
+主な書類：旅券・写真・住所資料・資金証明
+預金方式では海外送金の証明等も確認。
+審査・許可を経て、通常90日の滞在へ。
+１年の滞在延長は、その後の別申請。
+
+Bottom compact strip:
+期限を別々にメモ
+滞在許可期限：＿＿＿＿　90日届出：＿＿＿＿
+出国予定：＿＿＿＿　再入国許可：□確認済
+Small footer:
+※2026年9月確認。代表的な手続きの概要です。必要書類・受付期間は資格や管轄で異なります。申請前に最新の入管・BOI案内をご確認ください。
+
+Keep all six panels distinct, no repetition, accurate numerals, print-readable text, clean white margins, no clipped text.

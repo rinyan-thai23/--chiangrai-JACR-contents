@@ -1,0 +1,59 @@
+Create ONE Japanese illustrated printable travel guide issue 017, A4 PORTRAIT 210:297 high resolution. Match Chiang Rai hand-drawn ink watercolor travel series. Opaque PURE WHITE page and text backgrounds, crisp solid black legible Japanese, no transparency dark wash noise or grain. Warm coral ochre green accents, 65% text 35% small illustrations. Five cards first full width then 2x2, compact historical timeline and visit checklist. White print margins. Distinguish legend from history explicitly. No source/report/TSV attribution, invented facts, exact map or claim that legendary city corresponds definitively to one archaeological site. Render exact content:
+
+Title "チェンライ はじまりの歴史ガイド"
+Subtitle "マンラーイ王と、古都に残る5つの手がかり"
+Badge "017"
+Intro "マンラーイ王は、メンラーイ王とも表記されるランナーの開祖。寺院と記念碑から街の歩みをたどろう。"
+Timeline heading "歴史をたどる目安"
+"1262 チェンライ創建 → 1385頃 プラシン寺 → 1434 エメラルド仏発見"
+"1964 王の記念碑 → 1987 市柱群の整備"
+
+01 メンラーイ王記念碑
+King Mengrai Monument
+1964年建立／市街の五叉路
+1262年にチェンライを築いた王を顕彰する記念碑。
+見どころ：王の青銅立像と、背後にそびえる黄金の幟「トゥン」。
+街を築いた人物を知る、歴史散策の出発点に。
+市民の祈願の場でもあるため、参拝者を優先し静かに見学しよう。
+Illustration: dignified standing bronze Lanna king with sheathed sword on monument pedestal and golden banner poles, flowers at base, no battle.
+
+02 ドイ・チョームトーンと市柱群
+Doi Chom Thong / サドゥー・ムアン
+伝承の丘／市柱群は1987年整備
+伝承では、王が象を追って丘に登り、街を築く場所を見定めたという。
+見どころ：黄金の仏塔と、宇宙観を表す108本の石柱群。
+「市のへそ」と呼ばれる象徴的な場所で、都市の成り立ちを想像しよう。
+脱靴や立入範囲は現地の案内に従う。
+Illustration: golden stupa and cluster of stone pillars on leafy hill, small pale inset elephant marked "伝承" separate from real monument.
+
+03 ワット・プラシン
+Wat Phra Sing
+1385年頃創建と伝わる王室寺院
+王の時代に続くランナーの信仰と美術を伝える。
+見どころ：伝統的な木造本堂、プラ・プッタシヒンの複製像。
+タワン・ダッチャニー氏による「地水火風」を表す木彫り扉にも注目。
+建築と彫刻を、礼拝の妨げにならない場所から鑑賞しよう。
+Illustration: low layered Lanna wooden temple with gold details and carved door closeup, small seated bronze Buddha.
+
+04 ワット・プラケオ
+Wat Phra Kaew
+1434年 エメラルド仏発見の地
+仏塔への落雷をきっかけに、エメラルド仏が発見されたと伝わる古刹。
+見どころ：現在安置される翡翠仏「プラヨーク・チェンライ」、木造仏堂、青銅仏、宝物館。
+現在の翡翠仏と、発見されたエメラルド仏は別の像。
+堂内では脱靴し、撮影の案内を確認。
+Illustration: Lanna wooden temple and jade green Buddha in small inset, no suggestion original Emerald Buddha is presently here.
+
+05 古都ヒランナコーン・グエンヤーン
+Hiran Nakhon Ngoen Yang
+チェンライ創建以前の歴史を知る手がかり
+マンラーイ王の出自と結びつく古都・王統として、年代記や伝承に登場する。
+始祖が銀の梯子で天から降りたという物語も、伝承として語り継がれる。
+学び方：チェンセーン周辺の博物館や史跡解説で、考古資料と伝承を読み分けよう。
+古都の位置や年代には諸説があり、個々の遺構との同定は慎重に。
+Illustration: understated old earthen ramparts moat landscape and a museum history book, no fantasy palace, no invented excavated city map.
+
+Bottom heading "歴史散策の楽しみ方"
+Small icons labels "年代を見比べる" "伝承と史実を分ける" "彫刻の細部を見る" "祈りの場に敬意を"
+Tiny footer ONLY "歴史の年代・伝承には諸説があります。公開状況や参拝ルールは現地の案内をご確認ください。"
+All five cards, exact clean Japanese, readable white printable image.

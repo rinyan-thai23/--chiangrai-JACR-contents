@@ -1,0 +1,2 @@
+Edit only the tiny footer on this image. Remove the source attribution "出典：001 リサーチデータレポート・TSV" entirely. Replace the entire bottom footer with this single small, legible Japanese caution, centered: "時間・料金は変更される場合があります。訪問前に最新情報をご確認ください。"
+Keep absolutely everything else unchanged: white opaque background, all seven illustrated temple cards, all Japanese content, headings, illustrations, colors, layout, dimensions, margins, and checklist. Do not add any attribution. This is a precise footer text edit only.

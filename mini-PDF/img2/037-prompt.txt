@@ -1,0 +1,62 @@
+Use case: infographic-diagram. Create ONE polished Japanese travel information sheet, A4 PORTRAIT aspect ratio, high resolution. Series 037 for Chiang Rai travelers. Hand-drawn black ink headings and delicate watercolor illustrations like a charming Japanese travel notebook. Pure opaque WHITE #FFFFFF paper background everywhere, no beige texture, no dark panels. Legible accurate BLACK Japanese text; ample font size for printing despite dense information. Muted orange, sage, blue accents only in icons and small underlines. Tight organized panels with thin hand-ink borders, small temple, calendar, candle, lotus, umbrella, ballot-box illustrations. Text occupies about 70%, illustrations 30%. No credit, source line, TSV, research report, QR codes or invented text. All text below verbatim; avoid extra prose. Heading clearly 2026年版; badge 037. Typography horizontal Japanese on portrait page, no vertical columns of characters.
+
+TITLE: タイのお酒と祝日カレンダー
+SUBTITLE: 2026年版｜チェンライ旅行の前にチェック
+
+Top full-width compact clock panel:
+毎日の販売時間
+原則 11:00〜24:00
+2026年5月29日から、14:00〜17:00も通常の販売時間に。
+禁酒日・選挙日は別ルール。施設の許可や場所によって例外があります。
+
+Main middle section:
+酒類販売に注意する５つの仏教行事
+一般の小売店では当日0:00〜24:00、原則販売禁止。
+
+Five illustrated mini cards, in orderly two-column grid with fifth spanning width or integrated narrow card:
+3月3日（火） 万仏節
+マカブーチャ
+1,250人の弟子の集まりを記念。寺院ではろうそくを手に巡る行事。
+
+5月31日（日） 仏誕節
+ウィサーカブーチャ
+仏陀の誕生・悟り・入滅を記念する大切な日。
+
+7月29日（水） 三宝節
+アサラハブーチャ
+最初の説法と「仏・法・僧」の三宝を記念。
+
+7月30日（木） 入安居
+カオパンサー
+僧侶が雨季の修行に入る日。三宝節と２日連続で販売に注意。
+
+10月26日（月） 出安居
+オークパンサー
+雨季の修行が明ける日。一般の祝日でなくても販売規制の対象。
+
+Compact note directly attached to five cards:
+仏教行事の例外
+法定のホテル・国際線施設・許可施設などは例外あり。
+すべてのバーや観光地が対象ではありません。店頭で確認を。
+
+Next section two side-by-side cards:
+祝日だけで一律禁酒にはなりません
+4月6日（月） チャクリー記念日
+王朝の創設を記念する祝日。
+4月13〜15日（月〜水） ソンクラーン
+タイ正月の水掛け祭り。会場ごとの規制に従いましょう。
+
+選挙日は別に確認
+前日18:00 → 投票日18:00
+対象区域で酒類の販売・配布・提供が禁止。
+期日前投票や地方選挙にも注意。
+滞在先の選挙日程と対象区域を確認しましょう。
+
+Bottom useful strip:
+旅先での確認メモ
+□ 当年の行事日　□ 選挙の有無　□ 店の販売時間
+□ 寺院・会場のルール　□ 帰りの交通手段
+Small footer only:
+※2026年9月確認。日程・規制は変更されることがあります。渡航前に最新情報をご確認ください。飲酒運転はしないでください。
+
+Ensure exact Gregorian 2026 dates and weekday spelling, no assertion of universal complete personal drinking ban. Print-friendly generous outer 5% margins. No cropped text. Beautiful, dense but readable editorial illustrated guide.

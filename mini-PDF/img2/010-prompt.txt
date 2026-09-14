@@ -1,0 +1,72 @@
+Create ONE finished Japanese illustrated travel guide issue 010. A4 PORTRAIT ratio 210:297 high resolution for printing. Same friendly hand-drawn ink and watercolor Chiang Rai series. Opaque PURE WHITE page and all body text backgrounds, crisp readable black Japanese, no transparency, dark page, gray wash, grain or texture. Warm coral mustard green blue highlights, small market and food illustrations. Dense useful text 65%, art 35%. Five illustrated cards: first full-width, others 2x2, compact ingredients mini-dictionary and shopping checklist at bottom. Print-safe white margins. No source credits, report, TSV mentions. No map, no invented shops/prices. Exact Japanese text, unclipped readable layout.
+
+Title "チェンライ ローカル市場ガイド"
+Subtitle "朝の食材、花と果物、夕方のおかず探し"
+Badge "010"
+Small purpose strip "目的で選ぼう"
+"青果 → ラーンムアン　北部の味 → ガート・ルアン　花と果物 → シリコーン"
+"家庭の食材 → デンハー　夕食のおかず → バーンマイ"
+
+01 タラート・ラーンムアン
+Talat Lan Mueang / 卸売青果市場
+場所：メーコーン交差点近く・国道1号線沿い
+青果卸売棟 24時間／生鮮小売棟 05:00〜19:00
+旅行者の散策目安 07:00〜10:00
+野菜・果物が箱やコンテナで集まる流通拠点。高原野菜、精肉、川魚、調味料も。
+探す：プーレーパイナップル、柑橘、ライチ、山岳ハーブ、キノコ。
+買い方：箱・キロ単位の価格と、小分け購入の可否を確認。
+台車や荷役車両の通行を妨げないように。
+Illustration: produce market stalls with stacked crates, pineapples cabbages citrus, vendor and handcart safely separated, white behind text.
+
+02 ガート・ルアン
+Kad Luang / 市営第1市場
+場所：市街中心部・ウッタラキット通り
+朝の目安 05:00〜08:30
+夕方の目安 16:00〜18:30
+北部の総菜、肉魚、山菜、乾物が集まる市民の台所。
+探す：サイウア、ナムプリック・ヌム、ケープムー、トゥアナオ、マクウェン。
+買い方：少量ずつ選んで、北部の味を食べ比べ。
+托鉢や買い物中の人の通行を妨げない。
+Illustration: northern Thai coiled sausage, green chili dip and crispy pork rinds in small dishes, market vendor.
+
+03 タラート・シリコーン
+Talat Sirikorn / 花と果物
+場所：時計塔の南東側
+05:00〜21:00
+花・果物の入荷目安 05:00〜08:30
+切り花、蓮、ジャスミン花輪と季節の果物。夜は軽食屋台も。
+探す：プーレーパイナップル、マンゴー、ランの花。
+カットパイナップル 約20〜30B
+花輪「プアンマーライ」の細工と香りも楽しもう。
+Illustration: pineapple cut pieces in cup, mango and intricate white jasmine garland with red tassels, lotus buds.
+
+04 タラート・デンハー
+Talat Den Ha / 地域の生活市場
+場所：デンハー交差点周辺
+05:00〜19:00
+にぎわう目安 06:00〜08:30／16:00〜18:30
+家庭向けの野菜、ハーブ、肉、おかずが並ぶ。
+探す：レモングラス、バイマックルー、ガパオ、タケノコ、ゲーンホ。
+家庭料理パック 約30〜40B
+笑顔で挨拶し、人物を撮る時はひと声かけよう。
+Illustration: herbs lemongrass makrut lime leaves basil, small bamboo shoots and prepared food packages.
+
+05 タラート・バーンマイ
+Talat Ban Mai / 夕方のおかず市場
+場所：コック川北岸・青の寺近郊
+13:30〜19:30
+夕食の買い物目安 16:00〜18:30
+炭火焼きやスープ、カレーなど持ち帰り総菜が充実。
+探す：ガイヤーン、ムーピン、魚の塩焼き、ラープ・クア、カオソーイ。
+買い方：焼きたて・出来たてを選び、早めに食べよう。
+宿泊先での食事や川辺の散策と合わせて。
+Illustration: grilled chicken and pork skewers on clean food stall grill, cooked salt crust fish on plate.
+
+Bottom compact heading "市場で見つける北部の味"
+"サイウア＝ハーブ入りソーセージ"
+"トゥアナオ＝発酵大豆"
+"マクウェン＝北部の香辛料"
+Small checklist heading "買い物のコツ"
+"小額紙幣を用意" "値段・単位を確認" "エコバッグを持参" "人物撮影は許可を"
+Tiny footer ONLY "B＝タイバーツ。営業時間・価格・品ぞろえは変更される場合があります。店舗ごとの案内をご確認ください。"
+All 5 markets, accurate text and all times/prices, pure white readable print sheet, no source attribution.

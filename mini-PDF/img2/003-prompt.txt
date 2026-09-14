@@ -1,0 +1,73 @@
+Create ONE finished Japanese travel infographic image. Issue 003 in a hand-drawn Chiang Rai travel guide series. A4 PORTRAIT 210:297 high resolution. Opaque pure WHITE background #FFFFFF throughout text areas and page. No transparency, no dark backgrounds, gray wash, paper grain or noise. Crisp black Japanese text, expressive hand-lettered headings, fine ink and delicate watercolor spot illustrations. White print-safe margins. Dense readable organized content, six cards in 2 columns x 3 rows, compact title and route strip, small practical footer. Illustrations 30%, text 70%. Warm ochre, coral, green, blue accent badges. No source attribution, TSV or research report references. Do not draw a geographically precise map; use a clearly labeled schematic visiting order. All Japanese must be legible and spelled exactly as below. No extra claims about border entry or visas.
+Title "チェンライ発 国境日帰りガイド"
+Subtitle "メーサイ＆ゴールデン・トライアングル"
+Badge "003"
+Route strip heading "車で巡る順序の例"
+"市街 → タムルアン → メーサイ → 黄金の三角地帯 → チェンセーン → パーガオ → 市街"
+Small route note "6スポットを巡る場合は車移動を想定。滞在時間に合わせて立ち寄り先を選ぼう。"
+
+01 タムルアン洞窟・国立公園
+Tham Luang Cave
+市街から約58km／車で約1時間10分
+08:30–16:30
+見どころ：2018年の洞窟救出作戦の展示館、サマン少佐記念像、洞窟入口周辺。
+第1ホール・記念館：無料
+駐車場からソンテウ約20B＋園内トラム。
+深部ツアーは事前予約・ガイド同行・乾季限定。
+雨季は洞窟の閉鎖・入場制限に注意。
+Sketch: green mountain cave entrance and modest rescue memorial, no people exploring flooded cave.
+
+02 メーサイ国境・市場
+Mae Sai Border & Market
+市街から約62km／車で約1時間20分
+見どころ：タイ最北端の標識、国境橋、サイロムジョイ市場。
+買い物：翡翠、乾物、中国・ミャンマーの雑貨。
+公共交通：第1バスターミナルからバス等で約1.5〜2時間、約40〜50B＋赤ソンテウ約15B。
+タイ側の市場散策を中心に楽しもう。
+越境の可否・手続きは訪問前に公式情報を確認。
+Sketch: border gate and colorful small market stalls, red songthaew.
+
+03 ゴールデン・トライアングル
+Golden Triangle / ソップルアク
+メーサイから約28km／車で約30〜40分
+見どころ：メコン川とルアク川の合流、タイ・ラオス・ミャンマーを望む展望デッキ、船上の黄金仏。
+メーサイから青ソンテウ：約40〜50B、約45分。
+遊覧ボート：1隻約500〜1,000B。
+運航状況・上陸条件は現地で確認。
+Sketch: river confluence, gold seated Buddha on ornate boat-shaped base and small sightseeing boat. No country boundary map.
+
+04 ハウス・オブ・オピウム
+House of Opium
+黄金仏・展望デッキから徒歩約2〜3分
+07:00–19:00／入場50B
+見どころ：アヘン交易の歴史、古いパイプ、計量天秤・分銅、山岳民族の衣装と民具。
+川沿い散策と組み合わせて立ち寄れる小さな資料館。
+「ホール・オブ・オピウム」とは別施設。
+Sketch: small museum facade and antique balance scale in museum display. No drug consumption.
+
+05 古都チェンセーン・遺跡群
+Ancient Chiang Saen
+ソップルアクから約9km／車で約10分
+ワット・チェディ・ルアン：大仏塔が残る古刹。
+07:00–18:00／無料
+ワット・パーサック：チーク林と漆喰彫刻。
+08:00–17:00／外国人50B
+国立博物館：外国人100B、月・火・祝日休館。
+青ソンテウの帰路・最終便は早めに確認。
+Sketch: ancient brick stupa, smaller decorated stupa among teak trees. Do not print a stupa height.
+
+06 ワット・プラタート・パーガオ
+＆スカイウォーク
+Wat Phra That Pha Ngao
+チェンセーン中心部から約4km／車で約5〜7分
+07:30–18:00
+見どころ：ガラスの空中遊歩道からメコン川の大パノラマ。岩上の古仏塔も必見。
+合計70B：入場40B＋往復シャトル30B。
+靴カバー付き。山頂へは専用シャトルを利用。
+強風・豪雨時は一時休止あり。
+Sketch: short glass skywalk above green hills and broad river, temple stupa, no enormous city skyline.
+
+Bottom checklist heading "出発前のチェック"
+Small icons and labels "帰りの交通を確保" "小額の現金" "歩きやすい靴" "寺院では露出を控える"
+Tiny footer ONLY "時間・料金・交通・公開状況は変更される場合があります。訪問前に最新情報をご確認ください。"
+Do not add source credits. Keep all six cards and all schedules and prices. Consistent attractive hand-drawn printable travel journal.

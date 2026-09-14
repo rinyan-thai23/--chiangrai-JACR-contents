@@ -1,0 +1,63 @@
+Use case: infographic-diagram. Generate ONE finished printable Japanese travel guide issue 022, A4 PORTRAIT ratio 210:297, high resolution. Pure opaque WHITE background everywhere behind text, crisp BLACK legible Japanese, hand-drawn brush headings, delicate watercolor and ink illustrations. Match friendly illustrated Chiang Rai series: rounded fine hand-drawn frames, coral yellow green blue accent badges, dense practical text balanced with festival sketches. No dark background, transparency, gray paper texture, fake text, source/report/TSV attribution. 5 festival panels in chronological order, compact title and seasonal strip; one full width panel then two rows of two panels. Fit every supplied Japanese text exactly, with comfortable print margins. Regions must be clear: NOT all festivals are in Chiang Rai. Use Romanized subtitles instead of Thai to prioritize legibility. Illustrations occupy 30-35 percent, text 65-70 percent. No exact current-year dates.
+
+Title: 北タイ 伝統行事・祭りカレンダー
+Subtitle: 季節でめぐる、祈りと祝福の5つの祭り
+Badge: 022
+Small intro: チェンライから北タイへ。地域ごとの行事と、見学の心得を知ろう。
+Season strip: 3〜4月 出家式　｜　4月 旧正月　｜　5〜6月 献花　｜　9〜10月 布施　｜　11月 灯り
+
+Panel 01:
+3月下旬〜4月初旬頃
+ポイ・サーンロン
+Poy Sang Long
+地域：メーホンソーン県、チェンマイ北部など
+意味：シャン族・タイヤイの少年が見習い僧になる前の出家儀礼。
+見どころ：王子を思わせる華やかな衣装と冠。少年たちは大人に肩車され、行列を進む。
+日程：地域ごとに異なり、数日間にわたって行われる。
+見学メモ：参加者や衣装に無断で触れず、儀礼と撮影の案内に従う。
+Illustration: respectfully dressed Shan boy in ornate prince costume crown seated safely on adult man's shoulders, ceremonial parasol, colorful procession, no caricature.
+
+Panel 02:
+4月13〜16日前後
+ソンクラーン／ピマイ・ムアン
+Songkran / Pi Mai Mueang
+地域：チェンライ、チェンマイなど北タイ各地
+意味：旧年を清め、新年を迎える北タイの旧正月。
+見どころ：仏像に水を注ぐ潅仏、砂仏塔作り、長老に水を捧げて祝福を受けるダムフア。
+見学メモ：水掛けに参加しない人や僧侶、運転中の人に配慮。寺院では静かに過ごす。
+Illustration: younger person gently pouring water over elder's hands from small silver bowl, small sand stupa with paper flags.
+
+Panel 03:
+5月〜6月頃
+インタキーン柱礼拝
+Inthakhin Festival
+地域：チェンマイ／ワット・チェディルアン
+意味：都市の礎柱に花を供え、雨と街の平安を祈る。
+見どころ：花・線香・ろうそくを捧げる献花「サイ・カンドーク」。寺院に集う人々の祈り。
+見学メモ：祠堂には立入条件がある。表示に従い、指定された場所で献花する。
+Illustration: flower offering bowl with marigold lotus incense, recognizable Chiang Mai Chedi Luang brick stupa behind a small shrine, white background.
+
+Panel 04:
+9月〜10月頃
+クワイ・サラーク／サラークヨーム
+Salak Festival
+地域：北タイの寺院／ラムプーンなど
+意味：食料などを入れた竹籠を供え、籤引きを通じて布施し、先祖を供養する。
+見どころ：籠に添えられた名前や祈り。ラムプーンでは、色鮮やかな高い供養塔も見られる。
+見学メモ：読経中は静かに。竹や紙の繊細な供養塔には触れたり寄りかかったりしない。
+Illustration: woven offering basket rice fruit and name slip, tall colorful salak yom bamboo offering tower and gold temple hint.
+
+Panel 05:
+11月頃／旧暦の満月
+イーペン祭り
+Yi Peng
+地域：チェンマイ、チェンライ、ラムパーンなど
+意味：仏教の祈りを灯りに託す、ランナーの灯明祭り。
+見どころ：土皿の灯明「パーン・プラティープ」、寺院の灯り飾り、説法など。天灯の行事は会場による。
+見学メモ：天灯は当年の許可・指定会場・時間を確認。自己判断で放さない。
+Illustration: decorated hanging Lanna lanterns and glowing earthen oil lamps in foreground, tiny few floating lanterns as secondary motif, no dark sky or background.
+
+Bottom compact checklist heading: 見学前の3つの確認
+Text: 開催地・当年の日程　／　寺院では肩と膝を覆う服装　／　撮影・立入の現地案内
+Tiny footer only: 開催時期は目安です。旧暦・地域・年により変わるため、旅行前に主催者の最新案内を確認してください。
+All Japanese must be correctly spelled crisp readable, no added source credits. Single polished image.

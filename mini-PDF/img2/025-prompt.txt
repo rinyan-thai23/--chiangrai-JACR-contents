@@ -1,0 +1,66 @@
+Generate one finished A4 portrait Japanese illustrated printable travel guide, issue 025. Pure opaque WHITE page, black crisp legible Japanese body text, hand-drawn brush headings, refined watercolor and ink illustrations matching Chiang Rai series. 8 compact cards 2 columns x4 rows with detailed visual examples and useful text, 60% text 40% art, white safe margins. No dark background or paper texture, no source/report/TSV credits. Respectful Buddhist architecture educational illustrations. Do not overgeneralize styles: show examples, not universal rules. Exact text:
+
+Title: ランナー建築と仏像 見分ける手帖
+Subtitle: 北タイの寺院で探したい、8つの観察ポイント
+Badge: 025
+Intro: 屋根、木彫、仏塔、仏像。細部を見ると、寺院めぐりがもっと楽しくなる。
+
+01 低く重なる屋根
+礼拝堂＝ウィハーン
+北タイの見どころ：幾重にも重なる屋根と、柱・梁の木組み。軒が低く延びる姿や、開放的な古式の堂に注目。
+見比べる：屋根の高さだけでなく、柱と壁の関係を見る。
+観察例：ワット・トンクウェーン（チェンマイ）
+Art: low sweeping multi-tiered roof open wooden northern Thai viharn.
+
+02 屋根先の飾り
+チョーファーと破風
+北タイの見どころ：鳥やナーガを思わせる屋根先、木彫の温かみ。交差するガーレーは北部の伝統民家でも知られる。
+見比べる：木の質感、金箔、色ガラスなど装飾の素材。
+観察例：ワット・パンタオ（チェンマイ）
+Art: closeup carved wooden gable roof finial; small separate crossed kalae detail.
+
+03 入口と軒下の木彫
+アーチと持送り
+北タイの見どころ：眉のような曲線の入口飾りと、軒を支える彫刻。板状・曲線状など形の違いを楽しむ。
+見比べる：持送りの厚み、透かし彫り、植物や動物の模様。
+観察例：ワット・プラケオ（チェンライ）
+Art: wooden arch and carved triangular eave bracket detailed closeup.
+
+04 仏塔のシルエット
+チェディ
+北タイの見どころ：仏像を納める龕のある塔、鐘形の塔、重なる基壇。周辺地域の多様な影響が見られる。
+見比べる：基壇→塔身→頂部の順に形を追う。
+観察例：ワット・パーサック（チェンセーン）
+Art: authentic approximate Wat Pa Sak brick prasat-style stupa with niches, small gold bell stupa silhouette for contrast.
+
+05 仏像の顔と頭頂
+シン1系の特徴
+北タイの見どころ：丸みのある顔、大きめの螺髪、蓮の蕾を思わせる頭頂飾りなど。
+見比べる：面長の顔や火焔形の頭頂飾りとの違い。北タイの仏像すべてが同じ姿ではない。
+観察例：チェンセーン国立博物館
+Art: respectful bronze Buddha rounded face curled hair lotus-bud finial bust detail.
+
+06 肩から垂れる衣
+サンガーティ
+北タイの見どころ：シン1系では左肩から胸元へ短く垂れる衣が手掛かり。先端の形にも注目。
+見比べる：衣が胸で止まるか、腹部まで延びるか。顔や姿勢と合わせて見る。
+観察例：ワット・プラシン（チェンマイ）
+Art: bronze Buddha torso with short robe flap over LEFT shoulder, small pointer to cloth endpoint.
+
+07 堂内の光と窓
+木の窓・板壁
+北タイの見どころ：小さな窓、木の連子、板壁の隙間から入る光。薄暗い堂で主仏が浮かぶように見えることも。
+見比べる：窓の数・形と、光が届く場所。
+観察例：ワット・プラタート・ラムパーン・ルアン
+Art: wooden slatted window and small temple interior vignette with light shaft; keep page and text WHITE.
+
+08 階段を守る神獣
+マカラ・ナーガ・モム
+北タイの見どころ：マカラの口からナーガが現れる彫刻や、複数の動物を思わせる霊獣モム。
+見比べる：口元、角、胴体、尾を順に観察。
+観察例：ワット・プーミン（ナーン）
+Art: makara mouth emitting naga serpent stair balustrade with separate small mom guardian quadruped carving.
+
+Bottom strip: 見る順番　屋根 → 軒下 → 仏塔 → 堂内 → 階段
+Tiny footer only: 様式は時代・地域・修復で異なります。特徴は目安です。仏像や彫刻に触れず、撮影は現地の案内に従ってください。
+Exact Japanese, complete 8 cards, hand-drawn white print-friendly image.

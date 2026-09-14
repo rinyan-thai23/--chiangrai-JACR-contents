@@ -1,0 +1,71 @@
+Create ONE high-resolution A4 portrait Japanese illustrated travel guide, series badge 041. Pure opaque WHITE background, crisp BLACK readable Japanese, hand-drawn ink outlines and beautiful delicate watercolor Thai temple illustrations. Like Chiang Rai travel notebook series 001/002. Dense information, 23 temples ALL present exactly once, 75% text 25% illustration. Group geographically with clear section counts, compact two-column lists and selective landmark drawings. No source/report/TSV/QR credits. No invented map, no distorted geography. Names horizontal Japanese. Fit all information with generous white outer margin.
+
+Title: タイの第１級王室寺院
+Subtitle: 23寺を地域でめぐる｜建築と仏像の見どころ
+Small intro:
+王室寺院の格式を知る旅の一覧。寺院名は通称・短縮表記です。
+
+Large left or upper section: バンコク｜10寺
+01 ワット・ポー
+黄金の涅槃仏と大仏塔。伝統医学の碑文にも注目。
+02 ワット・マハータートユワラートランサリット
+王宮前広場近く。瞑想の伝統を伝える寺院。
+03 ワット・スタット
+大ブランコ前。大きな青銅仏と精緻な壁画。
+04 ワット・アルン
+川辺のプラーンと、陶器片のモザイク装飾。
+05 ワット・ボーウォンニウェート
+王室の出家と縁が深い寺院。名仏チンナシー。
+06 ワット・ラーチャプラディット
+ラーマ４世ゆかり。大理石の外壁と壁画。
+07 ワット・ラーチャボピット
+彩色陶器の装飾と、西洋風の内装。
+08 ワット・ベンチャマボピット
+白大理石の本堂と、回廊に並ぶ仏像。
+09 ワット・ラーチャオロサーラーム
+中国風意匠が融合した寺院建築。
+10 ワット・プラシーマハータート
+バーンケン地区。白い大仏塔と仏舎利。
+Illustrations interspersed: Wat Arun porcelain prang, reclining Buddha, marble temple. Avoid individual illustration for every row.
+
+Section: 中部・東部｜６寺
+11 ワット・プラパトムチェーディー
+ナコンパトム｜巨大な釣鐘型の仏塔。
+12 ワット・プラプッタバート
+サラブリー｜仏足跡を祀る華麗な堂。
+13 ワット・ニウェートタンマプラワット
+アユタヤ｜教会を思わせるゴシック風建築。
+14 ワット・スワンダラーラーム
+アユタヤ｜王家の由緒と歴史壁画。
+15 ワット・セーナーサナーラーム
+アユタヤ｜本尊仏と王室ゆかりの壁画。
+16 ワット・ヤーンナサンワラーラーム
+チョンブリー｜多彩な建築が集まる広い境内。
+Illustrations: enormous orange stupa and small gothic Buddhist temple.
+
+Section: 北部｜４寺
+17 ワット・プラシン
+チェンマイ｜ラーンナー様式の礼拝堂と壁画。
+18 ワット・プラタートハリプンチャイ
+ランプーン｜黄金の主仏塔と古い段塔。
+19 ワット・プラシーラッタナマハータート・チャリエン
+スコータイ｜シーサッチャナーライのプラーン。
+20 ワット・プラシーラッタナマハータート
+ピッサヌローク｜ワット・ヤイのチンナラート仏。
+Illustration: northern Thai gold roof temple with elegant layered roof.
+
+Section: 東北部・南部｜３寺
+21 ワット・プラタートパノム
+ナコンパノム｜メコン流域で崇敬される聖塔。
+22 ワット・プラボロマタートチャイヤ
+スラタニ｜シュリーヴィジャヤ様式の仏塔。
+23 ワット・プラマハータート
+ナコンシータマラート｜南タイを代表する大仏塔。
+Illustration: tall white and gold Phanom tower and southern bell stupa.
+
+Bottom small illustrated practical strip:
+参拝メモ　肩と膝を覆う服装／堂内では靴を脱ぐ／撮影表示を確認／礼拝を静かに見守る
+Small footer:
+※拝観できる場所・時間は儀式や修復で変わります。訪問前に各寺院の案内をご確認ください。
+
+Maintain exact 23 row numbers with no omissions, no duplication. Black text readable for A4 printing. White page with minimal ink color washes behind headings only, watercolor landmarks, strong editorial hierarchy.

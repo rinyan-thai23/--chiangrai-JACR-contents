@@ -1,0 +1,77 @@
+Create ONE print-ready Japanese travel guide illustration, issue 004, A4 PORTRAIT ratio 210:297, highest resolution. Match a clean hand-drawn watercolor Chiang Rai guide series. OPAQUE PURE WHITE background, all text on white, crisp solid black legible Japanese, no transparency, paper texture, noise, gray washes or dark backgrounds. Small colorful ink-and-watercolor sketches of mountain cafes, coffee cherries, cups, tea terraces and teapots. Friendly hand-lettered headings, clean body lettering. Dense useful content with orderly reading hierarchy. 8mm safe white margins. No source attribution, no TSV or research report label.
+Title "チェンライ 山のコーヒー＆高山茶"
+Subtitle "ドイチャン・ドイメーサロンと、個性豊かな5つの産地"
+Badge "004"
+Compact flavor strip "香りで選ぶ一杯"
+"柑橘とコク → ドイチャン　果実の甘み → パーヒー　香ばしさ → パーミー"
+"花香とまろやかさ → メーサロン　蜜の熟成香 → ワーウィー"
+Layout five content cards: first full-width, then 2x2 grid, bottom practical note. Text approx 65%, illustrations 35%. All five cards include exact content below, carefully render Japanese including special characters. Prices visibly labeled estimates in baht, not yen. Food flavor illustrations are tasting notes not ingredients: use tiny icons only.
+
+01 ドイチャン・アラビカコーヒー
+Doi Chaang / COFFEE
+標高1,000〜1,700m
+森林の木陰で育つアラビカ。柑橘の明るい酸味と、ダークチョコ・ナッツのコク。
+農園・カフェ：Doi Chaang Coffee Original、Yayo Farm、Alio Slow Bar Coffee
+1杯 50〜90B／スペシャリティ 80〜150B
+焙煎豆250g 180〜350B
+プレミアムロット 450〜700B
+Illustrate mountain coffee terrace and coffee shrub red cherries, pour-over and beans, white background behind text.
+
+02 ドイパーヒー・コーヒー
+Doi Pha Hee / COFFEE
+標高1,200〜1,400m
+国境近くのアカ族の集落。ベリーや柑橘の甘み、柔らかな酸味、蜂蜜のような余韻。
+カフェ：Phu Phahee Coffee
+Phahee Valley Cafe & Homestay
+Akha Phahee Coffee
+1杯 40〜70B
+ドリップセット 60〜80B
+焙煎豆250g 150〜250B
+村内は道が狭いので、車での移動は慎重に。
+Illustrate small scenic wooden cafe counter over green valley and a coffee cup.
+
+03 ドイパーミー・コーヒー
+Doi Pha Mee / COFFEE
+標高600〜1,000m
+アラビカ栽培の歴史が息づく集落。ローストナッツやカカオの香ばしさ。名物は竹筒ドリップ。
+カフェ：Phu Pha Mee Cafe
+Baan Pha Mee Coffee View
+Coffee Sa-Oh Pha Mee
+1杯 40〜60B
+竹筒ドリップセット 60〜80B
+焙煎豆250g 130〜220B
+メーサイ市街から車で約15分。
+Illustrate bamboo coffee brewing apparatus and mountain rock viewpoint cafe.
+
+04 ドイメーサロン・高山烏龍茶
+Doi Mae Salong / TEA
+標高1,200〜1,600m
+雲南系華人の文化が息づく高山茶の産地。
+青心烏龍 No.17：蘭のような花香と甘い余韻。
+金萱烏龍 No.12：ほのかなミルク・バニラ香。
+茶園：101 Tea Plantation
+Wang Put Tan Tea Plantation
+試飲 無料が目安／ポット 60〜120B
+茶葉200g：No.12 150〜300B
+No.17 250〜500B
+極上ロット 600〜1,200B
+Illustrate terraced tea hills and small golden teapot landmark and tea tasting cups.
+
+05 ドイワーウィー・高山茶＆古樹茶
+Doi Wa Wi / TEA
+標高1,100〜1,500m
+台湾烏龍茶栽培の歴史を持つ山里。古樹のプーアル茶や紅茶は、深いミネラル感と蜜の熟成香。
+茶園：Tea Wawee 1961
+Lao Li Tea Plantation
+Wawee Strawberry & Tea Farm
+試飲 40〜80B
+烏龍茶200g 150〜350B
+古樹紅茶100g 200〜450B
+プーアル茶餅 400〜1,500B以上
+Illustrate ancient tea tree, compressed round tea cake and amber tea in small ceramic cup.
+
+Bottom practical strip heading "おいしいお土産の選び方"
+"豆は焙煎日・挽き方を確認" "茶葉は香りを比べて選ぶ" "山道は時間に余裕を" 
+Small note "B＝タイバーツ。価格は目安です。"
+Tiny footer ONLY "価格・営業・試飲条件は変更される場合があります。訪問前に最新情報をご確認ください。"
+Maintain white print-friendly background, readable text, all five regions, prices and shops. No unrelated extra claims or source credit.

@@ -1,0 +1,64 @@
+Create ONE finished Japanese illustrated travel guide issue 015, A4 PORTRAIT ratio 210:297 high resolution. Opaque pure WHITE background and text areas, no transparency dark wash grain or texture. Clean black readable Japanese with friendly handlettered headings. Same hand-drawn ink and watercolor Chiang Rai travel series. Dense useful text 65%, small illustrations 35%, warm coral ochre green blue accents. Five cards first full width then 2x2, top schematic route NOT geographic map, bottom bicycle checklist. Print-safe margins. No source/report/TSV credits, invented distances, route timings or safety guarantees. All exact Japanese:
+Title "古都チェンセーン 遺跡サイクリング"
+Subtitle "レンガの城壁、ランナーの仏塔、メコン川をめぐる"
+Badge "015"
+Intro "14世紀に栄えた城塞都市。城郭内は比較的平坦で、遺跡を巡りやすい町。"
+Route heading "立ち寄り順の例（位置・縮尺を示す地図ではありません）"
+"博物館 → チェディルアン → パーサック → 城壁・川沿い"
+"チョームキッティは丘の上。体力と時間に合わせて追加。"
+
+01 ワット・チェディルアン
+Wat Chedi Luang
+旧市街中心部／国立博物館の隣
+拝観目安 06:00〜18:00／無料
+1331年、セーンプー王による建立と伝わる、古都を代表する寺院。
+見どころ：八角形の多層基壇とベル型の大仏塔、本堂の柱列などの遺構。
+自転車を停めて、レンガの積み方や仏塔の輪郭をじっくり眺めよう。
+遺構には登らず、見学できる場所を守る。
+Illustration: large weathered brick bell-shaped stupa on octagonal layered base, ruined column remnants and parked bicycle outside sacred area. Not Chiang Mai Chedi Luang ruined square tower.
+
+02 ワット・パーサック
+Wat Pa Sak
+旧城壁の西門外
+拝観目安 08:00〜17:00
+外国人50B／タイ人10B
+チークの木立に囲まれた古刹。さまざまな建築文化の影響を受けた仏塔が残る。
+見どころ：仏像や神話の像を配した壁面の漆喰浮彫。
+未舗装部分は無理に乗らず、自転車を押して歩こう。
+Illustration: slender prasat-style ancient stupa with niches and decorative stucco among teak trees, small carved detail inset.
+
+03 ワット・プラタート・チョームキッティ
+Wat Phra That Chom Kitti
+城郭北西の丘陵
+拝観目安 06:00〜18:00／無料
+伝承の歴史を持つ丘の寺院。金色のランナー仏塔と山頂の展望を楽しむ。
+見どころ：メコン川、対岸のラオス、古都の風景。
+約300段の階段は徒歩で。駐輪場所を確認し、休憩しながら登ろう。
+Illustration: gold stupa atop wooded hill with naga-lined stairs, parked bicycle below not on stairs, distant river.
+
+04 チェンセーン国立博物館
+Chiang Saen National Museum
+ワット・チェディルアン隣
+開館目安 08:30〜16:30
+水〜日開館／月・火・祝日は休館の記載あり
+外国人100B／タイ人20B
+1957年開館。古都とランナー初期の美術・出土資料を紹介。
+見どころ：チェンセーン様式の青銅仏像、テラコッタ、石碑、民俗資料。
+開館日・展示内容は訪問前に確認。
+Illustration: modest museum building and bronze seated Buddha display on white, no invented written historical labels.
+
+05 旧城壁・城門とメコン川
+City Walls & Mekong Riverside
+西・北・南に残る城壁や濠、東側にはメコン川。
+見どころ：南門・西門周辺のレンガ遺構と川辺の眺め。
+散策無料／明るい時間帯に余裕を持って。
+レンタサイクル目安 20〜100B／日
+観光窓口や宿で貸出場所・料金・返却時刻を確認。
+遊歩道では歩行者優先。走行できる区間か現地表示を確認。
+Illustration: historic low brick gate remains, Mekong river promenade with helmeted cyclist walking bike beside pedestrians.
+
+Bottom heading "出発前の自転車チェック"
+Small icons labels "ブレーキ・タイヤ" "ヘルメット" "飲み水・日よけ" "鍵・返却時刻"
+Small line "車道では交通に注意。寺院の参拝場所では自転車を降りよう。"
+Tiny footer ONLY "B＝タイバーツ。開館・料金・貸出条件は変更される場合があります。訪問前に最新情報をご確認ください。"
+All five sites, accurate readable text, no source, no invented routes.

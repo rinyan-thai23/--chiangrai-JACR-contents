@@ -1,0 +1,100 @@
+Create ONE printable Japanese travel infographic, issue 008, A4 PORTRAIT 210:297 high resolution. Match cheerful hand-drawn ink and watercolor Chiang Rai travel guide series. Opaque WHITE page and all body text backgrounds, crisp black legible Japanese, no transparency, gray wash, paper grain or noise. Print safe margins. Dense organized useful content, eight compact cards in 2 columns x 4 rows with small transport spot illustrations (25% drawings 75% text). Thin organic dividers, colored number badges, coral ochre blue green accents, small generic local bus/songthaew/minivan sketches. No map, no invented timetable, no source or TSV/report credit. All transport times and fares visibly labeled as estimates from supplied material, not live timetable. All eight entries must fit, large readable numbers, exact text:
+
+Title "チェンライ ローカル交通ガイド"
+Subtitle "バス＆ソンテウ｜行き先・乗り換え・運賃の目安"
+Badge "008"
+Top strip "まずはターミナルを確認"
+"第1BT＝市街中心部　　第2BT＝市街南側・長距離便の拠点"
+"BT＝バスターミナル／B＝タイバーツ"
+Small conspicuous note "以下は運行・運賃の目安です。乗り場・当日の便・帰りの最終便を窓口で確認。"
+
+01 メーサイ
+Mae Sai
+第1BT → メーサイ
+ミニバス／普通バス
+所要 約1.5時間
+運行目安 06:30–18:30／15〜20分間隔
+片道 45〜50B
+国境手前のBT止まりなら、赤ソンテウに乗り換え。
+追加 約10〜15B。
+Sketch: blue and white minivan.
+
+02 チェンセーン
+Chiang Saen
+第1BT → チェンセーン
+青色普通バス／ミニバス
+所要 約1.5〜2時間
+運行目安 06:30–16:30／45〜60分間隔
+普通バス 40〜50B
+ミニバス 約50〜70B
+到着したら帰りの乗り場と最終便を確認。
+Sketch: vintage blue local bus and tiny stupa.
+
+03 ゴールデン・トライアングル
+Golden Triangle
+チェンセーン市場前 → ソップルアク
+三輪車／ソンテウを現地で手配
+所要 約15分／約9km
+チャーター 約100〜150B／台
+乗る前に行き先・料金・帰路を相談。
+直通便の有無も現地で確認。
+Sketch: local three-wheel tuk tuk and small river.
+
+04 チェンコーン
+Chiang Khong
+第1BT → チェンコーン中心街
+赤色普通バス／ミニバス
+所要 約2〜2.5時間
+運行目安 06:00–16:00／約1時間間隔
+普通バス 65〜80B
+ミニバス 80〜100B
+第4友好橋へは乗り換え。追加約50〜60B／人が目安。
+Sketch: red bus, small bridge symbol.
+
+05 ドイメーサロン
+Doi Mae Salong
+第1BT → メーチャン → 山の村
+メーサイ方面の便から緑ソンテウへ
+乗り換え：メーチャン市場前
+所要 合計約2時間
+山岳区間の運行目安 07:30〜13:30
+通算 約85〜115B
+午前中に出発し、下山便を先に確認。
+Sketch: green pickup songthaew and tea hill.
+
+06 ドイチャン
+Doi Chang
+チェンマイ方面の便 → メースワイ
+市場・郡役場付近から赤ソンテウ
+所要 合計約2時間
+山岳区間の便は午前中心
+目安 08:30〜11:00頃／1〜2便
+通算 約90〜130B
+公共交通だけの日帰りは難しい。宿泊または帰路の車を手配。
+Sketch: red pickup songthaew and coffee branch.
+
+07 第1BT ⇔ 第2BT
+Terminal Shuttle
+連絡ソンテウ／約7km
+所要 約15〜20分
+運行目安 06:00–18:00／15〜20分間隔
+片道 15〜20B
+夜間・早朝は配車サービス等を確認。
+古い空港EVバスの案内を頼りにせず、現在の交通手段を確認。
+Sketch: blue purple pickup with luggage.
+
+08 チェンマイ
+Chiang Mai / Greenbus
+出発ターミナルは予約便ごとに確認
+所要 約3.5時間
+運行目安 06:00–18:30
+A席 約200〜230B
+X席 約260〜290B
+VIP席 約350〜380B
+公式予約画面で日時・乗車地・座席種別・料金を確認。
+Sketch: green intercity coach, no fake logos.
+
+Bottom strip heading "乗る前のチェック"
+Icons and short labels "行き先を見せる" "料金は乗車前に確認" "小額の現金" "帰りの便を確保"
+Tiny footer ONLY "時刻・本数・運賃・乗り場は変更される場合があります。日帰りは帰路を確認してから出発してください。"
+No invented contact details, source credits or guarantee of current schedule. No Thai text required. All Japanese clean, white print friendly hand-drawn guide.

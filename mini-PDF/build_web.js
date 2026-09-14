@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+// Apply completed white-background guides after the page build finishes.
+process.on('beforeExit', () => require('./sync_web_images')());
 
 const baseDir = __dirname;
 const tsvDir = path.join(baseDir, 'TSV');

@@ -1,0 +1,61 @@
+Create ONE Japanese illustrated travel guide, series issue 002, matching the clean white-background hand-drawn watercolor Chiang Rai temple guide from this conversation. A4 PORTRAIT aspect 210:297, high resolution for printing. OPAQUE PURE WHITE #FFFFFF page and text areas, NO transparency, gray backgrounds, paper texture, noise, shadow, dark backgrounds or large color washes. Crisp solid black readable Japanese text, friendly hand-lettered headings, delicate ink and watercolor spot illustrations. Dense but orderly useful content. Color confined to small illustrations, badges and thin dividers. 8mm white outer margins. No source attribution, no TSV or research report mentions.
+Title: "チェンライ 夜市めぐりガイド"
+Subtitle: "ナイトバザール＆曜日限定マーケット"
+Issue stamp: "002"
+Design: compact title, slim day-of-week overview, five richly informative cards (first full width, then 2x2), small illustrated food highlights integrated in each card, final practical checklist. Each market card includes exact name, schedule, access, products and specialties. No geographically precise map or invented routes. About 65% readable text and white space, 35% modest drawings. Warm ochre, coral, green and blue accents, charming local stalls, embroidered bags, food bowls, dancers. All provided Japanese text must be correctly rendered; long headings wrap neatly. Small English labels optional only as provided.
+Overview heading "曜日で選ぼう"
+"毎日：ナイトバザール／ガート・ルアン"
+"木曜：バーンドゥー　土曜：タナーライ通り　日曜：サンコーンノーイ通り"
+
+01 チェンライ・ナイトバザール
+Chiang Rai Night Bazaar
+毎日 18:00–23:00頃
+場所：第1バスターミナル西隣、徒歩1分。
+買う：山岳民族の刺繍バッグ・民族衣装、銀細工、木彫り、タイシルク。
+食べる：土鍋ハーブ鍋「チムチュム」、サイウア、カオソーイ。
+楽しむ：広場でランナー伝統舞踊と生演奏を無料鑑賞。
+Illustrate small colorful stalls with embroidered bags and a steaming terracotta hotpot, a tiny traditional dancer, white background.
+
+02 土曜ウォーキングストリート
+Saturday Walking Street
+毎週土曜 16:00–22:30頃
+場所：タナーライ通り。スアン・トゥン公園周辺の約1.5km。
+買う：OTOP特産品、手織り布、草木染め、竹細工、民族クラフト。
+名物：黒もち米焼き餅「カオプック・ンガー」、名物麺「カノムジーン・ナムギャオ」。
+体験：公園前の伝統盆踊り「レトロ・ラムウォン」。
+Illustrate a small craft stall, purple grilled rice cake and red noodle bowl.
+
+03 日曜ウォーキングストリート
+Sunday Walking Street
+毎週日曜 16:00–22:00頃
+場所：サンコーンノーイ通り、約1km。時計塔から南西へ車で約5分。
+買う：家庭料理・伝統菓子、野菜・ハーブ、手芸品、古着。
+名物：ココナッツ焼き菓子「カノムバービン」。
+楽しむ：路上マッサージや、ワット・チェトゥポン前の伝統音楽。
+「ハッピーストリート」の家庭的な雰囲気を満喫。
+Illustrate friendly food vendor, coconut pancakes and small music notes.
+
+04 ガート・ルアン
+第1市営市場・夕暮れ屋台街
+毎日 16:00–20:30頃
+※生鮮本館は早朝〜夕方
+場所：ウッタラキット通り＆スックサティット通り。
+買う：夕食の総菜、揚げ豚、サイウア、ナムプリック、季節の果物。
+名物：豚角煮カレー「ゲーンハンレー」、炒め煮「ゲーンホ」、米粉麺「カオラムフン」。
+仕事帰りの市民でにぎわう、地元の食卓を体験。
+Illustrate prepared curry bowls, sausage and small pineapple.
+
+05 バーンドゥー木曜ウォーキングストリート
+Ban Du Walking Street
+毎週木曜 16:00–21:30頃
+場所：バーンドゥー市場駐車場。ラチャパット大学近郊、国道1号線沿い。
+アクセス：市街地から北へ車で約15分。
+買う：手頃な衣料、アクセサリー、スマホグッズ。
+名物：ボリューム満点の屋台ごはん、焼きたてワッフル、ミルクティー。
+学生街ならではの活気とお手頃グルメを楽しもう。
+Illustrate small cheerful student market stand, waffle and milk tea.
+
+Bottom heading "夜市歩きの持ちもの"
+With small line-drawn icons: "小額の現金" "エコバッグ" "歩きやすい靴"
+Small centered footer only: "開催日時・出店内容は変更される場合があります。訪問前に最新情報をご確認ください。"
+Keep all 5 markets, all schedules, legible text and generous white behind every line. No invented prices, no source credits.

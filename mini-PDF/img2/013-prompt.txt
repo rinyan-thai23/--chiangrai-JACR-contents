@@ -1,0 +1,64 @@
+Create ONE finished Japanese hand-drawn watercolor travel guide issue 013. A4 PORTRAIT 210:297, high resolution for printing. Opaque pure WHITE page and text areas, crisp black Japanese, no transparency, noise, gray wash or texture. Friendly handlettered title and clear body type. Match Chiang Rai illustrated travel journal series. 5 cards first full width then 2x2. Dense text 65%, beautiful small ink-and-watercolor noodle dishes 35%. Coral mustard green accents, white print margins. No source/report/TSV credit, no awards or invented claims. Prices and hours explicitly estimates. Render all exact text below accurately.
+
+Title "チェンライ 名物麺 食べ比べガイド"
+Subtitle "カオソーイ＆ナムギョウ｜5店の味と個性"
+Badge "013"
+Two small comparison panels:
+"カオソーイ：カレースープに卵麺と揚げ麺。濃厚さやスパイスは店ごとに個性あり。"
+"ナムギョウ：トマトや発酵大豆の風味を楽しむ北部の麺。肉・麺・具材は注文時に確認。"
+
+01 カオソーイ・ポーチャイ
+Khao Soi Pho Chai
+時計塔近く／ワンカムホテル裏手
+営業時間の目安 08:00〜16:00
+価格目安 40〜60B
+味の特徴：軽やかなスパイスと、あっさりしたスープ仕立て。平打ち卵麺と揚げ麺の食感を楽しむ。
+メニュー例：鶏肉・エビ・魚のカオソーイ、澄ましナムギョウ、サイウア。
+売り切れで早じまいする場合あり。
+Illustration: appealing chicken curry noodle bowl with soft egg noodles and crisp fried noodles, lime shallots and pickled greens beside bowl, small generic local noodle shop. White behind text.
+
+02 ナムギョウ・パースック
+Pa Suk Nam Ngiao
+サンコーンノーイ通り
+営業時間の目安 09:30〜14:30
+価格目安 40〜60B
+味の特徴：発酵大豆のコクとトマトの酸味。キワタの花やひき肉などが重なる味わい。
+メニュー例：カノムジーン・ナムギョウ、クイッティオ・ナムギョウ。
+月曜定休の記載あり。営業日を確認し、早めの来店を。
+Illustration: red tomato broth rice noodle bowl with minced pork, tomatoes and cooked dark blood curd cubes, bean sprouts and dried kapok flower detail. Not egg curry noodles.
+
+03 カオソーイ・タオゲーエーク
+Khao Soi Thao Gae Ek
+ワット・プラケオ近く
+営業時間の目安 08:30〜15:30
+価格目安 45〜65B
+味の特徴：スパイスの効いた濃厚なカレースープ。煮込んだ大ぶりの牛肉と、コシのある麺。
+メニュー例：牛肉・豚肉のカオソーイ。
+しっかりしたコクの一杯を楽しみたい時に。
+Illustration: rich orange curry soup with braised beef chunks and crisp egg noodles, chopsticks lifting some noodles.
+
+04 カオソーイ・イスラム
+Khao Soi Islam
+サマッキー・ウィッタヤーコム学校近く
+営業時間の目安 07:00〜16:00
+価格目安 40〜60B
+味の特徴：クミンやカルダモンが香るカレースープ。高菜漬けの酸味を添えて。
+メニュー例：牛肉・鶏肉のカオソーイ、カオモック。
+食材や食事上の条件は店に確認。売り切れ終了の場合あり。
+Illustration: beef curry egg noodle bowl and small spiced rice chicken plate, cumin/cardamom pods, no pork in this card.
+
+05 ナムギョウ・パーヌアン
+Nam Ngiao Pa Nuan
+市街中心部
+営業時間の目安 08:00〜15:00
+価格目安 35〜50B
+味の特徴：豚骨ベースに発酵大豆の旨味とトマトの酸味。米麺の違いも楽しめる。
+メニュー例：豚肉・スペアリブのナムギョウ、太米麺のセンヤイ、豚皮揚げ。
+好みの麺と具材を相談して注文しよう。
+Illustration: red pork rib tomato broth with broad white rice noodles, side of pork rinds, clearly different from curry egg noodle bowls.
+
+Bottom band heading "注文の小さなヒント"
+"ガイ＝鶏　ヌア＝牛　ムー＝豚"
+"辛さ・肉・麺を確認" "調味料は少しずつ" "売り切れ前に早めの昼食"
+Tiny footer ONLY "B＝タイバーツ。営業時間・定休日・価格・メニューは変更される場合があります。訪問前に最新情報をご確認ください。"
+Include all 5 entries, no cropped or garbled writing, appetizing hand-drawn dishes, white print sheet.

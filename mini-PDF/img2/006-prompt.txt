@@ -1,0 +1,61 @@
+Create ONE Japanese printable Chiang Rai travel guide image issue 006. A4 PORTRAIT 210:297 high resolution. Pure OPAQUE WHITE background, solid black crisp readable Japanese, no dark wash, transparency or grain. Hand-drawn ink and delicate watercolor small illustrations, matching friendly travel guide series, but calm and practical medical contact sheet. No source attribution, report, TSV, QR codes or invented phone numbers. 8mm safe margins. Text 80%, small illustrations 20%. Phone numbers exceptionally clear and exact. Coral, teal and ochre highlights sparingly. No medical treatment advice, no real hospital logos or false exact building facades; use generic hospital, ambulance, phone, interpreter, documents icons.
+Title "チェンライ 医療・緊急受診ガイド"
+Subtitle "もしもの時に役立つ、病院・連絡先・受診の準備"
+Badge "006"
+Large top emergency panel, four distinct labeled numbers:
+"救急車・急病や大けが" "1669"
+"観光警察・言葉やトラブルの相談" "1155"
+"一般警察" "191"
+"在チェンマイ日本国総領事館" "052-012-500"
+Under the panel: "緊急時は保険の承認や書類の準備を待たず、救急要請を優先。"
+"電話では、現在地・目印・症状・折り返し番号を伝えよう。"
+Four hospital cards in a 2x2 grid, followed by useful steps. All exact content:
+
+01 バンコク病院チェンライ
+Bangkok Hospital Chiang Rai
+私立総合病院／ナーンレー地区
+代表 052-051-800
+24時間救急 052-051-913
+短縮番号 1719
+内科・外科・小児科・整形外科など。国際医療サービス窓口あり。
+日本語通訳の可否・手配方法は事前確認。
+保険会社にキャッシュレス受診の対象か確認。
+
+02 オーバーブルック病院
+Overbrook Hospital
+私立総合病院／市街中心部
+問い合わせ 053-910-100
+内科・外科・小児科などの総合診療。
+日本語が必要な場合は、保険会社の電話通訳も相談。
+受診する診療科・受付時間・保険手続きを事前確認。
+
+03 カセームラード病院スリブリン
+Kasemrad Sriburin Hospital
+私立総合病院／国道1号線沿い
+代表 053-910-999
+診療科・救急受付については代表窓口へ。
+日本語通訳・海外旅行保険の直接請求は、病院と保険会社に確認。
+重症で移動が難しい時は1669へ。
+
+04 チェンライ・プラチャヌクロ病院
+Chiangrai Prachanukroh Hospital
+公立の地域中核病院
+重症救急の搬送相談 1669
+※1669は病院代表ではなく国家救急番号です。
+救急・専門診療を担う公立総合病院。
+日本語対応を前提にせず、通訳を相談。
+支払い方法を確認し、立替時は書類を受け取る。
+
+Full width lower practical sequence heading "受診の流れ"
+"1 緊急なら救急要請。通常受診は病院・保険会社へ連絡。"
+"2 受付でパスポート・保険情報・症状を伝える。"
+"3 持病・服薬・アレルギーを医療スタッフに伝える。"
+"4 支払い方法を確認。英文診断書と明細付き領収書を受け取る。"
+Next compact illustrated checklist heading "持参・保存しておくもの"
+"パスポート" "保険証券・連絡先" "現金・カード" "服薬・アレルギーメモ"
+Small sentence "キャッシュレス対応は契約・診療内容・保険会社の承認によって異なります。"
+A useful two-line speech box "伝えるための英語"
+"I need an ambulance.（救急車が必要です）"
+"I need a Japanese interpreter.（日本語通訳が必要です）"
+Tiny footer only "電話番号はタイ国内向け。診療・通訳・保険対応は変更される場合があります。受診前に最新情報をご確認ください。"
+Do not add any additional facts, slogans, contacts or treatment. Preserve exact phone digits. White spacious background around all writing, hand drawn accents, very legible when printed.

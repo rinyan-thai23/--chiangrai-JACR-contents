@@ -1,0 +1,76 @@
+Create ONE finished illustrated Japanese travel guide, issue 005. A4 PORTRAIT ratio 210:297 high-resolution print artwork. Pure opaque WHITE page and text backgrounds, no transparency, dark background, gray wash, noise or paper texture. Hand-drawn ink and delicate watercolor spot illustrations, friendly hand-lettered titles, crisp readable solid black Japanese body text. Match a cheerful dense Chiang Rai travel journal series. Print-safe margins. 5 organized illustrated cards: first full-width then 2x2, header, compact choosing strip, lower practical checklist. Color accents coral mustard leaf green and blue. About 65% text and white space, 35% illustration. All Japanese exact, no source attribution or TSV/research mentions, no extra medical efficacy claims. All baths pictured are designated constructed cooled bathing areas, never people bathing in boiling spring pools. Visitors clothed at foot baths, swimwear in pools.
+Title "チェンライ 天然温泉ガイド"
+Subtitle "足湯・個室風呂・温泉プールで、旅のひと休み"
+Issue "005"
+Choosing strip "目的で選ぼう"
+"近場なら → ポンプラバート　温泉卵なら → パートゥン"
+"川辺の自然 → フアイマークリアム　プール → パーセート　ドライブ休憩 → メーカチャン"
+
+01 ポンプラバート温泉
+Pong Phra Bat Hot Springs
+市街から北へ約8〜10km／車で約15分
+07:00–17:00
+気軽に立ち寄れる市街近郊の温泉。屋外足湯と1〜4名用の個室風呂。
+入場・足湯 無料
+個室風呂・1時間：1名70B／2名100B
+3名140B／4名180B
+マッサージ 約150B／時
+設備：駐車場、売店、東屋。
+源泉48〜50℃。飲用は禁止。
+Illustration: attractive small hot spring pavilion, fully clothed travelers with bare feet only in designated shallow footbath, tiny private bath inset. White behind text.
+
+02 パートゥン温泉
+Pa Tueng Hot Spring
+市街から北へ約35km／国道1089号沿い
+06:00–18:00
+噴水と緑地公園が目印。温度別の足湯、個室風呂、湯掛け室がある。
+入場・足湯 無料
+個室風呂 約20〜50B／名
+マッサージ 約150〜200B／時
+温泉卵セット 約20〜30B
+名物は竹籠で作る温泉卵。
+高温の源泉池には入らない。
+Illustration: isolated fountain surrounded by protective boundary, little bamboo basket eggs, small green park.
+
+03 フアイマークリアム温泉
+Huai Mak Liam Hot Springs
+市街から西へ約19km／ラムナムコク国立公園内
+08:00–17:00
+コック川沿いの自然と遊歩道を楽しむ温泉スポット。足湯、個室浴槽、キャンプ場を併設。
+足湯 無料
+個室風呂 約30〜50B
+公園入場料は現地で確認。
+外国人100〜200Bの場合あり。
+源泉56〜67℃。利用できる区画を確認しよう。
+Illustration: leafy riverside park and protected hot spring source, wooden walking path, river beyond, no person in raw spring.
+
+04 パーセート温泉
+Pha Soet Hot Spring
+市街から西へ約19km／ドイハーン地区
+08:00–17:00
+大型の屋外温泉プールと個室風呂。家族での休憩にも。フアイマークリアムの近く。
+入場・足湯 無料
+屋外プール 約30〜50B
+個室風呂 約50〜80B
+マッサージ 約150〜200B／時
+設備：食事処、マッサージ棟、温泉卵場。
+プールの服装・利用ルールは現地で確認。
+Illustration: inviting constructed outdoor swimming pool with handrail, adjacent modest pavilions and small towel icon.
+
+05 メーカチャン温泉
+Mae Kachan Hot Spring
+市街から南西へ約85km／国道118号沿い
+足湯・店舗 06:00–19:00
+チェンライ〜チェンマイ間のドライブ休憩に。足湯水路、個室スパ、特産品市場がある。
+入場・足湯 無料
+民間個室風呂 約50B／名
+温泉卵セット 約20〜40B
+ドライブインは24時間開放。
+源泉80〜98℃。卵茹で専用池は高温注意。
+Illustration: roadside market rest area, protected steaming egg-boiling basin with baskets, tiny car, no one touching boiling water.
+
+Bottom heading "温泉へ持っていくもの"
+Small icons and labels "タオル" "着替え・水着" "小額の現金" "飲み水"
+Brief safety line "入浴用の湯温を確かめ、源泉池には入らず、施設の案内に従おう。"
+Small footer only "B＝タイバーツ。時間・料金・設備の利用状況は変更される場合があります。訪問前に最新情報をご確認ください。"
+No medical claims, no healing claims, no text about mineral treatment. Keep 5 cards all prices readable, white backgrounds and small footer.

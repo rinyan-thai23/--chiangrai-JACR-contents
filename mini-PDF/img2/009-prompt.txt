@@ -1,0 +1,62 @@
+Create ONE finished Japanese illustrated Chiang Rai travel guide issue 009. A4 PORTRAIT ratio 210:297, high resolution for print. Pure opaque WHITE background and text areas. No transparency, dark page, gray wash, texture, noise or paper grain. Clear solid black Japanese text, warm hand-lettered headings, fine ink and delicate watercolor spot illustrations, consistent cheerful travel journal series. Dense but legible, 5 illustrated cards: first full width, remaining 4 in 2x2, compact photo tips footer. About 65% information and white space, 35% drawings. Coral mustard green blue accents. White margins. No source attribution or research report/TSV mentions, no invented precise map. Night scenes limited to small illustration areas: keep overall page white. Accurate Japanese and times exactly as provided, no extra historical assertions.
+Title "チェンライ 時計塔＆街歩きガイド"
+Subtitle "光と音のショー、歴史の風景、川辺の夕暮れ"
+Badge "009"
+Top small day plan strip heading "時間帯で楽しむ"
+"朝：旧時計塔と市場　昼：歴史建築　夕方：コック川　夜：黄金の時計塔"
+
+01 チェンライ黄金の時計塔
+Chiang Rai Clock Tower
+場所：バンパプラーカーン通りの交差点
+光と音のショー
+19:00 ／ 20:00 ／ 21:00
+毎日3回・各回約10分が目安
+白の寺を手がけたチャルムチャイ氏の設計で、2008年完成。
+音楽に合わせ、金・紫・青・緑・赤へと表情を変える。
+撮影：歩道から装飾と全景を。周辺店舗の席から眺めるのも一案。
+車道に入らず、安全な歩道で見学しよう。
+Illustration: ornate tall golden Lanna clock tower with four-faced clock, fine decorative spire, tiny colored glow accents, pedestrians safely on sidewalk, no person in roundabout. Large time typography.
+
+02 メンラーイ王記念碑
+King Mengrai Monument
+場所：旧市街北東部・メンラーイ五叉路
+見頃：早朝、夕方〜夜
+1262年にチェンライを築いたメンラーイ王を顕彰する記念碑。1964年建立。
+見どころ：王のブロンズ立像と、背後の黄金の旗竿「トゥン・ルアン」。
+撮影：正面広場から台座と旗竿を一緒に。
+参拝者を優先し、脱靴など現地の案内に従おう。
+Illustration: dignified bronze standing king monument on plinth with decorative golden Lanna banner poles behind, modest offering flowers.
+
+03 旧時計塔
+Old Clock Tower
+場所：市営第1市場前の三叉路
+散策の目安：06:00〜10:00
+黄金の時計塔とは異なる、昔ながらの街のランドマーク。
+朝市と合わせて、野菜や花が並ぶ日常の風景を楽しもう。
+撮影：塔だけでなく、市場の活気も一緒に。
+人物を近くで撮る時は、先に声をかけよう。
+Illustration: simple older utilitarian cream colored clock tower unlike ornate gold tower, small produce stalls baskets flowers, respectful street scene.
+
+04 旧チェンライ県庁舎
+Old Chiang Rai City Hall
+場所：シンハクライ通り
+外観撮影の目安：09:00〜16:00
+歴史あるコロニアル様式の建物。文化展示などにも活用される。
+撮影：前庭から左右対称の外観を。窓枠や回廊の細部にも注目。
+展示内容・内部公開・入場可能な時間は現地で確認。
+Illustration: understated pale colonial civic building with symmetrical facade and windows, lawn; generic illustrative sketch not fabricated signage or elaborate temple architecture.
+
+05 コック川リバーサイド
+Mae Nam Kok Riverside
+場所：メンラーイ橋、公園、河畔カフェ周辺
+夕景の目安：17:00〜18:30
+川面の反射と空の色を楽しむ夕暮れ散歩。乾季の早朝には朝霧が見られることも。
+撮影：橋の歩道や、安全な河畔の場所から。
+カフェ例：Chivit Thamma Da
+日没時刻は季節で変わるため、当日の時刻を確認。
+Illustration: calm river reflecting warm sunset with green banks and small garden cafe terrace, tiny bridge in distance. Color only in drawing not behind text.
+
+Bottom heading "街歩き撮影のチェック"
+Small hand-drawn icons labels "車道に出ない" "参拝・通行を妨げない" "人物撮影はひと声" "夜は足元に注意"
+Tiny footer ONLY "ショー・公開・照明の実施状況は変更される場合があります。訪問前に最新情報をご確認ください。"
+Keep all five spots, all provided text accurately rendered and unclipped. WHITE page, readable black print.
