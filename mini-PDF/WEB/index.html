@@ -83,7 +83,7 @@
     }
     .grid-container {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
       gap: 20px;
     }
     .portal-card {
@@ -108,6 +108,27 @@
       align-items: center;
       gap: 12px;
       margin-bottom: 10px;
+    }
+    .card-preview {
+      aspect-ratio: 210 / 297;
+      background: #fff;
+      margin-bottom: 20px;
+      border: 1px solid #f1f5f9;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .card-preview img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .portal-card:focus-visible { outline: 3px solid var(--primary); outline-offset: 4px; }
+    .card-id { flex-shrink: 0; }
+    @media (max-width: 480px) {
+      .portal-header { padding: 36px 0; }
+      .portal-title { font-size: 1.7rem; }
+      .portal-main { padding: 28px 16px 48px; }
+      .portal-card { padding: 16px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .portal-card { transition: none; }
+      .portal-card:hover { transform: none; }
     }
     .card-id {
       font-size: 1.1rem;
@@ -157,11 +178,11 @@
       <h1 class="portal-title">タイ・チェンライ旅＆生活ガイド 50選</h1>
       <p class="portal-desc">
         観光名所、ランナー伝統文化、タイ語フレーズ、山岳民族、美食、生活安全情報まで。<br>
-        全50テーマの1ページ完結Webサイト成果物ポータル。
+        イラストから選べる、全50テーマの旅と暮らしのガイド。
       </p>
       <div class="portal-stats">
         <div class="stat-pill">📚 全50テーマ 完備</div>
-        <div class="stat-pill">🔍 一次情報ファクトチェック済</div>
+        <div class="stat-pill">🖼️ イラストで選べるガイド</div>
         <div class="stat-pill">🖨️ A4印刷・PDF出力対応</div>
       </div>
     </div>
@@ -215,28 +236,31 @@
       { id: "034", title: "山岳地帯のコミュニティベースド・ツーリズム（CBT）体験", desc: "村泊まり、お茶摘み、民族文化を直接学ぶサステナブルツアー。" },
       { id: "035", title: "ランナーの伝統音楽・楽器（スン、サロー）と踊り解説", desc: "撥弦楽器スン、擦弦楽器サローの音色と優美な宮廷舞踊。" },
       { id: "036", title: "タイの生まれ曜日別「守護仏・ラッキーカラー」早見表", desc: "日〜土（水曜昼夜）の8区分守護仏と開運カラー・ご利益。" },
-      { id: "037", title: "タイの「お酒が買えない日（禁酒日）＆年間祝日」カレンダー", desc: "仏教聖日（ワン・プラ）、選挙日、販売時間制限（11-14時/17-24時）。" },
+      { id: "037", title: "タイの「お酒が買えない日（禁酒日）＆年間祝日」カレンダー", desc: "仏教行事・選挙日の酒類販売ルールと、旅の前に確認したい祝日。" },
       { id: "038", title: "タイの長期滞在（リタイアメントビザ・90日レポート）早見表", desc: "50歳以上ノンイミグラントOビザ、更新要件、住所報告手順。" },
-      { id: "039", title: "タイ宝くじ「下2桁当選頻度」ランキング＆数字文化", desc: "毎月1日・16日抽選のロッタリー文化と縁起の良い数字。" },
+      { id: "039", title: "タイ宝くじと数字の文化", desc: "縁起の良い数字の解釈と、出現頻度・当選確率の違い。" },
       { id: "040", title: "タイの「数字にまつわる吉凶文化（9と8の秘密）」解説", desc: "発展を意味する「9（カーオ）」や中華系に好まれる「8」の信仰。" },
-      { id: "041", title: "タイ全土・最高格付け「1級王室寺院」全23寺一覧マップ", desc: "ワット・ポー、ワット・アルン等最高格式寺院の完全網羅。" },
-      { id: "042", title: "辛さレベル別「タイ料理100選」単語分解＆注文ガイド", desc: "料理名の構造分解と「辛さ控えめ」「唐辛子抜き」の注文術。" },
-      { id: "043", title: "タイの「伝統ハーブ・スパイス20選」効能・使われ方", desc: "ホーリーバジル、コブミカン、クラチャイ等の薬効と代表料理。" },
-      { id: "044", title: "屋台・市場でそのまま指せる「タイ語注文フレーズ50選」", desc: "「持ち帰り」「お会計」「これください」等実戦フレーズ集。" },
-      { id: "045", title: "タイの「伝統スイーツ・タイ菓子30選」甘さ＆由来図鑑", desc: "フォントーン、トーンヨート等アユタヤ期からの吉祥菓子図鑑。" },
+      { id: "041", title: "タイの第1級王室寺院23寺・地域別ガイド", desc: "ワット・ポー、ワット・アルン等、最高格式寺院の見どころ。" },
+      { id: "042", title: "タイ料理10品・辛さと注文ガイド", desc: "料理名の構造分解と「辛さ控えめ」「唐辛子抜き」の注文術。" },
+      { id: "043", title: "タイのハーブ＆スパイス10種図鑑", desc: "香り・見分け方・代表料理と食卓での使い方。" },
+      { id: "044", title: "屋台・市場の指さしタイ語12フレーズ", desc: "「持ち帰り」「お会計」「これください」等実戦フレーズ集。" },
+      { id: "045", title: "タイの伝統スイーツ10品・甘さと由来図鑑", desc: "フォーイ・トーン、トーン・ヨートなど、味と祝いの物語。" },
       { id: "046", title: "タイの「ジェー（菜食主義）週間」ルールと黄色い旗解説", desc: "秋のキンジェー戒律、5大刺激野菜の禁止、植物性代替料理。" },
       { id: "047", title: "タイ語の「親族の呼び方（父方・母方の区別）」呼称表", desc: "プー（父方祖父）vs ター（母方祖父）等、厳格な親族呼称体系。" },
       { id: "048", title: "タイの「幸運を呼ぶ伝統猫（シャム等）」種類・伝承図鑑", desc: "古文書『タムラー・メーオ』に記されたウィチェンマート、コラート等。" },
-      { id: "049", title: "タイ古式マッサージ「セルフツボ押し（セン）」健康シート", desc: "伝統医学のエネルギーラインと自分でできる仙人体操ルーシーダットン。" },
+      { id: "049", title: "タイ古式の「セン」と旅先のひと休み", desc: "センの文化的な説明と、無理のない座位の休憩運動。" },
       { id: "050", title: "タイ生活の「緊急時連絡先（警察・大使館等）」ハンドブック", desc: "1155（観光警察）、1669（救急）、日本大使館等の緊急ダイヤル一覧。" }
     ];
 
     const grid = document.getElementById('portalGrid');
-    items.forEach(item => {
+    items.forEach((item, index) => {
       const card = document.createElement('a');
       card.href = `${item.id}/index.html`;
       card.className = 'portal-card';
       card.innerHTML = `
+        <div class="card-preview">
+          <img src="thumbnails/${item.id}.webp" alt="" width="480" height="680" loading="${index < 3 ? 'eager' : 'lazy'}" decoding="async">
+        </div>
         <div class="card-top">
           <span class="card-id">No.${item.id}</span>
           <h2 class="card-title">${item.title}</h2>
