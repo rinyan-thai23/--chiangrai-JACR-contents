@@ -31,7 +31,7 @@ def main():
     assert len(titles) == 50
     index = index.replace('© 2026 JACR Chiang Rai Contents. All Rights Reserved.',
                           '© 2026 チェンライ日本人会. All Rights Reserved.')
-    index = index.replace('>JACR Chiang Rai Contents<', '>チェンライ日本人会 主催<')
+    index = index.replace('>JACR Chiang Rai Contents<', '>チェンライ日本人会 作成<')
     portal.write_text(index, encoding='utf-8')
     for number, targets in RELATED.items():
         path = WEB / f'{number:03}' / 'index.html'
@@ -40,7 +40,7 @@ def main():
                             '© 2026 チェンライ日本人会. All Rights Reserved.')
         if 'class="association-host"' not in page:
             page = page.replace('<div class="container header-inner">',
-                                '<div class="container header-inner">\n      <p class="association-host">チェンライ日本人会 主催</p>', 1)
+                                '<div class="container header-inner">\n      <p class="association-host">チェンライ日本人会 作成</p>', 1)
         if 'href="../guide-navigation.css"' not in page:
             page = page.replace('</head>', '  <link rel="stylesheet" href="../guide-navigation.css">\n</head>', 1)
         cards = []
