@@ -1,0 +1,20 @@
+.association-host {
+  margin: 0 0 14px;
+  font-size: 14px;
+  font-weight: 400;
+  color: inherit;
+  opacity: .85;
+}
+.related-guides { margin-top: 48px; padding-top: 28px; border-top: 1px solid #dbe4e8; }
+.related-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
+.related-heading h2 { margin: 0; font-size: 22px; color: #1e293b; }
+.related-heading > a { font-size: 14px; color: #0f766e; text-underline-offset: 4px; }
+.related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.related-guide { display: flex; gap: 16px; align-items: center; padding: 14px; border: 1px solid #e2e8f0; border-radius: 12px; background: #fff; color: #1e293b; text-decoration: none; }
+.related-guide img { width: 80px; height: 113px; object-fit: contain; flex-shrink: 0; background: #fff; }
+.related-guide > span { min-width: 0; font-size: 16px; line-height: 1.6; }
+.related-guide small { display: block; font-size: 14px; color: #0f766e; margin-bottom: 4px; }
+.related-guide:hover { border-color: #0f766e; background: #f0fdfa; }
+.related-guide:focus-visible, .related-heading a:focus-visible { outline: 3px solid #0f766e; outline-offset: 3px; }
+@media (max-width: 640px) { .related-grid { grid-template-columns: 1fr; } }
+@media print { .related-guides { display: none; } }
