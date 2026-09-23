@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="タイ語アルファベット学習アプリ - 子音・母音・声調記号を一覧表示＆詳細カードで学習">
+    <title>タイ文字一覧 | Thai Alphabet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-top">
+            <h1>🇹🇭 タイ文字一覧</h1>
+            <div style="display:flex;align-items:center;gap:8px;">
+                <div class="view-toggle">
+                    <button id="btnList" class="active">一覧</button>
+                    <button id="btnCard">カード</button>
+                </div>
+                <div class="font-selector-wrap">
+                    <button class="font-selector-btn" id="btnFont" title="フォント切替">
+                        <span class="font-btn-sample">ก</span>▾
+                    </button>
+                    <div class="font-panel" id="fontPanel">
+                        <button class="font-option active" data-font="'Noto Sans Thai', sans-serif">
+                            <span class="font-option-sample" style="font-family:'Noto Sans Thai',sans-serif">กข</span>
+                        </button>
+                        <button class="font-option" data-font="'Sarabun', sans-serif">
+                            <span class="font-option-sample" style="font-family:'Sarabun',sans-serif">กข</span>
+                        </button>
+                        <button class="font-option" data-font="'Kanit', sans-serif">
+                            <span class="font-option-sample" style="font-family:'Kanit',sans-serif">กข</span>
+                        </button>
+                        <button class="font-option" data-font="'Prompt', sans-serif">
+                            <span class="font-option-sample" style="font-family:'Prompt',sans-serif">กข</span>
+                        </button>
+                        <button class="font-option" data-font="'Sriracha', cursive">
+                            <span class="font-option-sample" style="font-family:'Sriracha',cursive">กข</span>
+                        </button>
+                        <button class="font-option" data-font="'Mitr', sans-serif">
+                            <span class="font-option-sample" style="font-family:'Mitr',sans-serif">กข</span>
+                        </button>
+                    </div>
+                </div>
+                <button class="theme-toggle" id="btnTheme" title="テーマ切替">🌙</button>
+            </div>
+        </div>
+        <div class="filter-tabs" id="filterTabs">
+            <button class="filter-tab active" data-filter="all">すべて</button>
+            <button class="filter-tab" data-filter="Consonant">子音</button>
+            <button class="filter-tab" data-filter="Vowel">母音</button>
+            <button class="filter-tab" data-filter="Tone">声調</button>
+            <button class="filter-tab" data-filter="Exception">特殊</button>
+        </div>
+    </header>
+
+    <main id="mainContent">
+        <!-- List view: rendered by JS -->
+        <div id="listView"></div>
+
+        <!-- Card view: rendered by JS -->
+        <div id="cardView" class="card-view"></div>
+    </main>
+
+    <!-- Bottom navigation for card view -->
+    <div class="bottom-nav" id="bottomNav">
+        <button class="nav-btn" id="btnPrev" title="前">◀</button>
+        <button class="nav-btn play-main" id="btnPlayMain" title="メイン音声">🔊</button>
+        <span class="nav-counter" id="navCounter">1 / 86</span>
+        <button class="nav-btn play-sub" id="btnPlaySub" title="スペル音声">🔉</button>
+        <button class="nav-btn" id="btnNext" title="次">▶</button>
+    </div>
+
+    <!-- Hidden audio element -->
+    <audio id="audioPlayer" preload="none"></audio>
+
+    <script src="data_jp.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
