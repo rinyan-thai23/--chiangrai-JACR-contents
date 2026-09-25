@@ -4,6 +4,7 @@
 
 | 公開日 | タイトル | エリア | ファイル |
 |---|---|---|---|
+| 2026-09-25 | チェンライ・チェンマイが「学びの街」観光ルートを始動、20拠点・6分野で連携 | チェンライ市 | [2026-09-25-chiang-rai-learning-city-tourism.md](./2026-09-25-chiang-rai-learning-city-tourism.md) |
 | 2026-09-18 | メーサイ〜ターチーレックの物流に混乱、ミャンマー側が一時輸入停止 現地物価が急騰 | メーサイ | [2026-09-18-tachileik-thai-import-suspension.md](./2026-09-18-tachileik-thai-import-suspension.md) |
 | 2026-09-11 | チェンライ・メーサイの増水が再び悪化、9月10日夜に対岸ターチーレックの堤防が決壊 | メーサイ | [2026-09-11-mae-sai-tachileik-flood-escalation.md](./2026-09-11-mae-sai-tachileik-flood-escalation.md) |
 | 2026-09-11 | チェンライ市街の渋滞緩和へ、メーカオトム交差点で高架橋建設が始動 | ムアン郡 | [2026-09-11-mae-khao-tom-overpass.md](./2026-09-11-mae-khao-tom-overpass.md) |
