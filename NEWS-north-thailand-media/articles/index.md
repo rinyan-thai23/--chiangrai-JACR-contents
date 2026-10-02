@@ -4,6 +4,8 @@
 
 | 公開日 | タイトル | エリア | ファイル |
 |---|---|---|---|
+| 2026-10-02 | 物価急騰のターチーレックから、買い出しの波がメーサイへ 輸入停止の余波続く | メーサイ | [2026-10-02-mae-sai-myanmar-shoppers.md](./2026-10-02-mae-sai-myanmar-shoppers.md) |
+| 2026-10-02 | ドイルアン国立公園、10月1日から「ドイルアン・ドイノック」縦走登山の予約受付を再開 | ドイルアン国立公園 | [2026-10-02-doi-luang-trekking-reopens.md](./2026-10-02-doi-luang-trekking-reopens.md) |
 | 2026-09-25 | チェンライ・チェンマイが「学びの街」観光ルートを始動、20拠点・6分野で連携 | チェンライ市 | [2026-09-25-chiang-rai-learning-city-tourism.md](./2026-09-25-chiang-rai-learning-city-tourism.md) |
 | 2026-09-18 | メーサイ〜ターチーレックの物流に混乱、ミャンマー側が一時輸入停止 現地物価が急騰 | メーサイ | [2026-09-18-tachileik-thai-import-suspension.md](./2026-09-18-tachileik-thai-import-suspension.md) |
 | 2026-09-11 | チェンライ・メーサイの増水が再び悪化、9月10日夜に対岸ターチーレックの堤防が決壊 | メーサイ | [2026-09-11-mae-sai-tachileik-flood-escalation.md](./2026-09-11-mae-sai-tachileik-flood-escalation.md) |
