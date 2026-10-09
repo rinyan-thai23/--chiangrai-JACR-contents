@@ -4,6 +4,7 @@
 
 | 公開日 | タイトル | エリア | ファイル |
 |---|---|---|---|
+| 2026-10-09 | チェンライ・メーサイ周辺の河川、ヒ素が基準値の28倍 5地区で水の使用自粛を要請 | メーサイ | [2026-10-09-mae-sai-arsenic-water-warning.md](./2026-10-09-mae-sai-arsenic-water-warning.md) |
 | 2026-10-02 | 物価急騰のターチーレックから、買い出しの波がメーサイへ 輸入停止の余波続く | メーサイ | [2026-10-02-mae-sai-myanmar-shoppers.md](./2026-10-02-mae-sai-myanmar-shoppers.md) |
 | 2026-10-02 | ドイルアン国立公園、10月1日から「ドイルアン・ドイノック」縦走登山の予約受付を再開 | ドイルアン国立公園 | [2026-10-02-doi-luang-trekking-reopens.md](./2026-10-02-doi-luang-trekking-reopens.md) |
 | 2026-09-25 | チェンライ・チェンマイが「学びの街」観光ルートを始動、20拠点・6分野で連携 | チェンライ市 | [2026-09-25-chiang-rai-learning-city-tourism.md](./2026-09-25-chiang-rai-learning-city-tourism.md) |
