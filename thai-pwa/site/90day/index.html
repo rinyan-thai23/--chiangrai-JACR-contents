@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b5d57">
+<meta name="description" content="90日レポートの期限を表示して、近づいたら通知でお知らせします。">
+<title>90日レポート</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap">
+<style>
+/* レイアウト：1カラム。上に「あと何日」、下に通知のスイッチ。大きな文字で迷わせない */
+:root {
+  --bg: #f3f5f2;
+  --surface: #ffffff;
+  --ink: #14201f;
+  --muted: #4c5a58;
+  --line: #cdd6d3;
+  --accent: #0b5d57;
+  --accent-ink: #ffffff;
+  --ok: #1d7a45;
+  --warn: #b25b00;
+  --bad: #c3332b;
+  --font: "BIZ UDPGothic", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101716; --surface: #18211f; --ink: #e9efed; --muted: #a7b5b2; --line: #33413e;
+    --accent: #5cc2b6; --accent-ink: #0b1f1d; --ok: #6fd39a; --warn: #f2a85a; --bad: #ff8079;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101716; --surface: #18211f; --ink: #e9efed; --muted: #a7b5b2; --line: #33413e;
+  --accent: #5cc2b6; --accent-ink: #0b1f1d; --ok: #6fd39a; --warn: #f2a85a; --bad: #ff8079;
+  color-scheme: dark;
+}
+[hidden] { display: none !important; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 18px; line-height: 1.6; }
+.wrap { max-width: 520px; margin: 0 auto; padding-inline: 16px; padding-block: 18px 40px; display: grid; gap: 16px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+h1 { font-size: 1.5rem; margin: 0; }
+button { font: inherit; cursor: pointer; }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.lang { border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 4px 14px; font-weight: 700; }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px; display: grid; gap: 10px; }
+label.big { font-weight: 700; font-size: 1.05rem; }
+label.big small { display: block; font-weight: 400; font-size: .9rem; color: var(--muted); }
+input[type=date] { font: inherit; font-size: 1.4rem; font-weight: 700; padding: 12px; border: 2px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--ink); width: 100%; min-height: 56px; }
+input[type=date]:focus { border-color: var(--accent); outline: none; }
+.link { background: none; border: 0; padding: 0; color: var(--accent); text-decoration: underline; font-size: .95rem; justify-self: start; }
+
+.count { text-align: center; display: grid; gap: 4px; padding: 22px 18px; }
+.count .pill { justify-self: center; font-weight: 700; font-size: .95rem; border-radius: 999px; padding: 3px 14px; color: var(--accent-ink); background: var(--muted); }
+.count .pill.wait { background: var(--muted); }
+.count .pill.open { background: var(--ok); }
+.count .pill.late { background: var(--warn); }
+.count .pill.fine { background: var(--bad); }
+.count .days { font-size: 1.1rem; }
+.count .days b { font-size: 4.2rem; line-height: 1.1; display: block; font-variant-numeric: tabular-nums; }
+.count .due { font-size: 1.15rem; font-weight: 700; }
+.count .win { color: var(--muted); font-size: .98rem; }
+
+.notify .state { font-weight: 700; }
+.notify .state.on { color: var(--ok); }
+.btn { border: 0; border-radius: 14px; padding: 16px; font-weight: 700; font-size: 1.15rem; background: var(--accent); color: var(--accent-ink); width: 100%; min-height: 56px; }
+.btn.sub { background: transparent; color: var(--accent); border: 2px solid var(--accent); font-size: 1rem; padding: 12px; min-height: 48px; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.msg { font-size: .95rem; color: var(--muted); margin: 0; }
+.msg.err { color: var(--bad); }
+
+.foot { font-size: .9rem; color: var(--muted); display: grid; gap: 6px; }
+.foot a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 data-t="title">90日レポート</h1>
+    <button type="button" class="lang" id="lang" aria-label="Language">EN</button>
+  </header>
+
+  <section class="card">
+    <label class="big" for="due"><span data-t="dueLabel">次回の報告日</span><small data-t="dueHelp">前回の受付票（レシート）に書いてある日付</small></label>
+    <input type="date" id="due">
+    <button type="button" class="link" id="toggleEntry" data-t="firstTime">初めての人：入国日から計算する</button>
+    <div id="entryBox" hidden>
+      <label class="big" for="entry"><span data-t="entryLabel">最後にタイに入国した日</span></label>
+      <input type="date" id="entry">
+    </div>
+  </section>
+
+  <section class="card count" id="count" aria-live="polite"></section>
+
+  <section class="card notify" id="notify">
+    <div class="state" id="nState"></div>
+    <p class="msg" id="nWhen" data-t="when">期限の15日前・3日前・当日・最終日の前日に、通知でお知らせします。</p>
+    <button type="button" class="btn" id="nOn" data-t="turnOn">通知を受け取る</button>
+    <div class="row2" id="nOnBox" hidden>
+      <button type="button" class="btn sub" id="nTest" data-t="test">テスト通知</button>
+      <button type="button" class="btn sub" id="nOff" data-t="turnOff">通知をやめる</button>
+    </div>
+    <p class="msg" id="nMsg" hidden></p>
+  </section>
+
+  <div class="foot">
+    <div data-t="after">報告が終わったら、新しい受付票の日付に書きかえてください。通知も新しい日付に合わせて届きます。</div>
+    <div data-t="fine">期限を過ぎると罰金（2,000バーツ〜）の対象になります。</div>
+    <div><span data-t="online">オンラインでの報告：</span><a href="https://tm47.immigration.go.th/" target="_blank" rel="noopener">tm47.immigration.go.th</a></div>
+  </div>
+</div>
+
+<script>
+(() => {
+  const T = {
+    ja: {
+      title: "90日レポート", dueLabel: "次回の報告日", dueHelp: "前回の受付票（レシート）に書いてある日付",
+      firstTime: "初めての人：入国日から計算する", entryLabel: "最後にタイに入国した日",
+      when: "期限の15日前・3日前・当日・最終日の前日に、通知でお知らせします。",
+      turnOn: "通知を受け取る", test: "テスト通知", turnOff: "通知をやめる",
+      after: "報告が終わったら、新しい受付票の日付に書きかえてください。通知も新しい日付に合わせて届きます。",
+      fine: "期限を過ぎると罰金（2,000バーツ〜）の対象になります。", online: "オンラインでの報告：",
+      empty: "上に日付を入れてください", left: "期限まで あと", day: "日", today: "今日が期限です",
+      over: "期限を過ぎて", overDay: "日",
+      wait: "まだ報告できません", open: "報告できます", late: "期限を過ぎています（最終日まで報告できます）", fineS: "最終日を過ぎました。罰金の対象です",
+      due: "期限", win: "報告できる期間", sep: "：", to: " 〜 ",
+      nOff: "通知：オフ", nOnS: "通知：オン", nNo: "この画面では通知を設定できません。ホーム画面に追加したアプリから設定してください。",
+      nIos: "iPhoneの場合は、先に「共有」→「ホーム画面に追加」をして、そのアイコンから開いてください。",
+      nDenied: "通知が「ブロック」になっています。スマホの「設定」→「アプリ」→（このアプリ または Chrome）→「通知」をオンにしてください。",
+      nNeedDate: "先に日付を入れてください。", nDone: "通知をオンにしました。", nTestSent: "テスト通知を送りました。数秒で届きます。",
+      nFail: "うまくいきませんでした。電波のある所で、もう一度押してください。", nStopped: "通知をやめました。",
+      wd: ["日", "月", "火", "水", "木", "金", "土"],
+    },
+    en: {
+      title: "90-Day Report", dueLabel: "Next report date", dueHelp: "The date printed on your last receipt slip",
+      firstTime: "First time? Calculate from your entry date", entryLabel: "Date you last entered Thailand",
+      when: "You will get a notification 15 days and 3 days before, on the due date, and the day before the last day.",
+      turnOn: "Turn on notifications", test: "Send a test", turnOff: "Turn off",
+      after: "After you report, change the date to the one on your new receipt. Notifications will follow the new date.",
+      fine: "Reporting late can lead to a fine (from 2,000 THB).", online: "Report online: ",
+      empty: "Enter a date above", left: "Days until due", day: "", today: "Due today",
+      over: "Days overdue", overDay: "",
+      wait: "Too early to report", open: "You can report now", late: "Overdue (you can still report until the last day)", fineS: "Past the last day. A fine applies",
+      due: "Due", win: "Reporting window", sep: ": ", to: " – ",
+      nOff: "Notifications: off", nOnS: "Notifications: on", nNo: "Notifications can't be set here. Open the app from your home screen.",
+      nIos: "On iPhone, tap Share → Add to Home Screen first, then open the app from that icon.",
+      nDenied: "Notifications are blocked. Go to Settings → Apps → (this app or Chrome) → Notifications and turn them on.",
+      nNeedDate: "Enter a date first.", nDone: "Notifications are on.", nTestSent: "Test sent. It should arrive in a few seconds.",
+      nFail: "That didn't work. Check your connection and try again.", nStopped: "Notifications are off.",
+      wd: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    },
+  };
+
+  // ---------- 日付 ----------
+  const pad = (n) => String(n).padStart(2, "0");
+  const ymd = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  const parse = (s) => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
+  const addDays = (s, n) => { const d = parse(s); d.setDate(d.getDate() + n); return ymd(d); };
+  const diffDays = (a, b) => Math.round((parse(a) - parse(b)) / 86400000);
+  const today = () => ymd(new Date());
+  function fmt(s) {
+    const d = parse(s), t = T[lang];
+    return lang === "ja"
+      ? `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日（${t.wd[d.getDay()]}）`
+      : `${t.wd[d.getDay()]}, ${d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}`;
+  }
+
+  // ---------- 保存（端末の中だけ） ----------
+  const $ = (id) => document.getElementById(id);
+  const load = () => { try { return JSON.parse(localStorage.getItem("90day") || "{}"); } catch { return {}; } };
+  let st = load();
+  let lang = st.lang || ((navigator.language || "ja").startsWith("ja") ? "ja" : "en");
+  function save() {
+    st.lang = lang;
+    try { localStorage.setItem("90day", JSON.stringify(st)); } catch {}
+    // 通知の文面は sw.js がここを読んで作る
+    if ("caches" in window) caches.open("90day-state").then(c => c.put(new URL("state.json", location.href), new Response(JSON.stringify({ due: st.due || null, lang })))).catch(() => {});
+  }
+
+  // ---------- 表示 ----------
+  function applyLang() {
+    const t = T[lang];
+    document.documentElement.lang = lang;
+    document.title = t.title;
+    document.querySelectorAll("[data-t]").forEach(el => { el.textContent = t[el.dataset.t]; });
+    $("lang").textContent = lang === "ja" ? "EN" : "日本語";
+  }
+
+  function renderCount() {
+    const t = T[lang], el = $("count");
+    if (!st.due) { el.innerHTML = `<div class="days">${t.empty}</div>`; return; }
+    const d = diffDays(st.due, today());
+    const open = addDays(st.due, -15), last = addDays(st.due, 7);
+    let pill, cls, big;
+    if (d > 15) { pill = t.wait; cls = "wait"; }
+    else if (d >= 0) { pill = t.open; cls = "open"; }
+    else if (d >= -7) { pill = t.late; cls = "late"; }
+    else { pill = t.fineS; cls = "fine"; }
+    if (d > 0) big = `${t.left}<b>${d}</b>${t.day}`;
+    else if (d === 0) big = `<b>${t.today}</b>`;
+    else big = `${t.over}<b>${-d}</b>${t.overDay}`;
+    el.innerHTML = `<span class="pill ${cls}">${pill}</span><div class="days">${big}</div>
+      <div class="due">${t.due}${t.sep}${fmt(st.due)}</div>
+      <div class="win">${t.win}${t.sep}${fmt(open)}${t.to}${fmt(last)}</div>`;
+  }
+
+  // ---------- 通知 ----------
+  const isIos = /iPhone|iPad|iPod/.test(navigator.userAgent);
+  const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  let swReg = null, serverOk = false;
+
+  function say(key, err) { const m = $("nMsg"); m.textContent = T[lang][key]; m.className = "msg" + (err ? " err" : ""); m.hidden = false; }
+
+  async function currentSub() { return swReg ? swReg.pushManager.getSubscription() : null; }
+
+  async function renderNotify() {
+    const t = T[lang];
+    const can = serverOk && swReg && "PushManager" in window && "Notification" in window;
+    const sub = can ? await currentSub() : null;
+    const on = !!sub && Notification.permission === "granted";
+    $("nState").textContent = on ? `${t.nOnS} ✓` : t.nOff;
+    $("nState").className = "state" + (on ? " on" : "");
+    $("nOn").hidden = on || !can;
+    $("nOnBox").hidden = !on;
+    if (!can) { $("nMsg").textContent = isIos && !standalone ? t.nIos : t.nNo; $("nMsg").className = "msg"; $("nMsg").hidden = false; }
+    else if (Notification.permission === "denied") say("nDenied", true);
+  }
+
+  const b64uToBytes = (s) => { const b = atob(s.replace(/-/g, "+").replace(/_/g, "/")); return Uint8Array.from(b, c => c.charCodeAt(0)); };
+  const post = (path, data) => fetch(path, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(data) });
+
+  async function turnOn() {
+    if (!st.due) { say("nNeedDate", true); return; }
+    try {
+      const perm = await Notification.requestPermission();
+      if (perm !== "granted") { say("nDenied", true); return; }
+      const { key } = await (await fetch("/api/vapid")).json();
+      const sub = (await currentSub()) || await swReg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64uToBytes(key) });
+      const r = await post("/api/subscribe", { subscription: sub.toJSON(), due: st.due, lang });
+      if (!r.ok) throw new Error(r.status);
+      say("nDone");
+    } catch (e) { say("nFail", true); }
+    renderNotify();
+  }
+
+  async function turnOff() {
+    try {
+      const sub = await currentSub();
+      if (sub) { await post("/api/unsubscribe", { subscription: sub.toJSON() }).catch(() => {}); await sub.unsubscribe(); }
+      say("nStopped");
+    } catch { say("nFail", true); }
+    renderNotify();
+  }
+
+  async function sendTest() {
+    try {
+      const sub = await currentSub();
+      const r = await post("/api/test", { subscription: sub.toJSON() });
+      if (!r.ok) throw new Error(r.status);
+      say("nTestSent");
+    } catch { say("nFail", true); }
+  }
+
+  // 日付や言語が変わったら、サーバー側の期限も合わせる
+  let syncTimer = null;
+  function syncLater() {
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(async () => {
+      const sub = await currentSub().catch(() => null);
+      if (sub && st.due) post("/api/subscribe", { subscription: sub.toJSON(), due: st.due, lang }).catch(() => {});
+    }, 800);
+  }
+
+  // ---------- 操作 ----------
+  $("due").addEventListener("change", () => { st.due = $("due").value || null; save(); renderCount(); syncLater(); });
+  $("entry").addEventListener("change", () => {
+    if (!$("entry").value) return;
+    st.due = addDays($("entry").value, 90); $("due").value = st.due;
+    save(); renderCount(); syncLater();
+  });
+  $("toggleEntry").addEventListener("click", () => { $("entryBox").hidden = !$("entryBox").hidden; });
+  $("lang").addEventListener("click", () => { lang = lang === "ja" ? "en" : "ja"; save(); applyLang(); renderCount(); renderNotify(); syncLater(); });
+  $("nOn").addEventListener("click", turnOn);
+  $("nOff").addEventListener("click", turnOff);
+  $("nTest").addEventListener("click", sendTest);
+
+  // ---------- 起動 ----------
+  if (st.due) $("due").value = st.due;
+  save(); applyLang(); renderCount(); renderNotify();
+  // 日付が変わったら表示を更新（開きっぱなしでも）
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) renderCount(); });
+
+  (async () => {
+    if (!("serviceWorker" in navigator)) return;
+    try {
+      swReg = await navigator.serviceWorker.register("sw.js");
+      await navigator.serviceWorker.ready;
+      const r = await fetch("/api/vapid", { cache: "no-store" });
+      serverOk = r.ok && (r.headers.get("content-type") || "").includes("json");
+    } catch { serverOk = false; }
+    renderNotify();
+  })();
+})();
+</script>
+</body>
+</html>

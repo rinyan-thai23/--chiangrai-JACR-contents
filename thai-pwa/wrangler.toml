@@ -1,0 +1,21 @@
+# タイ在住者向けツール一式（画面＋通知係）を1つの Cloudflare Worker として置く設定
+name = "thai-pwa"
+main = "worker/index.js"
+compatibility_date = "2026-09-01"
+
+# 画面（site/ の中身）をそのまま配る。/api/ だけ worker/index.js が受け取る
+[assets]
+directory = "./site"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+# 毎朝 8:00（タイ時間）＝ 1:00 UTC に通知を送る
+[triggers]
+crons = ["0 1 * * *"]
+
+# 通知の宛先と期限日を保存するデータベース
+# Cloudflare で D1 データベース「thai-pwa」を作り、その ID をここに書く
+[[d1_databases]]
+binding = "DB"
+database_name = "thai-pwa"
+database_id = "00000000-0000-0000-0000-000000000000"
