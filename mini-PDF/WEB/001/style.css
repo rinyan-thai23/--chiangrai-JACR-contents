@@ -634,3 +634,13 @@ body {
     page-break-inside: avoid;
   }
 }
+
+/* Location maps: scoped to this guide. */
+.temple-map { margin-top: 24px; padding-top: 20px; border-top: 1px solid #e2e8f0; }
+.temple-map h4 { margin: 0 0 8px; font-size: 1rem; color: #0f766e; }
+.map-location, .map-link { font-size: 14px; line-height: 1.7; margin: 8px 0; }
+.temple-map iframe { display: block; width: 100%; height: 300px; border: 0; border-radius: 10px; background: #f1f5f9; }
+.map-link a { color: #0f766e; text-underline-offset: 3px; }
+.map-link a:focus-visible { outline: 3px solid #0f766e; outline-offset: 4px; }
+@media (max-width: 480px) { .temple-map iframe { height: 260px; } }
+@media print { .temple-map iframe, .map-link { display: none; } .temple-map { margin-top: 12px; padding-top: 8px; } }

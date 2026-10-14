@@ -498,3 +498,13 @@ body {
     page-break-inside: avoid;
   }
 }
+
+/* Location maps: scoped to this guide. */
+.location-map { margin-top: 24px; padding-top: 20px; border-top: 1px solid #e2e8f0; }
+.location-map h4 { margin: 0 0 8px; font-size: 1rem; color: #0f766e; }
+.map-location, .map-link { font-size: 14px; line-height: 1.7; margin: 8px 0; }
+.location-map iframe { display: block; width: 100%; height: 300px; border: 0; border-radius: 10px; background: #f1f5f9; }
+.map-link a { color: #0f766e; text-underline-offset: 3px; }
+.map-link a:focus-visible { outline: 3px solid #0f766e; outline-offset: 4px; }
+@media (max-width: 480px) { .location-map iframe { height: 260px; } }
+@media print { .location-map iframe, .map-link { display: none; } .location-map { margin-top: 12px; padding-top: 8px; } }
