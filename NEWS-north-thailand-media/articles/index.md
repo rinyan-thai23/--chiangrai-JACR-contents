@@ -4,6 +4,7 @@
 
 | 公開日 | タイトル | エリア | ファイル |
 |---|---|---|---|
+| 2026-11-06 | メーサイ川の水量低下で汚染濃縮、水道が減産 2地区14村に影響 | メーサイ | [2026-11-06-mae-sai-water-turbidity-crisis.md](./2026-11-06-mae-sai-water-turbidity-crisis.md) |
 | 2026-10-30 | メーサイ川の汚染、ヒ素が全地点で基準超過 コック川・メコン川は現時点で基準内 | メーサイ | [2026-10-30-mae-sai-river-test-update.md](./2026-10-30-mae-sai-river-test-update.md) |
 | 2026-10-16 | メーサイ汚染問題、住民フォーラムで「鉱石・機材・薬品の差し止め」要求 水道38系統は基準内 | メーサイ | [2026-10-16-mae-sai-river-forum-followup.md](./2026-10-16-mae-sai-river-forum-followup.md) |
 | 2026-10-16 | チェンライ財務省合同庁舎で火災、ロブウィエン地区 電気系統から出火 | チェンライ市 | [2026-10-16-chiang-rai-finance-center-fire.md](./2026-10-16-chiang-rai-finance-center-fire.md) |
