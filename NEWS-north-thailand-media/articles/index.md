@@ -4,6 +4,7 @@
 
 | 公開日 | タイトル | エリア | ファイル |
 |---|---|---|---|
+| 2026-11-20 | メーサイ川汚染、現場に即席検査キット タイ・ミャンマー・中国の合同協議は11月25〜26日に | メーサイ | [2026-11-20-mae-sai-m-sense-and-joint-meeting.md](./2026-11-20-mae-sai-m-sense-and-joint-meeting.md) |
 | 2026-11-13 | メーサイ川汚染、知事が緊急会議 ミャンマーとの交渉は首相レベルに | メーサイ | [2026-11-13-mae-sai-crisis-escalates-national.md](./2026-11-13-mae-sai-crisis-escalates-national.md) |
 | 2026-11-06 | メーサイ川の水量低下で汚染濃縮、水道が減産 2地区14村に影響 | メーサイ | [2026-11-06-mae-sai-water-turbidity-crisis.md](./2026-11-06-mae-sai-water-turbidity-crisis.md) |
 | 2026-10-30 | メーサイ川の汚染、ヒ素が全地点で基準超過 コック川・メコン川は現時点で基準内 | メーサイ | [2026-10-30-mae-sai-river-test-update.md](./2026-10-30-mae-sai-river-test-update.md) |
